@@ -10,17 +10,6 @@ body {
     cursor:url(whiteheart_cursor.png), auto;
   }
 
-marquee {
-      font-size: 23px;
-      font-family: Fjalla One;
-      top: 95%;
-      position: absolute;
-      background-color: white;
-      color: black;
-      padding-top: 2px;
-      padding-bottom: 2px;
-  }
-
 a {
     color: white;
     text-decoration: none;
