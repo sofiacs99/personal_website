@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: black;
+    margin: 0;
+    color: white;
+    overflow-x: hidden;
+  }
+
+marquee {
+      font-size: 23px;
+      font-family: Fjalla One;
+      top: 95%;
+      position: absolute;
+      background-color: white;
+      color: black;
+      padding-top: 2px;
+      padding-bottom: 2px;
+  }
+
+.about {
+    font-size: 30px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: white;
+    position: relative;
+    top: 7.7%;
+    left: 60.2%;
+    cursor: pointer;
+}
+
+.bar {
+    position: fixed;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 5%;
+    left: 70%;
+}
+
+.work {
+    font-size: 30px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: white;
+    position: relative;
+    top: -0.6%;
+    left: 73.5%;
+    cursor: pointer;
+}
+
+.bar2 {
+    position: fixed;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 5%;
+    left: 82.5%;
+}
+
+.contact {
+    font-size: 30px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: white;
+    position: relative;
+    top: -9%;
+    left: 85.5%;
+    cursor: pointer;
+}
