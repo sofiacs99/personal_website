@@ -7,6 +7,7 @@ body {
     margin: 0;
     color: white;
     overflow-x: hidden;
+    cursor:url(whiteheart_cursor.png), auto;
   }
 
 marquee {
@@ -32,7 +33,7 @@ a {
     position: relative;
     top: 7.7%;
     left: 60.2%;
-    cursor: pointer;
+    cursor:url(black_heart.png), auto;
 }
 
 .bar {
@@ -55,7 +56,7 @@ a {
     position: relative;
     top: 3%;
     left: 73.5%;
-    cursor: pointer;
+    cursor:url(black_heart.png), auto;
 }
 
 .bar2 {
@@ -78,5 +79,14 @@ a {
     position: relative;
     top: -1.5%;
     left: 85.5%;
-    cursor: pointer;
+    cursor:url(black_heart.png), auto;
+}
+
+.name {
+    position: absolute;
+    width: 550px;
+    height: 140px;
+    top: 4%;
+    left: 4%;
+    cursor:url(black_heart.png), auto;
 }
