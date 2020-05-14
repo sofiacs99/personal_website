@@ -10,17 +10,6 @@ body {
     cursor:url(whiteheart_cursor.png), auto;
   }
 
-marquee {
-      font-size: 23px;
-      font-family: Fjalla One;
-      top: 95%;
-      position: absolute;
-      background-color: white;
-      color: black;
-      padding-top: 2px;
-      padding-bottom: 2px;
-  }
-
 a {
     color: white;
     text-decoration: none;
@@ -37,7 +26,7 @@ a {
 }
 
 .bar {
-    position: fixed;
+    position: absolute;
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
@@ -60,7 +49,7 @@ a {
 }
 
 .bar2 {
-    position: fixed;
+    position: absolute;
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
@@ -106,3 +95,48 @@ a {
     top: 30%;
     left: 91%;
 }
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    top: 150px;
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+    position: relative;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 10px 8px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 18px;
+    top: 130px;
+    left: 86%;
+  }
+  
+  .btn:hover {
+    opacity: 50%;
+  }
+  
+  .btn.active {
+    background-color: black;
+    color: white;
+  }
