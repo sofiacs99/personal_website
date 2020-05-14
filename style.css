@@ -20,6 +20,11 @@ marquee {
       padding-bottom: 2px;
   }
 
+a {
+    color: white;
+    text-decoration: none;
+  }
+
 .about {
     font-size: 30px;
     font-family: 'Quiet Sans ExtraLight';
@@ -48,7 +53,7 @@ marquee {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: -0.6%;
+    top: 3%;
     left: 73.5%;
     cursor: pointer;
 }
@@ -71,7 +76,7 @@ marquee {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: -9%;
+    top: -1.5%;
     left: 85.5%;
     cursor: pointer;
 }
