@@ -209,6 +209,7 @@ a {
       color: #FFFFFF;
       top: 19.5%;
       left: 31%;
+      display: none;
   }
   
   .work {
@@ -234,6 +235,7 @@ a {
       color: #FFFFFF;
       top: 19.5%;
       left: 61%;
+      display: none;
   }
   
   .contact {
