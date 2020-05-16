@@ -148,6 +148,16 @@ a {
 
   @media screen and (max-width: 800px) {
 
+    *{
+      box-sizing: border-box;
+    }
+    
+  body {
+      background-color: black;
+      margin: 0;
+      overflow: hidden;
+    }
+
     .anti {
       position: fixed;
       top: 40%;
