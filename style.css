@@ -236,10 +236,10 @@ a {
   
   .name {
       position: absolute;
-      width: 480px;
-      height: 90px;
+      width: 80%;
+      height: auto;
       top: 4%;
-      left: 2.2%;
+      left: 9%;
       cursor:url(./images/black_heart.png), auto;
   }
   
