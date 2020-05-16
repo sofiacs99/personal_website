@@ -229,7 +229,7 @@ a {
   
   .name {
     position: absolute;
-    width: 370%;
+    width: 85%;
     height: auto;
     top: 4%;
     left: 8.5%;
@@ -238,14 +238,14 @@ a {
   .my_photo {
       position: absolute;
       top: 37%;
-      left: 20%;
-      width: 300px;
+      left: 15%;
+      width: 250px;
       height: auto;
   }
   
   .about_text1 {
       position: absolute;
-      top: 100%;
+      top: 88%;
       left: 6%;
       width: 450px;
       height: auto;
@@ -253,7 +253,7 @@ a {
   
   .about_text2 {
       position: absolute;
-      top: 116%;
+      top: 104%;
       left: 6%;
       width: 450px;
       height: auto;
