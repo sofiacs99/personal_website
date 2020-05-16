@@ -299,6 +299,159 @@ a {
       font-weight: bolder;
     }
 
+    @media screen and (max-width: 600px) {
+
+      *{
+        box-sizing: border-box;
+      }
+      
+    body {
+        background-color: black;
+        margin: 0;
+        overflow: hidden;
+      }
+  
+      .anti {
+        position: fixed;
+        top: 40%;
+        left: 5%;
+        width: 500px;
+        height: 250px;
+    }
+    
+    .draggable {
+        cursor: move;
+    }
+    
+    marquee {
+          font-size: 23px;
+          font-family: Fjalla One;
+          top: 95%;
+          position: absolute;
+          background-color: white;
+          color: black;
+          padding-top: 2px;
+          padding-bottom: 2px;
+      }
+    
+    a {
+        color: white;
+        text-decoration: none;
+      }
+    
+    .about {
+        font-size: 28px;
+        font-family: quiet-sans, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: white;
+        position: relative;
+        top: 23%;
+        left: 6%;
+        cursor:url(./images/black_heart.png), auto;
+    }
+    
+    .bar {
+        position: absolute;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        top: 20%;
+        left: 30%;
+    }
+    
+    .work {
+        font-size: 28px;
+        font-family: quiet-sans, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: white;
+        position: relative;
+        top: 17.5%;
+        left: 37.6%;
+        cursor:url(./images/black_heart.png), auto;
+    }
+    
+    .bar2 {
+        position: absolute;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        top: 20%;
+        left: 60.5%;
+    }
+    
+    .contact {
+        font-size: 28px;
+        font-family: quiet-sans, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: white;
+        position: relative;
+        top: 11.8%;
+        left: 67%;
+        cursor:url(./images/black_heart.png), auto;
+    }
+    
+    .name {
+        position: absolute;
+        width: 80%;
+        height: auto;
+        top: 4%;
+        left: 10%;
+        cursor:url(./images/black_heart.png), auto;
+    }
+    
+    .about a {
+        background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+        background-position: -0% 0;
+        background-size: 200% auto;
+        color: white;
+        text-decoration: none;
+        transition: background-position 0.4s ease-out;
+      }
+      .about a:hover {
+        background-position: -99.99% 0;
+        color: black;
+        font-weight: bolder;
+      }
+    
+      .work a {
+        background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+        background-position: -0% 0;
+        background-size: 200% auto;
+        color: white;
+        text-decoration: none;
+        transition: background-position 0.4s ease-out;
+      }
+      .work a:hover {
+        background-position: -99.99% 0;
+        color: black;
+        font-weight: bolder;
+      }
+    
+      .contact a {
+        background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+        background-position: -0% 0;
+        background-size: 200% auto;
+        color: white;
+        text-decoration: none;
+        transition: background-position 0.4s ease-out;
+      }
+      .contact a:hover {
+        background-position: -99.99% 0;
+        color: black;
+        font-weight: bolder;
+      }
+
 
 
 
