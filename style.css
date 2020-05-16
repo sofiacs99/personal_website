@@ -360,8 +360,8 @@ a {
         line-height: 22px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
-        top: 20%;
-        left: 30%;
+        top: 19.5%;
+        left: 31.5%;
     }
     
     .work {
@@ -371,7 +371,7 @@ a {
         font-style: normal;
         color: white;
         position: relative;
-        top: 17.5%;
+        top: 17%;
         left: 37.6%;
         cursor:url(./images/black_heart.png), auto;
     }
@@ -385,8 +385,8 @@ a {
         line-height: 22px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
-        top: 20%;
-        left: 60.5%;
+        top: 20.5%;
+        left: 61%;
     }
     
     .contact {
@@ -396,7 +396,7 @@ a {
         font-style: normal;
         color: white;
         position: relative;
-        top: 11.8%;
+        top: 10.5%;
         left: 67%;
         cursor:url(./images/black_heart.png), auto;
     }
