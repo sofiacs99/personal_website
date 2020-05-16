@@ -197,19 +197,19 @@ a {
       line-height: 22px;
       letter-spacing: 0.1em;
       color: #FFFFFF;
-      top: 19.5%;
+      top: 20%;
       left: 30%;
   }
   
   .work {
-      font-size: 30px;
+      font-size: 28px;
       font-family: quiet-sans, sans-serif;
       font-weight: 200;
       font-style: normal;
       color: white;
       position: relative;
-      top: 18%;
-      left: 37.1%;
+      top: 17.5%;
+      left: 37.6%;
       cursor:url(./images/black_heart.png), auto;
   }
   
@@ -222,18 +222,18 @@ a {
       line-height: 22px;
       letter-spacing: 0.1em;
       color: #FFFFFF;
-      top: 19.6%;
+      top: 20%;
       left: 60.5%;
   }
   
   .contact {
-      font-size: 30px;
+      font-size: 28px;
       font-family: quiet-sans, sans-serif;
       font-weight: 200;
       font-style: normal;
       color: white;
       position: relative;
-      top: 12.8%;
+      top: 11.8%;
       left: 67%;
       cursor:url(./images/black_heart.png), auto;
   }
