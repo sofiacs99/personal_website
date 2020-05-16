@@ -7,7 +7,7 @@ body {
     margin: 0;
     color: white;
     overflow-x: hidden;
-    cursor:url(whiteheart_cursor.png), auto;
+    cursor:url(./images/whiteheart_cursor.png), auto;
   }
 
 a {
@@ -77,14 +77,14 @@ a {
     height: 140px;
     top: 4%;
     left: 4%;
-    cursor:url(black_heart.png), auto;
+    cursor:url(./images/black_heart.png), auto;
 }
 
 .slideshow_button {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 30%;
+    top: 28%;
     left: 86.5%;
 }
 
@@ -92,7 +92,7 @@ a {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 30%;
+    top: 28%;
     left: 91%;
 }
 
@@ -107,9 +107,9 @@ a {
 
   /* Create two equal columns that sits next to each other */
   .column {
-    top: 150px;
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
+    top: 120px;
+    -ms-flex: 60%; /* IE 10 */
+    flex: 70%;
     padding: 0 4px;
     position: relative;
     align-items: center;
@@ -117,12 +117,14 @@ a {
   
   .column img {
     margin-top: 8px;
-    vertical-align: middle;
-    padding: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
+  }
+
+  .column img:hover {
+    opacity: 80%;
   }
   
   /* Style the buttons */
@@ -135,12 +137,12 @@ a {
     background-color: black;
     cursor: pointer;
     font-size: 18px;
-    top: 130px;
-    left: 86%;
+    top: 117px;
+    left: 84%;
   }
   
   .btn:hover {
-    opacity: 50%;
+    opacity: 40%;
   }
   
   .btn.active {
@@ -148,4 +150,289 @@ a {
     color: white;
   }
 
-  
+  .antitext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 31%;
+    display: none;
+    text-align: center;
+  }
+
+  .antit {
+    position: relative;
+  }
+
+  .antit:hover .antitext {
+    display: block;
+  }
+
+  .chattext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 28%;
+    left: 37%;
+    display: none;
+    text-align: center;
+  }
+
+  .chat {
+    position: relative;
+  }
+
+  .chat:hover .chattext {
+    display: block;
+  }
+
+  .pubid_text {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .pubid {
+    position: relative;
+  }
+
+  .pubid:hover .pubid_text {
+    display: block;
+  }
+
+  .notestext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 38%;
+    display: none;
+    text-align: center;
+  }
+
+  .notes {
+    position: relative;
+  }
+
+  .notes:hover .notestext {
+    display: block;
+  }
+
+  .colorestext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .colores {
+    position: relative;
+  }
+
+  .colores:hover .colorestext {
+    display: block;
+  }
+
+
+
+  .bannerstext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 23%;
+    display: none;
+    text-align: center;
+  }
+
+  .banners {
+    position: relative;
+  }
+
+  .banners:hover .bannerstext {
+    display: block;
+  }
+
+
+  .typetext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 38%;
+    display: none;
+    text-align: center;
+  }
+
+  .type {
+    position: relative;
+  }
+
+  .type:hover .typetext {
+    display: block;
+  }
+
+
+
+  .aftext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .af {
+    position: relative;
+  }
+
+  .af:hover .aftext {
+    display: block;
+  }
+
+
+  .escondidotext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .escondido {
+    position: relative;
+  }
+
+  .escondido:hover .escondidotext {
+    display: block;
+  }
+
+
+
+  .chictext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 22%;
+    display: none;
+    text-align: center;
+  }
+
+  .chic {
+    position: relative;
+  }
+
+  .chic:hover .chictext {
+    display: block;
+  }
+
+
+  .cbtext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 30%;
+    display: none;
+    text-align: center;
+  }
+
+  .cb {
+    position: relative;
+  }
+
+  .cb:hover .cbtext {
+    display: block;
+  }
+
+
+  .phototext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 28%;
+    left: 34%;
+    display: none;
+    text-align: center;
+  }
+
+  .photo {
+    position: relative;
+  }
+
+  .photo:hover .phototext {
+    display: block;
+  }
+
+
+  .mmtext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 33%;
+    display: none;
+    text-align: center;
+  }
+
+  .moonm {
+    position: relative;
+  }
+
+  .moonm:hover .mmtext {
+    display: block;
+  }
+
+  .about a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .about a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .work a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .work a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .contact a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .contact a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }

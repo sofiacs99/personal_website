@@ -7,7 +7,7 @@ body {
     margin: 0;
     color: white;
     overflow-x: hidden;
-    cursor:url(whiteheart_cursor.png), auto;
+    cursor:url(./images/whiteheart_cursor.png), auto;
   }
 
 a {
@@ -77,5 +77,71 @@ a {
     height: 140px;
     top: 4%;
     left: 4%;
-    cursor:url(black_heart.png), auto;
+    cursor:url(./images/black_heart.png), auto;
 }
+
+.my_photo {
+    position: absolute;
+    top: 31%;
+    left: 9.9%;
+    width: 370px;
+    height: auto;
+}
+
+.about_text1 {
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    width: 650px;
+    height: auto;
+}
+
+.about_text2 {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    width: 650px;
+    height: auto;
+}
+
+.about a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .about a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .work a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .work a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .contact a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .contact a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }

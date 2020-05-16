@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: black;
+    margin: 0;
+    cursor:url(whiteheart_cursor.png), auto;
+    overflow: hidden;
+  }
+
+.about {
+    font-size: 30px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: white;
+    position: relative;
+    top: 7.7%;
+    left: 60.2%;
+    cursor:url(black_heart.png), auto;
+}
+
+.bar {
+    position: absolute;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 5%;
+    left: 70%;
+}
+
+.work {
+    font-size: 30px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: white;
+    position: relative;
+    top: 3%;
+    left: 73.5%;
+    cursor:url(black_heart.png), auto;
+}
+
+.bar2 {
+    position: absolute;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 5%;
+    left: 82.5%;
+}
+
+.contact {
+    font-size: 30px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: white;
+    position: relative;
+    top: -1.5%;
+    left: 85.5%;
+    cursor:url(black_heart.png), auto;
+}
+
+.name {
+    position: absolute;
+    width: 550px;
+    height: 140px;
+    top: 4%;
+    left: 4%;
+    cursor:url(black_heart.png), auto;
+}
+
+  .about a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .about a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .work a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .work a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .contact a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .contact a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .back {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
