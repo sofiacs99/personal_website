@@ -203,7 +203,9 @@ a {
   
   .work {
       font-size: 30px;
-      font-family: 'Quiet Sans ExtraLight';
+      font-family: quiet-sans, sans-serif;
+      font-weight: 200;
+      font-style: normal;
       color: white;
       position: relative;
       top: 18%;
@@ -226,7 +228,9 @@ a {
   
   .contact {
       font-size: 30px;
-      font-family: 'Quiet Sans ExtraLight';
+      font-family: quiet-sans, sans-serif;
+      font-weight: 200;
+      font-style: normal;
       color: white;
       position: relative;
       top: 12.8%;
