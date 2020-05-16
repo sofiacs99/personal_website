@@ -395,6 +395,43 @@ a {
     display: block;
   }
 
+  .drawtext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 32%;
+    display: none;
+    text-align: center;
+  }
+
+  .draw {
+    position: relative;
+  }
+
+  .draw:hover .drawtext {
+    display: block;
+  }
+
+  .sculptext {
+    position: absolute;
+    font-size: 40px;
+    font-family: Fjalla One;
+    top: 28%;
+    left: 37%;
+    display: none;
+    text-align: center;
+  }
+
+  .sculp {
+    position: relative;
+  }
+
+  .sculp:hover .sculptext {
+    display: block;
+  }
+
+
   .about a {
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
     background-position: -0% 0;
