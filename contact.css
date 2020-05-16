@@ -186,6 +186,54 @@ a {
     font-weight: bolder;
   }
   
+
+   a img.email_open {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 40%;
+    left: 28%;
+}
+a img.email {
+    display: inherit;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 40%;
+    left: 28%;
+}
+a:hover img.email_open {
+    display: inherit;
+}
+a:hover img.email {
+    display: none;
+}
+
+
+a img.ig_change {
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  top: 44%;
+  left: 57%;
+}
+a img.ig {
+  display: inherit;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  top: 44%;
+  left: 57%;
+}
+a:hover img.ig_change {
+  display: inherit;
+}
+a:hover img.ig {
+  display: none;
+}
+
   
   
   
