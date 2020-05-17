@@ -553,7 +553,7 @@ a {
     border: none;
     border-radius: 7px;
     outline: none;
-    padding: 10px 8px;
+    padding: 10px 0px;
     background-color: black;
     cursor: pointer;
     font-size: 18px;
