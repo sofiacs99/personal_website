@@ -300,7 +300,7 @@ a:hover img.ig {
   position: absolute;
   width: 160px;
   height: auto;
-  top: 35%;
+  top: 32%;
   left: 28%;
 }
 a img.email {
@@ -308,7 +308,7 @@ a img.email {
   position: absolute;
   width: 160px;
   height: auto;
-  top: 35%;
+  top: 32%;
   left: 28%;
 }
 a:hover img.email_open {
@@ -324,7 +324,7 @@ display: none;
 position: absolute;
 width: 160px;
 height: auto;
-top: 69%;
+top: 68%;
 left: 28%;
 }
 a img.ig {
@@ -332,7 +332,7 @@ display: inherit;
 position: absolute;
 width: 160px;
 height: auto;
-top: 69%;
+top: 68%;
 left: 28%;
 }
 a:hover img.ig_change {
