@@ -88,62 +88,6 @@ a {
     left: 14.5%;
 }
 
-.swap-on-hover {
-    position: relative;	
-      margin:  0 auto;
-      max-width: 400px;
-      top: 28%;
-      left: -15%;
-  }
-  
-  .swap-on-hover img {
-    position: absolute;
-    top:48%;
-    left:20%;
-    overflow: hidden;
-    width: 220px;
-    height: 220px;
-  }
-
-  .swap-on-hover .swap-on-hover__front-image {
-    z-index: 9999;
-    transition: opacity .1s linear;
-    cursor: pointer;
-  }
-  
-  .swap-on-hover:hover > .swap-on-hover__front-image{
-    opacity: 0;
-  }
-
-  
-
-  .swap-on-hover2 {
-    position: relative;	
-      margin:  0 auto;
-      max-width: 400px;
-      top: 32%;
-      left: 15%;
-  }
-  
-  .swap-on-hover2 img {
-    position: absolute;
-    top:50%;
-    left:20%;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-  }
-
-  .swap-on-hover2 .swap-on-hover__front-image2 {
-    z-index: 9999;
-    transition: opacity .1s linear;
-    cursor: pointer;
-  }
-  
-  .swap-on-hover2:hover > .swap-on-hover__front-image2 {
-    opacity: 0;
-  }
-
   .about a {
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
     background-position: -0% 0;
@@ -242,6 +186,160 @@ a:hover img.ig {
     height: auto;
     top: 4%;
     left: 8.5%;
+}
+
+.about {
+  font-size: 28px;
+  font-family: quiet-sans, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 23%;
+  left: 5.2%;
+  cursor:url(./images/black_heart.png), auto;
+}
+
+.bar {
+  position: absolute;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  top: 19.5%;
+  left: 31%;
+  display: none;
+}
+
+.work {
+  font-size: 28px;
+  font-family: quiet-sans, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 23%;
+  left: 37%;
+  cursor:url(./images/black_heart.png), auto;
+}
+
+.bar2 {
+  position: absolute;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  top: 19.5%;
+  left: 61%;
+  display: none;
+}
+
+.contact {
+  font-size: 28px;
+  font-family: quiet-sans, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 23%;
+  left: 66.2%;
+  cursor:url(./images/black_heart.png), auto;
+}
+
+.about a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
+  text-decoration: none;
+  transition: background-position 0.4s ease-out;
+}
+.about a:hover {
+  background-position: -99.99% 0;
+  color: black;
+  font-weight: bolder;
+}
+
+.work a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
+  text-decoration: none;
+  transition: background-position 0.4s ease-out;
+}
+.work a:hover {
+  background-position: -99.99% 0;
+  color: black;
+  font-weight: bolder;
+}
+
+.contact a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
+  text-decoration: none;
+  transition: background-position 0.4s ease-out;
+}
+.contact a:hover {
+  background-position: -99.99% 0;
+  color: black;
+  font-weight: bolder;
+}
+
+
+ a img.email_open {
+  display: none;
+  position: absolute;
+  width: 170px;
+  height: auto;
+  top: 38%;
+  left: 28%;
+}
+a img.email {
+  display: inherit;
+  position: absolute;
+  width: 170px;
+  height: auto;
+  top: 38%;
+  left: 28%;
+}
+a:hover img.email_open {
+  display: inherit;
+}
+a:hover img.email {
+  display: none;
+}
+
+
+a img.ig_change {
+display: none;
+position: absolute;
+width: 170px;
+height: auto;
+top: 70%;
+left: 28%;
+}
+a img.ig {
+display: inherit;
+position: absolute;
+width: 170px;
+height: auto;
+top: 70%;
+left: 28%;
+}
+a:hover img.ig_change {
+display: inherit;
+}
+a:hover img.ig {
+display: none;
 }
 
 
