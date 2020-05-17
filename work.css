@@ -473,3 +473,457 @@ a {
     color: black;
     font-weight: bolder;
   }
+
+  @media screen and (max-width: 800px) {
+
+    .name {
+      position: absolute;
+      width: 85%;
+      height: auto;
+      top: 4%;
+      left: 8.5%;
+  }
+
+  .about {
+    font-size: 28px;
+    font-family: quiet-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 5.2%;
+    cursor:url(./images/black_heart.png), auto;
+}
+
+.bar {
+    position: absolute;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 19.5%;
+    left: 31%;
+    display: none;
+}
+
+.work {
+    font-size: 28px;
+    font-family: quiet-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 37%;
+    cursor:url(./images/black_heart.png), auto;
+}
+
+.bar2 {
+    position: absolute;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    top: 19.5%;
+    left: 61%;
+    display: none;
+}
+
+.contact {
+    font-size: 28px;
+    font-family: quiet-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 66.2%;
+    cursor:url(./images/black_heart.png), auto;
+}
+  
+  .btn {
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 10px 8px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 18px;
+    top: 230px;
+    left: 70%;
+  }
+  
+  .btn:hover {
+    opacity: 40%;
+  }
+  
+  .btn.active {
+    background-color: black;
+    color: white;
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .column {
+    top: 250px;
+    -ms-flex: 60%; /* IE 10 */
+    flex: 70%;
+    padding: 0 4px;
+    position: relative;
+    align-items: center;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+  }
+
+  .column img:hover {
+    opacity: 80%;
+  }
+
+  .antitext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 31%;
+    display: none;
+    text-align: center;
+  }
+
+  .antit {
+    position: relative;
+  }
+
+  .antit:hover .antitext {
+    display: block;
+  }
+
+  .chattext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 28%;
+    left: 37%;
+    display: none;
+    text-align: center;
+  }
+
+  .chat {
+    position: relative;
+  }
+
+  .chat:hover .chattext {
+    display: block;
+  }
+
+  .pubid_text {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .pubid {
+    position: relative;
+  }
+
+  .pubid:hover .pubid_text {
+    display: block;
+  }
+
+  .notestext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 38%;
+    display: none;
+    text-align: center;
+  }
+
+  .notes {
+    position: relative;
+  }
+
+  .notes:hover .notestext {
+    display: block;
+  }
+
+  .colorestext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .colores {
+    position: relative;
+  }
+
+  .colores:hover .colorestext {
+    display: block;
+  }
+
+
+
+  .bannerstext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 23%;
+    display: none;
+    text-align: center;
+  }
+
+  .banners {
+    position: relative;
+  }
+
+  .banners:hover .bannerstext {
+    display: block;
+  }
+
+
+  .typetext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 38%;
+    display: none;
+    text-align: center;
+  }
+
+  .type {
+    position: relative;
+  }
+
+  .type:hover .typetext {
+    display: block;
+  }
+
+
+
+  .aftext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .af {
+    position: relative;
+  }
+
+  .af:hover .aftext {
+    display: block;
+  }
+
+
+  .escondidotext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 25%;
+    display: none;
+    text-align: center;
+  }
+
+  .escondido {
+    position: relative;
+  }
+
+  .escondido:hover .escondidotext {
+    display: block;
+  }
+
+
+
+  .chictext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 22%;
+    display: none;
+    text-align: center;
+  }
+
+  .chic {
+    position: relative;
+  }
+
+  .chic:hover .chictext {
+    display: block;
+  }
+
+
+  .cbtext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 30%;
+    display: none;
+    text-align: center;
+  }
+
+  .cb {
+    position: relative;
+  }
+
+  .cb:hover .cbtext {
+    display: block;
+  }
+
+
+  .phototext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 28%;
+    left: 34%;
+    display: none;
+    text-align: center;
+  }
+
+  .photo {
+    position: relative;
+  }
+
+  .photo:hover .phototext {
+    display: block;
+  }
+
+
+  .mmtext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 25%;
+    left: 33%;
+    display: none;
+    text-align: center;
+  }
+
+  .moonm {
+    position: relative;
+  }
+
+  .moonm:hover .mmtext {
+    display: block;
+  }
+
+  .drawtext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 26%;
+    left: 32%;
+    display: none;
+    text-align: center;
+  }
+
+  .draw {
+    position: relative;
+  }
+
+  .draw:hover .drawtext {
+    display: block;
+  }
+
+  .sculptext {
+    position: absolute;
+    font-size: 20px;
+    font-family: Fjalla One;
+    top: 28%;
+    left: 37%;
+    display: none;
+    text-align: center;
+  }
+
+  .sculp {
+    position: relative;
+  }
+
+  .sculp:hover .sculptext {
+    display: block;
+  }
+
+
+  .about a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .about a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .work a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .work a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .contact a {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    transition: background-position 0.4s ease-out;
+  }
+  .contact a:hover {
+    background-position: -99.99% 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+
+  }

@@ -234,6 +234,19 @@ a:hover img.ig {
   display: none;
 }
 
+@media screen and (max-width: 800px) {
+
+  .name {
+    position: absolute;
+    width: 85%;
+    height: auto;
+    top: 4%;
+    left: 8.5%;
+}
+
+
+}
+
   
   
   
