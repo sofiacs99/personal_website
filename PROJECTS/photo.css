@@ -176,6 +176,18 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
+  *{
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: black;
+    margin: 0;
+    cursor:url(whiteheart_cursor.png), auto;
+    overflow-x: hidden;
+  }
+
 .about {
   font-size: 28px;
   font-family: quiet-sans, sans-serif;
