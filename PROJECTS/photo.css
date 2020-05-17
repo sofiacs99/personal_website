@@ -183,7 +183,7 @@ body {
   font-style: normal;
   color: white;
   position: absolute;
-  top: 23%;
+  top: 25%;
   left: 5.2%;
   cursor:url(./images/black_heart.png), auto;
 }
@@ -307,5 +307,6 @@ body {
   top: 40%;
   left: 5%;
 }
+
 
 }
