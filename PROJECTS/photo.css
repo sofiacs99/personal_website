@@ -126,7 +126,9 @@ body {
   position: relative;
   top: 29.5%;
   left: 83.8%;
-  font-family: 'Quiet Sans Extralight';
+  font-family: quiet-sans, sans-serif;
+  font-weight: 200;
+  font-style: normal;
   font-size: 12px;
   color: white;
 }
@@ -293,7 +295,9 @@ body {
   position: relative;
   top: 44%;
   left: 61%;
-  font-family: 'Quiet Sans Extralight';
+  font-family: quiet-sans, sans-serif;
+  font-weight: 200;
+  font-style: normal;
   font-size: 10px;
   color: white;
 }
