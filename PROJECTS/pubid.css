@@ -9,6 +9,15 @@ body {
     overflow: hidden;
   }
 
+  .name {
+    position: absolute;
+    width: 550px;
+    height: 140px;
+    top: 4%;
+    left: 4%;
+    cursor:url(black_heart.png), auto;
+}
+
 .about {
     font-size: 30px;
     font-family: 'Quiet Sans ExtraLight';
@@ -62,15 +71,6 @@ body {
     position: relative;
     top: -1.5%;
     left: 85.5%;
-    cursor:url(black_heart.png), auto;
-}
-
-.name {
-    position: absolute;
-    width: 550px;
-    height: 140px;
-    top: 4%;
-    left: 4%;
     cursor:url(black_heart.png), auto;
 }
 
