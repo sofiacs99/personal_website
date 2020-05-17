@@ -153,7 +153,7 @@ body {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  top: 5%;
+  top: 5.5%;
   position: relative;
 }
 
@@ -183,7 +183,7 @@ body {
   font-style: normal;
   color: white;
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 5.2%;
   cursor:url(./images/black_heart.png), auto;
 }
@@ -294,7 +294,7 @@ body {
 .copyright {
   position: relative;
   top: 44%;
-  left: 55%;
+  left: 52%;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
