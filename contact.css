@@ -298,17 +298,17 @@ a:hover img.ig {
  a img.email_open {
   display: none;
   position: absolute;
-  width: 170px;
+  width: 160px;
   height: auto;
-  top: 38%;
+  top: 35%;
   left: 28%;
 }
 a img.email {
   display: inherit;
   position: absolute;
-  width: 170px;
+  width: 160px;
   height: auto;
-  top: 38%;
+  top: 35%;
   left: 28%;
 }
 a:hover img.email_open {
@@ -322,17 +322,17 @@ a:hover img.email {
 a img.ig_change {
 display: none;
 position: absolute;
-width: 170px;
+width: 160px;
 height: auto;
-top: 70%;
+top: 69%;
 left: 28%;
 }
 a img.ig {
 display: inherit;
 position: absolute;
-width: 170px;
+width: 160px;
 height: auto;
-top: 70%;
+top: 69%;
 left: 28%;
 }
 a:hover img.ig_change {
