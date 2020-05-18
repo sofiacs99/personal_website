@@ -226,7 +226,7 @@ img {vertical-align: middle;}
   margin-top: inherit;
   line-height: 2px;
   font-family: Fjalla One;
-  top: 47.5%;
+  top: 52.8%;
   left: 6%;
   font-size: 30px;
   letter-spacing: 0.1em;
@@ -237,16 +237,15 @@ img {vertical-align: middle;}
   width: 325px;
   height: 40px;
   background-color: rgb(168, 14, 14);
-  top: 48.8%;
+  top: 54%;
   left: 5.5%;
 }
 
 .box2 {
   position: absolute;
-  width: 390px;
-  height: 175px;
-  background-color: white;
-  top: 63.5%;
+  width: 420px;
+  height: 187px;
+  top: 68%;
   left: 5.5%;
 }
 
@@ -256,7 +255,7 @@ img {vertical-align: middle;}
   font-family: quiet-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
-  top: 52.5%;
+  top: 58%;
   left: 5.5%;
   font-size: 20px;
   letter-spacing: 0.1em;
@@ -264,19 +263,18 @@ img {vertical-align: middle;}
 
 .p {
   position: absolute;
-  color: black;
+  color: white;
   font-family: quiet-sans, sans-serif;
   margin-top: inherit;
   font-weight: 400;
   font-style: normal;
-  top: 62.8%;
-  left: 6.3%;
-  font-size: 16px;
+  top: 67.8%;
+  left: 7%;
+  font-size: 16.5px;
   letter-spacing: 0.1em;
   line-height: 1.2em;
   font-weight: 500;
 }
-
 
 
 @media screen and (max-width: 800px) {
