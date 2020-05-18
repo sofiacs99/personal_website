@@ -222,7 +222,7 @@ img {vertical-align: middle;}
 
 .title {
   position: absolute;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-top: inherit;
   line-height: 2px;
   font-family: Fjalla One;
@@ -236,7 +236,7 @@ img {vertical-align: middle;}
   position: absolute;
   width: 325px;
   height: 40px;
-  background-color: white;
+  background-color: rgb(168, 14, 14);
   top: 48.8%;
   left: 5.5%;
 }
