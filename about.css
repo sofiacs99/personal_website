@@ -242,20 +242,12 @@ a {
       width: 250px;
       height: auto;
   }
-  
+
   .about_text1 {
       position: absolute;
-      top: 92%;
-      left: 2%;
-      width: 370px;
-      height: auto;
-  }
-  
-  .about_text2 {
-      position: absolute;
-      top: 107%;
-      left: 2%;
-      width: 370px;
+      top: 90%;
+      left: 3%;
+      width: 350px;
       height: auto;
   }
   
