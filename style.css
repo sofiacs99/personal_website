@@ -94,15 +94,9 @@ a {
 }
 
 .line {
-  display: relative; 
-  width: 10px;
-  margin-left: auto;
-  margin-right: auto; 
-  overflow: hidden; 
-  border-width: 0.5px;
-  height: 0.5px;
-  color: white;
-  length: 10px;
+  position: relative; 
+  top: 50%;
+  left: 4.5%;
 }
 
 name {
