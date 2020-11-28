@@ -148,6 +148,11 @@ body {
   }
 }
 
+.lines {
+  position: relative;
+  top: 78%;
+}
+
 .anti {
     position: fixed;
     top: 40%;
