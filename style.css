@@ -9,6 +9,25 @@ body {
     overflow: hidden;
   }
 
+.css-selector {
+    background: linear-gradient(91deg, #0d0d0d, #302f2f, #000000);
+    background-size: 600% 600%;
+
+    -webkit-animation: Black 30s ease infinite;
+    animation: Black 30s ease infinite;
+}
+
+@-webkit-keyframes Black {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes Black {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
 .anti {
     position: fixed;
     top: 40%;
