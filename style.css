@@ -122,7 +122,23 @@ name {
   position: absolute;
   width: 40px;
   top: 4%;
-  left: 80%;
+  left: 90%;
+  cursor: pointer;
+}
+
+.in_icon {
+  position: absolute;
+  width: 40px;
+  top: 4%;
+  left: 93%;
+  cursor: pointer;
+}
+
+.be_icon {
+  position: absolute;
+  width: 40px;
+  top: 4%;
+  left: 96%;
   cursor: pointer;
 }
 
