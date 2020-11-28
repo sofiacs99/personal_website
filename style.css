@@ -3,9 +3,9 @@
   }
   
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	  animation: gradient 15s ease infinite;  
-    margin: 0;
+    background: linear-gradient(-45deg, #000000, #000000, #2c2c2c, #000000, #000000);
+    animation: gradient 30s ease infinite;  
+    background-size: 400% 400%;
     cursor:url(./images/whiteheart_cursor.png), auto;
     overflow: hidden;
   }
@@ -135,7 +135,7 @@ name {
   position: absolute;
   width: 35px;
   top: 4%;
-  left: 85%;
+  left: 87%;
 }
 
 .ig_icon :hover {
@@ -146,7 +146,7 @@ name {
   position: absolute;
   width: 35px;
   top: 4%;
-  left: 90%;
+  left: 91%;
 }
 
 .in_icon:hover {
