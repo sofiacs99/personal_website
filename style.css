@@ -118,6 +118,14 @@ name {
   cursor:url(./images/black_heart.png), auto;
 }
 
+.ig_icon {
+  position: absolute;
+  width: 10px;
+  height: auto;
+  top: 4%;
+  left: 75%;
+}
+
 snake {
   position: absolute;
   width: 250px;
