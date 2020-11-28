@@ -133,9 +133,9 @@ name {
 
 .ig_icon {
   position: absolute;
-  width: 30px;
+  width: 35px;
   top: 4%;
-  left: 84%;
+  left: 85%;
 }
 
 .ig_icon :hover {
@@ -144,7 +144,7 @@ name {
 
 .in_icon {
   position: absolute;
-  width: 30px;
+  width: 35px;
   top: 4%;
   left: 90%;
 }
@@ -155,9 +155,9 @@ name {
 
 .be_icon {
   position: absolute;
-  width: 30px;
+  width: 35px;
   top: 4%;
-  left: 96%;
+  left: 95%;
 }
 
 .be_icon:hover {
