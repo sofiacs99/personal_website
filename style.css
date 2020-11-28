@@ -128,7 +128,7 @@ name {
 
 .in_icon {
   position: absolute;
-  width: 40px;
+  width: 4px;
   top: 4%;
   left: 93%;
   cursor: pointer;
@@ -136,7 +136,7 @@ name {
 
 .be_icon {
   position: absolute;
-  width: 40px;
+  width: 4px;
   top: 4%;
   left: 96%;
   cursor: pointer;
