@@ -120,9 +120,9 @@ name {
 
 .ig_icon {
   position: absolute;
-  width: 10px;
+  width: 40px;
   top: 4%;
-  left: 75%;
+  left: 80%;
 }
 
 snake {
