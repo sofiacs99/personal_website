@@ -7,6 +7,7 @@ body {
     margin: 0;
     cursor:url(./images/whiteheart_cursor.png), auto;
     overflow: hidden;
+    @import url(//db.onlinewebfonts.com/c/c8002809ed49394a1aab4a4ceaff09a6?family=Neue+Haas+Grotesk);
   }
 
 .anti {
@@ -23,7 +24,7 @@ body {
 
 marquee {
       font-size: 23px;
-      font-family: Fjalla One;
+      font-family: "Neue Haas Grotesk"; src: url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.eot"); src: url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.woff") format("woff"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.svg#Neue Haas Grotesk") format("svg"); }
       top: 95%;
       position: absolute;
       background-color: white;
