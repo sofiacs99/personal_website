@@ -104,8 +104,8 @@ name {
 
 .logo {
   position: absolute;
-  width: 550px;
-  height: 140px;
+  width: 400px;
+  height: 300px;
   top: 4%;
   left: 4%;
   cursor:url(./images/black_heart.png), auto;
