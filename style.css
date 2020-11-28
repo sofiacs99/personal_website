@@ -120,9 +120,9 @@ name {
 
 .ig_icon {
   position: absolute;
-  width: 40px;
+  width: 30px;
   top: 4%;
-  left: 90%;
+  left: 84%;
 }
 
 .ig_icon :hover {
@@ -131,9 +131,9 @@ name {
 
 .in_icon {
   position: absolute;
-  width: 40px;
+  width: 30px;
   top: 4%;
-  left: 93%;
+  left: 90%;
 }
 
 .in_icon:hover {
@@ -142,7 +142,7 @@ name {
 
 .be_icon {
   position: absolute;
-  width: 40px;
+  width: 30px;
   top: 4%;
   left: 96%;
 }
