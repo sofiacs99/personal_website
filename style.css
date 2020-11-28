@@ -296,15 +296,6 @@ name {
   cursor: pointer;
 }
 
-snake {
-  position: absolute;
-  width: 250px;
-  height: 250px;
-  top: 35%;
-  left: 45%;
-  cursor:url(./images/black_heart.png), auto;
-}
-
 .about a {
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
     background-position: -0% 0;
@@ -345,6 +336,15 @@ snake {
     background-position: -99.99% 0;
     color: black;
     font-weight: bolder;
+  }
+
+  .info {
+    position: relative;
+    font-size: 11px;
+    font-family: "Quiet Sans ExtraLight";
+    top: 79%;
+    left: 3%;
+    color: rgb(78, 78, 78);
   }
 
   @media screen and (max-width: 800px) {
