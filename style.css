@@ -123,6 +123,7 @@ name {
   width: 40px;
   top: 4%;
   left: 80%;
+  cursor: pointer;
 }
 
 snake {
