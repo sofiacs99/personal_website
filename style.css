@@ -43,7 +43,7 @@ a {
     color: white;
     position: relative;
     top: 60%;
-    left: 5%;
+    left: 4.5%;
     cursor:url(./images/black_heart.png), auto;
 }
 
@@ -66,7 +66,7 @@ a {
     color: white;
     position: relative;
     top: 65%;
-    left: 5%;
+    left: 4.5%;
     cursor:url(./images/black_heart.png), auto;
 }
 
@@ -89,12 +89,12 @@ a {
     color: white;
     position: relative;
     top: 70%;
-    left: 5%;
+    left: 4.5%;
     cursor:url(./images/black_heart.png), auto;
 }
 
 .line {
-  display: block; 
+  display: relative; 
   width: 10px;
   margin-left: auto;
   margin-right: auto; 
