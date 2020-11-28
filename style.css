@@ -42,8 +42,8 @@ a {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: 7.7%;
-    left: 60.2%;
+    top: 60%;
+    left: 10%;
     cursor:url(./images/black_heart.png), auto;
 }
 
@@ -65,8 +65,8 @@ a {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: 3%;
-    left: 73.5%;
+    top: 68%;
+    left: 7%;
     cursor:url(./images/black_heart.png), auto;
 }
 
@@ -88,8 +88,8 @@ a {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: -1.5%;
-    left: 85.5%;
+    top: 76%;
+    left: 13%;
     cursor:url(./images/black_heart.png), auto;
 }
 
