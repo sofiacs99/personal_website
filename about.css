@@ -115,26 +115,42 @@ a {
 
 .my_photo {
     position: absolute;
-    top: 38%;
+    top: 39%;
     left: 12.5%;
     width: 330px;
     height: auto;
 }
 
-.about_text1 {
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    width: 550px;
+.text1 {
+    position: relative;
+    top: 41%;
+    left: 42%;
+    width: 540px;
     height: auto;
 }
 
-.about_text2 {
-    position: absolute;
-    top: 64%;
-    left: 50%;
-    width: 650px;
+.text2 {
+    position: relative;
+    top: 50.5%;
+    left: 8.5%;
+    width: 540px;
     height: auto;
+}
+
+.text3 {
+  position: relative;
+  top: 51.7%;
+  left: 51%;
+  width: 540px;
+  height: auto;
+}
+
+.textt {
+  position: relative;
+  top: 36%;
+  left: 48%;
+  width: 540px;
+  height: auto;
 }
 
 .about a {
