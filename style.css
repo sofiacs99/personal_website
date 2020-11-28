@@ -94,9 +94,10 @@ a {
 }
 
 .line {
-  position: relative; 
+  position: absolute; 
+  width: 10px;
   top: 50%;
-  left: 4.5%;
+  left: -40%;
 }
 
 name {
