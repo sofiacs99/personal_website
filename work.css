@@ -15,6 +15,48 @@ a {
     text-decoration: none;
   }
 
+  .logo {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: 3%;
+    left: 10%;
+    cursor:url(./images/black_heart.png), auto;
+}
+
+.ig_icon {
+  position: absolute;
+  width: 30px;
+  top: 24%;
+  left: 30%;
+}
+
+.ig_icon :hover {
+  cursor: pointer;
+}
+
+.in_icon {
+  position: absolute;
+  width: 30px;
+  top: 24%;
+  left: 33%;
+}
+
+.in_icon:hover {
+  cursor: pointer;
+}
+
+.be_icon {
+  position: absolute;
+  width: 30px;
+  top: 24%;
+  left: 36%;
+}
+
+.be_icon:hover {
+  cursor: pointer;
+}
+
 .about {
     font-size: 30px;
     font-family: 'Quiet Sans ExtraLight';

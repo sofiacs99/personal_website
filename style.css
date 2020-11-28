@@ -3,24 +3,25 @@
   }
   
 body {
-    background: linear-gradient(-45deg, #000000, #000000, #2c2c2c, #000000, #000000);
-    animation: gradient 30s ease infinite;  
-    background-size: 400% 400%;
     cursor:url(./images/whiteheart_cursor.png), auto;
     overflow: hidden;
+    margin: 0;
   }
 
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+  .wrapper {
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    background: linear-gradient(-45deg,rgb(0, 0, 0), rgb(0, 0, 0), rgb(43, 43, 43),rgb(15, 15, 15), rgb(0, 0, 0));
+    background-size: 600% 100%;
+    animation: gradient 20s linear infinite;
+    animation-direction: infinite;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
 
   .loading{
     width:100px;

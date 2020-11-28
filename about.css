@@ -71,28 +71,61 @@ a {
     cursor: pointer;
 }
 
-.name {
+.logo {
     position: absolute;
-    width: 550px;
-    height: 140px;
-    top: 4%;
-    left: 4%;
+    width: 250px;
+    height: 200px;
+    top: 3%;
+    left: 10%;
     cursor:url(./images/black_heart.png), auto;
+}
+
+.ig_icon {
+  position: absolute;
+  width: 30px;
+  top: 24%;
+  left: 30%;
+}
+
+.ig_icon :hover {
+  cursor: pointer;
+}
+
+.in_icon {
+  position: absolute;
+  width: 30px;
+  top: 24%;
+  left: 33%;
+}
+
+.in_icon:hover {
+  cursor: pointer;
+}
+
+.be_icon {
+  position: absolute;
+  width: 30px;
+  top: 24%;
+  left: 36%;
+}
+
+.be_icon:hover {
+  cursor: pointer;
 }
 
 .my_photo {
     position: absolute;
-    top: 31%;
-    left: 9.9%;
-    width: 370px;
+    top: 38%;
+    left: 12.5%;
+    width: 330px;
     height: auto;
 }
 
 .about_text1 {
     position: absolute;
-    top: 43%;
-    left: 43%;
-    width: 650px;
+    top: 48%;
+    left: 50%;
+    width: 550px;
     height: auto;
 }
 
