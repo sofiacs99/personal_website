@@ -22,6 +22,132 @@ body {
     }
   }
 
+  .loading{
+    width:100px;
+    height:100px;
+    margin:30px auto;
+    position:relative;
+}
+
+.loading.bar div{
+  width: 7px;
+  height: 10px;
+  border-radius: 15px;
+  background: white;
+  position: absolute;
+  top: 530px;
+  left: -910px;
+  opacity:0.05;
+  -webkit-animation: fadeit 1.1s linear infinite;
+  -moz-animation: fadeit 1.1s linear infinite;
+  animation: fadeit 1.1s linear infinite;
+}
+
+.loading.bar div:nth-child(1){
+  -webkit-transform: rotate(0deg) translate(0, -30px);
+  -moz-transform: rotate(0deg) translate(0, -30px);
+  transform: rotate(0deg) translate(0, -30px); 
+
+  -webkit-animation-delay:0.39s;
+  -moz-animation-delay:0.39s;
+  animation-delay:0.39s;
+} 
+
+.loading.bar div:nth-child(2){
+  -webkit-transform: rotate(45deg) translate(0, -30px);
+  -moz-transform: rotate(45deg) translate(0, -30px);
+  transform: rotate(45deg) translate(0, -30px); 
+
+  -webkit-animation-delay:0.52s;
+  -moz-animation-delay:0.52s;
+  animation-delay:0.52s;
+} 
+
+.loading.bar div:nth-child(3){
+  -webkit-transform: rotate(90deg) translate(0, -30px);
+  -moz-transform: rotate(90deg) translate(0, -30px);
+  transform: rotate(90deg) translate(0, -30px); 
+
+  -webkit-animation-delay:0.65s;
+  -moz-animation-delay:0.65s;
+  animation-delay:0.65s;
+} 
+
+.loading.bar div:nth-child(4){
+  -webkit-transform: rotate(135deg) translate(0, -30px);
+  -moz-transform: rotate(135deg) translate(0, -30px);
+  transform: rotate(135deg) translate(0, -30px); 
+
+  -webkit-animation-delay:0.78s;
+  -moz-animation-delay:0.78s;
+  animation-delay:0.78s;
+} 
+
+.loading.bar div:nth-child(5){
+  -webkit-transform: rotate(180deg) translate(0, -30px);
+  -moz-transform: rotate(180deg) translate(0, -30px);
+  transform: rotate(180deg) translate(0, -30px); 
+
+  -webkit-animation-delay:0.91s;
+  -moz-animation-delay:0.91s;
+  animation-delay:0.91s;
+} 
+
+.loading.bar div:nth-child(6){
+  -webkit-transform: rotate(225deg) translate(0, -30px);
+  -moz-transform: rotate(225deg) translate(0, -30px);
+  transform: rotate(225deg) translate(0, -30px); 
+
+  -webkit-animation-delay:1.04s;
+  -moz-animation-delay:1.04s;
+  animation-delay:1.04s;
+} 
+
+.loading.bar div:nth-child(7){
+  -webkit-transform: rotate(270deg) translate(0, -30px);
+  -moz-transform: rotate(270deg) translate(0, -30px);
+  transform: rotate(270deg) translate(0, -30px); 
+
+  -webkit-animation-delay:1.17s;
+  -moz-animation-delay:1.17s;
+  animation-delay:1.17s;
+} 
+
+.loading.bar div:nth-child(8){
+  -webkit-transform: rotate(315deg) translate(0, -30px);
+  -moz-transform: rotate(315deg) translate(0, -30px);
+  transform: rotate(315deg) translate(0, -30px); 
+
+  -webkit-animation-delay:1.3s;
+  -moz-animation-delay:1.3s;
+  animation-delay:1.3s;
+}
+
+@-webkit-keyframes fadeit{
+  0%{
+       opacity:1;
+  }
+  100%{
+       opacity:0;
+  }
+}
+@-moz-keyframes fadeit{
+  0%{
+       opacity:1;
+  }
+  100%{
+       opacity:0;
+  }
+}
+@keyframes fadeit{
+  0%{
+       opacity:1;
+  }
+  100%{
+       opacity:0;
+  }
+}
+
 .anti {
     position: fixed;
     top: 40%;
@@ -36,7 +162,7 @@ body {
 
 marquee {
       font-size: 23px;
-      font-family: Fjalla One;
+      font-family: 'Manrope';
       top: 95%;
       position: absolute;
       background-color: white;
@@ -55,8 +181,8 @@ a {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: 60%;
-    left: 4.5%;
+    top: 63%;
+    left: 90%;
     cursor:url(./images/black_heart.png), auto;
 }
 
@@ -78,8 +204,8 @@ a {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: 65%;
-    left: 4.5%;
+    top: 66%;
+    left: 90.5%;
     cursor:url(./images/black_heart.png), auto;
 }
 
@@ -101,8 +227,8 @@ a {
     font-family: 'Quiet Sans ExtraLight';
     color: white;
     position: relative;
-    top: 70%;
-    left: 4.5%;
+    top: 69%;
+    left: 87.5%;
     cursor:url(./images/black_heart.png), auto;
 }
 
