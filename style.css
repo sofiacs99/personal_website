@@ -104,8 +104,8 @@ a {
 
 .snake {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   top: 50%;
   left: 50%;
   cursor:url(./images/black_heart.png), auto;
