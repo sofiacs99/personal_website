@@ -102,6 +102,15 @@ a {
     cursor:url(./images/black_heart.png), auto;
 }
 
+.snake {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  cursor:url(./images/black_heart.png), auto;
+}
+
 .about a {
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
     background-position: -0% 0;
