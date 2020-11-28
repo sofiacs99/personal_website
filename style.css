@@ -93,7 +93,7 @@ a {
     cursor:url(./images/black_heart.png), auto;
 }
 
-.name {
+name {
     position: absolute;
     width: 550px;
     height: 140px;
@@ -111,7 +111,7 @@ a {
   cursor:url(./images/black_heart.png), auto;
 }
 
-.snake {
+snake {
   position: absolute;
   width: 250px;
   height: 250px;
