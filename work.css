@@ -21,7 +21,7 @@ a {
     height: 200px;
     top: 3%;
     left: 10%;
-    cursor:url(./images/black_heart.png), auto;
+    cursor:pointer;
 }
 
 .ig_icon {
