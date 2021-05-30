@@ -5,7 +5,6 @@
 body {
     background-color: black;
     margin: 0;
-    cursor:url(whiteheart_cursor.png), auto;
     overflow: hidden;
   }
 
@@ -15,7 +14,6 @@ body {
     height: 140px;
     top: 4%;
     left: 4%;
-    cursor:url(black_heart.png), auto;
 }
 
 .about {
@@ -25,7 +23,6 @@ body {
     position: relative;
     top: 7.7%;
     left: 60.2%;
-    cursor:url(black_heart.png), auto;
 }
 
 .bar {
@@ -48,7 +45,6 @@ body {
     position: relative;
     top: 3%;
     left: 73.5%;
-    cursor:url(black_heart.png), auto;
 }
 
 .bar2 {
@@ -71,7 +67,6 @@ body {
     position: relative;
     top: -1.5%;
     left: 85.5%;
-    cursor:url(black_heart.png), auto;
 }
 
 .logo {

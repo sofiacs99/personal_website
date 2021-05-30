@@ -1,86 +1,81 @@
 *{
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
 body {
-    background-color: black;
-    margin: 0;
-    cursor:url(whiteheart_cursor.png), auto;
-    overflow: hidden;
-  }
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
 
 .about {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: 7.7%;
-    left: 60.2%;
-    cursor:url(black_heart.png), auto;
+  font-size: 30px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: white;
+  position: relative;
+  top: 7.7%;
+  left: 60.2%;
 }
 
 .bar {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 5%;
-    left: 70%;
+  position: absolute;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  top: 5%;
+  left: 70%;
 }
 
 .work {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: 3%;
-    left: 73.5%;
-    cursor:url(black_heart.png), auto;
+  font-size: 30px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: white;
+  position: relative;
+  top: 3%;
+  left: 73.5%;
 }
 
 .bar2 {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 5%;
-    left: 82.5%;
+  position: absolute;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  top: 5%;
+  left: 82.5%;
 }
 
 .contact {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: -1.5%;
-    left: 85.5%;
-    cursor:url(black_heart.png), auto;
+  font-size: 30px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: white;
+  position: relative;
+  top: -1.5%;
+  left: 85.5%;
 }
 
 .name {
-    position: absolute;
-    width: 550px;
-    height: 140px;
-    top: 4%;
-    left: 4%;
-    cursor:url(black_heart.png), auto;
+  position: absolute;
+  width: 550px;
+  height: 140px;
+  top: 4%;
+  left: 4%;
 }
 
 .logo {
-  position: absolute;
-  width: 250px;
-  height: 200px;
-  top: 3%;
-  left: 10%;
-  cursor:pointer;
+position: absolute;
+width: 250px;
+height: 200px;
+top: 3%;
+left: 10%;
+cursor:pointer;
 }
 
 .ig_icon {
@@ -117,62 +112,216 @@ cursor: pointer;
 }
 
 
-  .about a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .about a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
+.about a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
+  text-decoration: none;
+  transition: background-position 0.4s ease-out;
+}
+.about a:hover {
+  background-position: -99.99% 0;
+  color: black;
+  font-weight: bolder;
+}
 
-  .work a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .work a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
+.work a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
+  text-decoration: none;
+  transition: background-position 0.4s ease-out;
+}
+.work a:hover {
+  background-position: -99.99% 0;
+  color: black;
+  font-weight: bolder;
+}
 
-  .contact a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .contact a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
+.contact a {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: white;
+  text-decoration: none;
+  transition: background-position 0.4s ease-out;
+}
+.contact a:hover {
+  background-position: -99.99% 0;
+  color: black;
+  font-weight: bolder;
+}
 
-  .back {
-    position: absolute;
-    top: 41%;
-    left: 5.6%;
+.back {
+  position: absolute;
+  top: 41%;
+  left: 5.6%;
+}
+
+.mySlides {
+display: none;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+top: 19%;
+left: 33%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: grey;
+font-weight: bold;
+font-size: 25px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+left: 65.5%;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(126, 122, 122, 0.8);
+}
+
+/* Caption text */
+.text {
+color: rgba(0, 0, 0, 0.133);
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 9px;
+width: 100%;
+left: -15.7%;
+text-align: center;
+font-family: quiet-sans, sans-serif;
+font-weight: 700;
+font-style: normal;
+} 
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+margin-top: 142px;
+background-color: #bbb;
+border-radius: 50%;  
+display: inline-block;
+transition: background-color 0.6s ease;
+position: relative;
+left: 70%;
+}
+
+.active, .dot:hover {
+background-color: #535151;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+
+.title {
+position: absolute;
+color: rgb(0, 0, 0);
+margin-top: inherit;
+line-height: 2px;
+font-family: Fjalla One;
+top: 52.8%;
+left: 6%;
+font-size: 30px;
+letter-spacing: 0.1em;
+}
+
+.box {
+position: absolute;
+width: 141px;
+height: 40px;
+background-color: rgb(255, 255, 255);
+top: 54%;
+left: 5.5%;
+}
+
+.box2 {
+position: absolute;
+width: 420px;
+height: 90px;
+top: 68%;
+left: 5.5%;
+}
+
+.subtitle {
+position: absolute;
+color: white;
+font-family: quiet-sans, sans-serif;
+font-weight: 700;
+font-style: normal;
+top: 58%;
+left: 5.5%;
+font-size: 20px;
+letter-spacing: 0.1em;
+}
+
+.p {
+position: absolute;
+color: white;
+font-family: quiet-sans, sans-serif;
+margin-top: inherit;
+font-weight: 400;
+font-style: normal;
+top: 67.8%;
+left: 7%;
+font-size: 16.5px;
+letter-spacing: 0.1em;
+line-height: 1.2em;
+font-weight: 500;
 }
 
 @media screen and (max-width: 800px) {
 
-  .name {
-    position: absolute;
-    width: 85%;
-    height: auto;
-    top: 4%;
-    left: 8.5%;
+.name {
+  position: absolute;
+  width: 85%;
+  height: auto;
+  top: 4%;
+  left: 8.5%;
 }
 
 

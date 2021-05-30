@@ -5,7 +5,6 @@
 body {
     background-color: black;
     margin: 0;
-    cursor:url(whiteheart_cursor.png), auto;
     overflow: hidden;
   }
 
@@ -16,7 +15,6 @@ body {
     position: relative;
     top: 7.7%;
     left: 60.2%;
-    cursor:url(black_heart.png), auto;
 }
 
 .bar {
@@ -39,7 +37,6 @@ body {
     position: relative;
     top: 3%;
     left: 73.5%;
-    cursor:url(black_heart.png), auto;
 }
 
 .bar2 {
@@ -62,7 +59,6 @@ body {
     position: relative;
     top: -1.5%;
     left: 85.5%;
-    cursor:url(black_heart.png), auto;
 }
 
 .name {
@@ -71,7 +67,6 @@ body {
     height: 140px;
     top: 4%;
     left: 4%;
-    cursor:url(black_heart.png), auto;
 }
 
 .logo {
@@ -163,6 +158,160 @@ cursor: pointer;
     position: absolute;
     top: 41%;
     left: 5.6%;
+}
+
+.mySlides {
+  display: none;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top: 19%;
+  left: 33%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: grey;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  left: 65.5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(126, 122, 122, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgba(0, 0, 0, 0.133);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  left: -15.7%;
+  text-align: center;
+  font-family: quiet-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} 
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  margin-top: 142px;
+  background-color: #bbb;
+  border-radius: 50%;  
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  left: 70%;
+}
+
+.active, .dot:hover {
+  background-color: #535151;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.title {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: inherit;
+  line-height: 2px;
+  font-family: Fjalla One;
+  top: 52.8%;
+  left: 6%;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.box {
+  position: absolute;
+  width: 182px;
+  height: 40px;
+  background-color: rgb(150, 118, 14);
+  top: 54%;
+  left: 5.5%;
+}
+
+.box2 {
+  position: absolute;
+  width: 420px;
+  height: 90px;
+  top: 68%;
+  left: 5.5%;
+}
+
+.subtitle {
+  position: absolute;
+  color: white;
+  font-family: quiet-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  top: 58%;
+  left: 5.5%;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.p {
+  position: absolute;
+  color: white;
+  font-family: quiet-sans, sans-serif;
+  margin-top: inherit;
+  font-weight: 400;
+  font-style: normal;
+  top: 67.8%;
+  left: 7%;
+  font-size: 16.5px;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 800px) {

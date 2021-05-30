@@ -7,7 +7,6 @@ body {
     margin: 0;
     color: white;
     overflow-x: hidden;
-    cursor:url(./images/whiteheart_cursor.png), auto;
   }
 
 a {
@@ -119,7 +118,6 @@ a {
     height: 140px;
     top: 4%;
     left: 4%;
-    cursor:url(./images/black_heart.png), auto;
 }
 
 .slideshow_button {

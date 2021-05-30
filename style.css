@@ -3,7 +3,6 @@
   }
   
 body {
-    cursor:url(./images/whiteheart_cursor.png), auto;
     overflow: hidden;
     margin: 0;
   }
@@ -189,7 +188,6 @@ a {
     position: relative;
     top: 63%;
     left: 90%;
-    cursor:url(./images/black_heart.png), auto;
 }
 
 .bar {
@@ -212,7 +210,6 @@ a {
     position: relative;
     top: 66%;
     left: 90.5%;
-    cursor:url(./images/black_heart.png), auto;
 }
 
 .bar2 {
@@ -235,7 +232,6 @@ a {
     position: relative;
     top: 69%;
     left: 87.5%;
-    cursor:url(./images/black_heart.png), auto;
 }
 
 .line {
@@ -251,7 +247,6 @@ name {
     height: 140px;
     top: 4%;
     left: 4%;
-    cursor:url(./images/black_heart.png), auto;
 }
 
 .logo {
@@ -260,7 +255,6 @@ name {
   height: 340px;
   top: 4%;
   left: 4%;
-  cursor:url(./images/black_heart.png), auto;
 }
 
 .ig_icon {
