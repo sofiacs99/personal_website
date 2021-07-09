@@ -58,59 +58,59 @@ a {
 }
 
 .about {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: 7.7%;
-    left: 60.2%;
-    cursor: pointer;
+  font-size: 30px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: white;
+  position: relative;
+  top: 3%;
+  left: 59.5%;
+  cursor: pointer;
 }
 
 .bar {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 5%;
-    left: 70%;
+  position: absolute;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  top: 0.1%;
+  left: 69%;
 }
 
 .work {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: 3%;
-    left: 73.5%;
-    cursor: pointer;
+  font-size: 30px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: white;
+  position: relative;
+  top: -1.5%;
+  left: 72%;
+  cursor: pointer;
 }
 
 .bar2 {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 5%;
-    left: 82.5%;
+  position: absolute;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  top: 0.3%;
+  left: 81%;
 }
 
 .contact {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: -1.5%;
-    left: 85.5%;
-    cursor: pointer;
+  font-size: 30px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: white;
+  position: relative;
+  top: -6%;
+  left: 84%;
+  cursor: pointer;
 }
 
 .name {
@@ -179,7 +179,7 @@ a {
     width: 240px;
     height: auto;
     top: 45%;
-    left: 40%;
+    left: 42%;
 }
 a img.email {
     display: inherit;
@@ -187,7 +187,7 @@ a img.email {
     width: 240px;
     height: auto;
     top: 45%;
-    left: 40%;
+    left: 42%;
 }
 a:hover img.email_open {
     display: inherit;
@@ -223,7 +223,7 @@ a:hover img.ig {
 .text {
   position: relative;
   top: 67%;
-  left: 38.8%;
+  left: 41%;
   font-family: "Quiet Sans ExtraLight";
   font-size: 20px;
   letter-spacing: 0.1em;
