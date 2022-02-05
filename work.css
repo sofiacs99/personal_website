@@ -1,969 +1,587 @@
 *{
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
 body {
-    background-color: black;
-    margin: 0;
-    color: white;
-    overflow-x: hidden;
-  }
-
-a {
-    color: white;
-    text-decoration: none;
-  }
-
-  .logo {
-    position: absolute;
-    width: 250px;
-    height: 200px;
-    top: 3%;
-    left: 10%;
-    cursor:pointer;
+  overflow-x: hidden;
+  margin: 0;
+  background: rgb(255, 255, 255);
 }
 
-.ig_icon {
+.logo {
+  width: auto;
+  height: 90px;
   position: absolute;
-  width: 30px;
-  top: 24%;
-  left: 30%;
+  left: 4%;
+  top: 5%;
 }
 
-.ig_icon :hover {
-  cursor: pointer;
+.logo {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
-.in_icon {
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.home {
+  font-size: 20px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  position: relative;
+  top: 5.1%;
+  left: 65%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.home:hover {
+  color: rgb(206, 206, 206);
+}
+
+.work {
+  font-size: 17px;
+  font-family: owners-xwide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none !important;
+  color: rgb(206, 206, 206);
   position: absolute;
-  width: 30px;
-  top: 24%;
-  left: 33%;
+  top: 5%;
+  left: 67%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  letter-spacing: 0.15em;
 }
 
-.in_icon:hover {
-  cursor: pointer;
-}
-
-.be_icon {
-  position: absolute;
-  width: 30px;
-  top: 24%;
-  left: 36%;
-}
-
-.be_icon:hover {
-  cursor: pointer;
+.work:hover {
+  color: rgb(49, 49, 49);
 }
 
 .about {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: 3%;
-    left: 59.5%;
-    cursor: pointer;
+  font-size: 17px;
+  font-family: owners-xwide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none !important;
+  color: rgb(49, 49, 49);
+  position: absolute;
+  top: 5%;
+  left: 76%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  letter-spacing: 0.15em;
 }
 
-.bar {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 0.1%;
-    left: 69%;
-}
-
-.work {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: -1.5%;
-    left: 72%;
-    cursor: pointer;
-}
-
-.bar2 {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 0.3%;
-    left: 81%;
+.about:hover {
+  color: rgb(206, 206, 206);
 }
 
 .contact {
-    font-size: 30px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: white;
-    position: relative;
-    top: -6%;
-    left: 84%;
-    cursor: pointer;
+  font-size: 17px;
+  font-family: owners-xwide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(49, 49, 49);
+  text-decoration: none !important;
+  position: absolute;
+  top: 5%;
+  left: 86%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  letter-spacing: 0.15em;
 }
 
-.name {
-    position: absolute;
-    width: 550px;
-    height: 140px;
-    top: 4%;
-    left: 4%;
+.contact:hover {
+  color: rgb(206, 206, 206);
 }
 
-.slideshow_button {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 28%;
-    left: 86.5%;
+.ig {
+  width: auto;
+  height: 30px;
+  position: fixed;
+  left: 86.5%;
+  top: 93.5%;
+  box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  display: block;
+  border-color: rgb(139, 139, 139);
 }
 
-.grid_button {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 28%;
-    left: 91%;
+.ig:hover {
+  transition: .3s;
+  transform: translate(0%, -20%);
+}
+
+
+.line4 {
+  width: 43%;
+  position: absolute;
+  left: 32%;
+  top: 218%;
+  opacity: 30%;
+}
+
+
+.in {
+  width: auto;
+  height: 30px;
+  position: fixed;
+  left: 90%;
+  top: 93.5%;
+  box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  display: block;
+  border-color: rgb(139, 139, 139);
+}
+
+.in:hover {
+  transition: .3s;
+  transform: translate(0%, -20%);
+}
+
+.be {
+  width: auto;
+  height:30px;
+  position: fixed;
+  left: 93.5%;
+  top: 93.5%;
+  box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  display: block;
+  border-color: rgb(139, 139, 139);
+}
+
+.be:hover {
+  transition: .3s;
+  transform: translate(0%, -20%);
 }
 
 .row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-    align-items: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 600px;
+  margin-right: 65px;
+  margin-left: 65px;
+}
 
-  /* Create two equal columns that sits next to each other */
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(1) brightness(1);
+}
+@media screen and (max-width: 800px) {
   .column {
-    top: 120px;
-    -ms-flex: 60%; /* IE 10 */
-    flex: 70%;
-    padding: 0 4px;
-    position: relative;
-    align-items: center;
+    flex: 50%;
+    max-width: 50%;
   }
-  
-  .column img {
-    margin-top: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 60px;
-  }
-
-  .column img:hover {
-    opacity: 80%;
-  }
-  
-  /* Style the buttons */
-  .btn {
-    position: relative;
-    border: none;
-    border-radius: 7px;
-    outline: none;
-    padding: 10px 8px;
-    background-color: black;
-    cursor: pointer;
-    font-size: 18px;
-    top: 117px;
-    left: 84%;
-  }
-  
-  .btn:hover {
-    opacity: 60%;
-  }
-  
-  .btn.active {
-    background-color: black;
-    color: white;
-  }
-
-  .antitext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 31%;
-    display: none;
-    text-align: center;
-  }
-
-  .antit {
-    position: relative;
-  }
-
-  .antit:hover .antitext {
-    display: block;
-  }
-
-  .chattext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 28%;
-    left: 37%;
-    display: none;
-    text-align: center;
-  }
-
-  .chat {
-    position: relative;
-  }
-
-  .chat:hover .chattext {
-    display: block;
-  }
-
-  .pubid_text {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
-
-  .pubid {
-    position: relative;
-  }
-
-  .pubid:hover .pubid_text {
-    display: block;
-  }
-
-  .notestext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 38%;
-    display: none;
-    text-align: center;
-  }
-
-  .notes {
-    position: relative;
-  }
-
-  .notes:hover .notestext {
-    display: block;
-  }
-
-  .colorestext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
-
-  .colores {
-    position: relative;
-  }
-
-  .colores:hover .colorestext {
-    display: block;
-  }
-
-
-
-  .bannerstext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 23%;
-    display: none;
-    text-align: center;
-  }
-
-  .banners {
-    position: relative;
-  }
-
-  .banners:hover .bannerstext {
-    display: block;
-  }
-
-
-  .typetext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 38%;
-    display: none;
-    text-align: center;
-  }
-
-  .type {
-    position: relative;
-  }
-
-  .type:hover .typetext {
-    display: block;
-  }
-
-
-
-  .aftext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
-
-  .af {
-    position: relative;
-  }
-
-  .af:hover .aftext {
-    display: block;
-  }
-
-
-  .escondidotext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
-
-  .escondido {
-    position: relative;
-  }
-
-  .escondido:hover .escondidotext {
-    display: block;
-  }
-
-
-
-  .chictext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 22%;
-    display: none;
-    text-align: center;
-  }
-
-  .chic {
-    position: relative;
-  }
-
-  .chic:hover .chictext {
-    display: block;
-  }
-
-
-  .cbtext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 30%;
-    display: none;
-    text-align: center;
-  }
-
-  .cb {
-    position: relative;
-  }
-
-  .cb:hover .cbtext {
-    display: block;
-  }
-
-
-  .phototext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 28%;
-    left: 34%;
-    display: none;
-    text-align: center;
-  }
-
-  .photo {
-    position: relative;
-  }
-
-  .photo:hover .phototext {
-    display: block;
-  }
-
-
-  .mmtext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 33%;
-    display: none;
-    text-align: center;
-  }
-
-  .moonm {
-    position: relative;
-  }
-
-  .moonm:hover .mmtext {
-    display: block;
-  }
-
-  .drawtext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 32%;
-    display: none;
-    text-align: center;
-  }
-
-  .draw {
-    position: relative;
-  }
-
-  .draw:hover .drawtext {
-    display: block;
-  }
-
-  .sculptext {
-    position: absolute;
-    font-size: 40px;
-    font-family: Fjalla One;
-    top: 28%;
-    left: 37%;
-    display: none;
-    text-align: center;
-  }
-
-  .sculp {
-    position: relative;
-  }
-
-  .sculp:hover .sculptext {
-    display: block;
-  }
-
-
-  .about a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .about a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .work a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .work a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .contact a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .contact a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
-
-  @media screen and (max-width: 800px) {
-
-    .name {
-      position: absolute;
-      width: 85%;
-      height: auto;
-      top: 4%;
-      left: 8.5%;
-  }
-
-  .about {
-    font-size: 28px;
-    font-family: quiet-sans, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: white;
-    position: absolute;
-    top: 23%;
-    left: 5.2%;
-    cursor:url(./images/black_heart.png), auto;
 }
 
-.bar {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 19.5%;
-    left: 31%;
-    display: none;
-}
 
-.work {
-    font-size: 28px;
-    font-family: quiet-sans, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: white;
-    position: absolute;
-    top: 23%;
-    left: 37%;
-    cursor:url(./images/black_heart.png), auto;
-}
-
-.bar2 {
-    position: absolute;
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    top: 19.5%;
-    left: 61%;
-    display: none;
-}
-
-.contact {
-    font-size: 28px;
-    font-family: quiet-sans, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: white;
-    position: absolute;
-    top: 23%;
-    left: 66.2%;
-    cursor:url(./images/black_heart.png), auto;
-}
-  
-  .btn {
-    position: relative;
-    border: none;
-    border-radius: 7px;
-    outline: none;
-    padding: 10px 0px;
-    background-color: black;
-    cursor: pointer;
-    font-size: 18px;
-    top: 230px;
-    left: 66.5%;
-  }
-  
-  .btn:hover {
-    opacity: 40%;
-  }
-  
-  .btn.active {
-    background-color: black;
-    color: white;
-  }
-
-  .row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-    align-items: center;
-  }
-
-  /* Create two equal columns that sits next to each other */
+@media screen and (max-width: 600px) {
   .column {
-    top: 250px;
-    -ms-flex: 60%; /* IE 10 */
-    flex: 70%;
-    padding: 0 4px;
-    position: relative;
-    align-items: center;
+    flex: 100%;
+    max-width: 100%;
   }
-  
   .column img {
-    margin-top: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 60px;
+  }
+}
+
+.heading {
+  font-size: 17px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: rgb(146, 146, 146);
+  position: relative;
+  top: 19%;
+  left: 18%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.border3 {
+  width: 1450px;
+  height: 30px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  position: absolute;
+  left: 0%;
+  top: 158%;
+}
+
+.border4 {
+  width: 1450px;
+  height: 30px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  position: absolute;
+  left: 0%;
+  top: 165.5%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 50%;
+}
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(1) brightness(1);
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 
-  .column img:hover {
-    opacity: 80%;
-  }
+}
 
-  .antitext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 31%;
-    display: none;
-    text-align: center;
-  }
+.portraits {
+  font-size: 20px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  position: relative;
+  top: 0.5%;
+  left: 9%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
 
-  .antit {
-    position: relative;
-  }
+.portraits:hover {
+  color: rgb(206, 206, 206);
+}
 
-  .antit:hover .antitext {
-    display: block;
-  }
+.moon_series {
+  font-size: 20px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: black;
+  position: relative;
+  top: -2.5%;
+  left: 32.5%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
 
-  .chattext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 28%;
-    left: 37%;
-    display: none;
-    text-align: center;
-  }
+.moon_series:hover {
+  color: rgb(206, 206, 206);
+}
 
-  .chat {
-    position: relative;
-  }
+.nature {
+  font-size: 20px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: black;
+  position: relative;
+  top: -5.5%;
+  left: 59.5%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
 
-  .chat:hover .chattext {
-    display: block;
-  }
+.nature:hover {
+  color: rgb(206, 206, 206);
+}
 
-  .pubid_text {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
+.others {
+  font-size: 20px;
+  font-family: 'Quiet Sans ExtraLight';
+  text-decoration: none !important;
+  position: relative;
+  top: -9%;
+  left: 84%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
 
-  .pubid {
-    position: relative;
-  }
+.others:hover {
+  color: rgb(206, 206, 206);
+}
 
-  .pubid:hover .pubid_text {
-    display: block;
-  }
+.division {
+  width: 35%;
+  position: absolute;
+  top: 8%;
+  left: 60%;
+  opacity: 20%;
+}
 
-  .notestext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 38%;
-    display: none;
-    text-align: center;
-  }
+.name {
+position: fixed;
+writing-mode: vertical-rl;
+font-family: 'proxima nova';
+color: rgb(212, 212, 212);
+top: 43%;
+left: 95%;
+letter-spacing: 0.1em;
+font-size: 12px;
+}
 
-  .notes {
-    position: relative;
-  }
+.port {
+position: fixed;
+writing-mode: vertical-rl;
+transform: rotate(180deg);
+font-family: 'proxima nova';
+color: rgb(212, 212, 212);
+top: 49%;
+left: 4%;
+letter-spacing: 0.1em;
+font-size: 12px;
+}
 
-  .notes:hover .notestext {
-    display: block;
-  }
+.blackbox {
+width: 300px;
+background-color: black;
+width: 100%;
+height: 9%;
+top: 91%;
+position: fixed;
+}
 
-  .colorestext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
-
-  .colores {
-    position: relative;
-  }
-
-  .colores:hover .colorestext {
-    display: block;
-  }
-
-
-
-  .bannerstext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 23%;
-    display: none;
-    text-align: center;
-  }
-
-  .banners {
-    position: relative;
-  }
-
-  .banners:hover .bannerstext {
-    display: block;
-  }
-
-
-  .typetext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 38%;
-    display: none;
-    text-align: center;
-  }
-
-  .type {
-    position: relative;
-  }
-
-  .type:hover .typetext {
-    display: block;
-  }
+.textbottom {
+font-size: 12px;
+font-family: 'Quiet Sans ExtraLight';
+color: rgb(170, 170, 170);
+position: fixed;
+top: 94.5%;
+left: 4%;
+letter-spacing: 0.07em;
+}
 
 
 
-  .aftext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
+.slideshow-container {
+max-width: 500px;
+max-height: auto;
+position: relative;
+top: 265px;
+left: 260px;
+}
 
-  .af {
-    position: relative;
-  }
+.text {
+color: transparent;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
 
-  .af:hover .aftext {
-    display: block;
-  }
+.numbertext {
+color: transparent;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
 
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+transition: background-color 0.6s ease;
+}
 
-  .escondidotext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 25%;
-    display: none;
-    text-align: center;
-  }
+.active {
+background-color: #717171;
+}
 
-  .escondido {
-    position: relative;
-  }
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
 
-  .escondido:hover .escondidotext {
-    display: block;
-  }
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
 
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
 
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
 
-  .chictext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 22%;
-    display: none;
-    text-align: center;
-  }
+.arrow {
+position: absolute;
+top: 85%;
+left: 50%;
+height: 18px;
+width: auto;
+animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
 
-  .chic {
-    position: relative;
-  }
+@keyframes fadeInAnimation {
+0% {
+    opacity: 0;
+}
 
-  .chic:hover .chictext {
-    display: block;
-  }
+50%{
+  opacity: 0.5;
+}
+100% {
+    opacity: 0;
+ }
+}
 
+.scarlata {
+  position: absolute;
+  top: 40%;
+  left: 58%;
+  font-size: 34px;
+  font-family: owners-wide, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(73, 73, 73);
+  letter-spacing: 0.15em;
+}
 
-  .cbtext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 30%;
-    display: none;
-    text-align: center;
-  }
+.scarlata_heading {
+  position: absolute;
+  top: 45.5%;
+  left: 58%;
+  font-size: 17px;
+  font-family: owners-wide, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: rgb(201, 201, 201);
+  letter-spacing: 0.15em;
+}
 
-  .cb {
-    position: relative;
-  }
+.scarlata_text {
+  position: absolute;
+  top: 52%;
+  left: 58%;
+  font-size: 16px;
+  font-style: normal;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 200;
+  color: rgb(175, 175, 175);
+  letter-spacing: 0.15em;
+  line-height: 1.25em;
+}
 
-  .cb:hover .cbtext {
-    display: block;
-  }
-
-
-  .phototext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 28%;
-    left: 34%;
-    display: none;
-    text-align: center;
-  }
-
-  .photo {
-    position: relative;
-  }
-
-  .photo:hover .phototext {
-    display: block;
-  }
-
-
-  .mmtext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 25%;
-    left: 33%;
-    display: none;
-    text-align: center;
-  }
-
-  .moonm {
-    position: relative;
-  }
-
-  .moonm:hover .mmtext {
-    display: block;
-  }
-
-  .drawtext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 26%;
-    left: 32%;
-    display: none;
-    text-align: center;
-  }
-
-  .draw {
-    position: relative;
-  }
-
-  .draw:hover .drawtext {
-    display: block;
-  }
-
-  .sculptext {
-    position: absolute;
-    font-size: 20px;
-    font-family: Fjalla One;
-    top: 28%;
-    left: 37%;
-    display: none;
-    text-align: center;
-  }
-
-  .sculp {
-    position: relative;
-  }
-
-  .sculp:hover .sculptext {
-    display: block;
-  }
+.button {
+  position: absolute;
+  top: 62%;
+  left: 58%;
+  height: 35px;
+}
 
 
-  .about a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .about a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
+.quechua_1 {
+  position: absolute;
+  top: 127%;
+  left: 32%;
+  width: 500px;
+  height: auto;
+}
 
-  .work a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .work a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
+.quechua_2 {
+  position: absolute;
+  top: 100%;
+  left: 13%;
+  width: 500px;
+  height: auto;
+}
 
-  .contact a {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 50%);
-    background-position: -0% 0;
-    background-size: 200% auto;
-    color: white;
-    text-decoration: none;
-    transition: background-position 0.4s ease-out;
-  }
-  .contact a:hover {
-    background-position: -99.99% 0;
-    color: black;
-    font-weight: bolder;
-  }
+.quechua_3 {
+  position: absolute;
+  top: 102.7%;
+  left: 52%;
+  width: 500px;
+  height: auto;
+}
 
+.button_2 {
+  position: absolute;
+  top: 160%;
+  left: 45%;
+  height: 35px;
+}
 
-  }
+.quechua_text {
+  position: absolute;
+  top: 151%;
+  left: 31.5%;
+  font-size: 16px;
+  font-style: normal;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 200;
+  color: rgb(175, 175, 175);
+  letter-spacing: 0.15em;
+  line-height: 1.25em;
+  text-align: center;
+}
+
