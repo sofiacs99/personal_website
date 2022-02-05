@@ -52,6 +52,8 @@ window.onload = function() {
   }, interval);
 }
 
+
+
 $(function(){
   $(".draggable").draggable({
       stack: ".draggable",
