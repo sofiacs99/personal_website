@@ -194,7 +194,7 @@ body {
    font-family: 'Quiet Sans ExtraLight';
    color: rgb(170, 170, 170);
    position: fixed;
-   top: 94.5%;
+   top: 95%;
    left: 4%;
    letter-spacing: 0.07em;
    display: block;
@@ -202,8 +202,8 @@ body {
 
 .s1 {
     position: relative;
-    top: 23%;
-    width: 1440px;
+    top: 22%;
+    width: 1400px;
     height: auto;
 }
 
