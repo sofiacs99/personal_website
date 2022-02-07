@@ -38,6 +38,8 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
+
 window.onload = function() {
   imgs = document.getElementById('slideshow').children;
   interval = 4000;
@@ -89,6 +91,7 @@ $(function(){
   })
 
 })
+
 
 var slideIndex = 0;
 showSlides();
