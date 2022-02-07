@@ -182,6 +182,15 @@ body {
     transform: translate(0%, -20%);
   }
 
+  .blackbox {
+    width: 300px;
+    background-color: black;
+    width: 100%;
+    height: 9%;
+    top: 91%;
+    position: absolute;
+    }
+
 .s1 {
     position: relative;
     top: 23%;
