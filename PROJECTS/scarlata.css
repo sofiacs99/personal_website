@@ -76,6 +76,7 @@ body {
     left: 67%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
+    letter-spacing: 0.15em;
   }
   
   .work:hover {
