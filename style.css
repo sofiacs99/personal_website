@@ -1213,7 +1213,7 @@ to {
   
   .cultura {
   position: absolute;
-  top: 63%;
+  top: 58%;
   left: 10.5%;
   width: 260px;
   height: auto;
@@ -1256,7 +1256,7 @@ to {
   .bunny {
   position: absolute;
   top: 66%;
-  left: 30%;
+  left: 28%;
   width: 50px;
   height: auto;
   cursor: grab;
@@ -1283,7 +1283,7 @@ to {
   
   .camera {
   position: absolute;
-  top: 54.5%;
+  top: 57.5%;
   left: 60%;
   width: 120px;
   height: auto;
@@ -1298,7 +1298,7 @@ to {
   
   .travel {
   position: absolute;
-  top: 49%;
+  top: 51%;
   left: 35.5%;
   width: 140px;
   height: auto;
