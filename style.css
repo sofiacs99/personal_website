@@ -1083,7 +1083,7 @@ to {
     position: absolute;
     top: 8%;
     left: 60%;
-    opacity: 20%;
+    opacity: 0%;
   }
   
   .name {
@@ -1174,8 +1174,8 @@ to {
   position: absolute;
   height: 130px;
   width: auto;
-  top: 20%;
-  left: 47%;
+  top: 17%;
+  left: 50%;
   }
   
   
@@ -1199,8 +1199,8 @@ to {
   
   .flag {
   position: absolute;
-  top: 65%;
-  left: 65%;
+  top: 68%;
+  left: 60%;
   width: 130px;
   height: auto;
   cursor: grab;
@@ -1213,7 +1213,7 @@ to {
   
   .cultura {
   position: absolute;
-  top: 55%;
+  top: 63%;
   left: 10.5%;
   width: 260px;
   height: auto;
@@ -1255,7 +1255,7 @@ to {
   
   .bunny {
   position: absolute;
-  top: 70%;
+  top: 66%;
   left: 30%;
   width: 50px;
   height: auto;
@@ -1269,7 +1269,7 @@ to {
   
   .dog {
   position: absolute;
-  top: 68.5%;
+  top: 65.5%;
   left: 35%;
   width: 130px;
   height: auto;
@@ -1283,7 +1283,7 @@ to {
   
   .camera {
   position: absolute;
-  top: 59.5%;
+  top: 54.5%;
   left: 60%;
   width: 120px;
   height: auto;
