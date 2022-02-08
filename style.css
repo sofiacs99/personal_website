@@ -1464,7 +1464,7 @@ to {
   
   
   .heart {
-  position: fixed;
+  position: absolute;
   top: 43%;
   left: 49.5%;
   width: 230px;
@@ -1478,7 +1478,7 @@ to {
   }
   
   .flag {
-  position: fixed;
+  position: absolute;
   top: 78%;
   left: 70%;
   width: 180px;
@@ -1492,7 +1492,7 @@ to {
   }
   
   .cultura {
-  position: fixed;
+  position: absolute;
   top: 67%;
   left: 50.5%;
   width: 310px;
@@ -1506,7 +1506,7 @@ to {
   }
   
   .tennis {
-  position: fixed;
+  position: absolute;
   top: 46%;
   left: 66%;
   width: 81px;
@@ -1520,7 +1520,7 @@ to {
   }
   
   .ny {
-  position: fixed;
+  position: absolute;
   top: 44%;
   left: 71%;
   width: 190px;
@@ -1534,7 +1534,7 @@ to {
   }
   
   .bunny {
-  position: fixed;
+  position: absolute;
   top: 78%;
   left: 54.5%;
   width: 90px;
@@ -1548,7 +1548,7 @@ to {
   }
   
   .dog {
-  position: fixed;
+  position: absolute;
   top: 75.5%;
   left: 59%;
   width: 180px;
@@ -1562,7 +1562,7 @@ to {
   }
   
   .camera {
-  position: fixed;
+  position: absolute;
   top: 64.5%;
   left: 70%;
   width: 170px;
