@@ -964,7 +964,7 @@ to {
   position: absolute;
   top: 71%;
   left: 60%;
-  width: 130px;
+  width: 120px;
   height: auto;
   cursor: grab;
   float: right;
@@ -976,7 +976,7 @@ to {
   
   .cultura {
   position: absolute;
-  top: 63%;
+  top: 2%;
   left: 9.5%;
   width: 250px;
   height: auto;
