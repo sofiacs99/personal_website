@@ -726,7 +726,7 @@ to {
   }
   
   .ig {
-    width:auto;
+    width: auto;
     height:30px;
     position: absolute;
     left: 86.5%;
@@ -735,11 +735,7 @@ to {
     border-radius: 50%;
     display: block;
     border-color: rgb(139, 139, 139);
-  }
-  
-  .ig:hover {
-    transition: .3s;
-    transform: translate(0%, -20%);
+    visibility: hidden;
   }
   
   
@@ -753,11 +749,7 @@ to {
     border-radius: 50%;
     display: block;
     border-color: rgb(139, 139, 139);
-  }
-  
-  .in:hover {
-    transition: .3s;
-    transform: translate(0%, -20%);
+    visibility: hidden;
   }
   
   .be {
@@ -770,12 +762,9 @@ to {
     border-radius: 50%;
     display: block;
     border-color: rgb(139, 139, 139);
+    visibility: hidden;
   }
-  
-  .be:hover {
-    transition: .3s;
-    transform: translate(0%, -20%);
-  }
+
   
   .text_title {
     font-size: 17px;
