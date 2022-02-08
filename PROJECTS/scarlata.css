@@ -302,3 +302,194 @@ body {
     text-align: right;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.logo {
+  width: auto;
+  height: 80px;
+  position: absolute;
+  left: 4%;
+  top: 5%;
+}
+
+.logo {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+.home {
+  font-size: 20px;
+  font-family: 'Quiet Sans ExtraLight';
+  text-decoration: none !important;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 5.1%;
+  left: 65%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.home:hover {
+  color: rgb(206, 206, 206);
+}
+
+.work {
+  font-size: 17px;
+  font-family: owners-xwide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none !important;
+  color: rgb(48, 48, 48);
+  position: absolute;
+  top: 24%;
+  left: 4%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  letter-spacing: 0.15em;
+}
+
+.work:hover {
+  color: rgb(206, 206, 206);
+}
+
+.about {
+  font-size: 17px;
+  font-family: owners-xwide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none !important;
+  color: rgb(49, 49, 49);
+  position: absolute;
+  top: 28%;
+  left: 4%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  letter-spacing: 0.15em;
+}
+
+.about:hover {
+  color: rgb(206, 206, 206);
+}
+
+.contact {
+  font-size: 17px;
+  font-family: owners-xwide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(49, 49, 49);
+  text-decoration: none !important;
+  position: absolute;
+  top: 32%;
+  left: 4%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  letter-spacing: 0.15em;
+}
+
+.contact:hover {
+  color: rgb(206, 206, 206);
+}
+
+.s1 {
+  position: relative;
+  top: 22%;
+  width: 1440px;
+  height: auto;
+}
+
+.s2 {
+  position: relative;
+  top: 82%;
+  width: 1200px;
+  height: auto;
+}
+
+.s3 {
+  position: relative;
+  top: 82%;
+  width: 1200px;
+  height: auto;
+}
+
+.s4 {
+  position: relative;
+  top: 82%;
+  width: 1200px;
+  height: auto;
+}
+
+.s5 {
+  position: relative;
+  top: 77%;
+  width: 1200px;
+  height: auto;
+}
+
+.s6 {
+  position: relative;
+  top: 75%;
+  width: 1200px;
+  height: auto;
+}
+
+.s7 {
+  position: relative;
+  top: 84%;
+  width: 1200px;
+  height: auto;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+}
+
+
+}
