@@ -412,7 +412,7 @@ letter-spacing: 0.07em;
 .slideshow-container {
 max-width: 500px;
 max-height: auto;
-position: absolute;
+position: relative;
 top: 265px;
 left: 260px;
 }
