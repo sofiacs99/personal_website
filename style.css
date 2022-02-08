@@ -929,7 +929,7 @@ to {
     text-decoration: none !important;
     color: rgb(48, 48, 48);
     position: absolute;
-    top: 15%;
+    top: 22%;
     left: 4%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
@@ -948,7 +948,7 @@ to {
     text-decoration: none !important;
     color: rgb(49, 49, 49);
     position: absolute;
-    top: 17%;
+    top: 25%;
     left: 4%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
@@ -967,7 +967,7 @@ to {
     color: rgb(49, 49, 49);
     text-decoration: none !important;
     position: absolute;
-    top: 19%;
+    top: 28%;
     left: 4%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
