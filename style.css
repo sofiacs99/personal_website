@@ -1185,7 +1185,7 @@ to {
   
   .heart {
   position: absolute;
-  top: 38%;
+  top: 41%;
   left: 9.5%;
   width: 180px;
   height: auto;
@@ -1199,7 +1199,7 @@ to {
   
   .flag {
   position: absolute;
-  top: 68%;
+  top: 71%;
   left: 60%;
   width: 130px;
   height: auto;
@@ -1213,8 +1213,8 @@ to {
   
   .cultura {
   position: absolute;
-  top: 58%;
-  left: 10.5%;
+  top: 63%;
+  left: 9.5%;
   width: 260px;
   height: auto;
   cursor: grab;
@@ -1227,9 +1227,9 @@ to {
   
   .tennis {
   position: absolute;
-  top: 41%;
+  top: 46%;
   left: 54%;
-  width: 31px;
+  width: 40px;
   height: auto;
   cursor: grab;
   float: right;
@@ -1241,7 +1241,7 @@ to {
   
   .ny {
   position: absolute;
-  top: 39%;
+  top: 42%;
   left: 56%;
   width: 140px;
   height: auto;
@@ -1255,8 +1255,8 @@ to {
   
   .bunny {
   position: absolute;
-  top: 66%;
-  left: 28%;
+  top: 71%;
+  left: 26%;
   width: 50px;
   height: auto;
   cursor: grab;
@@ -1269,8 +1269,8 @@ to {
   
   .dog {
   position: absolute;
-  top: 65.5%;
-  left: 35%;
+  top: 68.5%;
+  left: 32%;
   width: 130px;
   height: auto;
   cursor: grab;
@@ -1283,7 +1283,7 @@ to {
   
   .camera {
   position: absolute;
-  top: 57.5%;
+  top: 60.5%;
   left: 60%;
   width: 120px;
   height: auto;
@@ -1298,7 +1298,7 @@ to {
   
   .travel {
   position: absolute;
-  top: 51%;
+  top: 54%;
   left: 35.5%;
   width: 140px;
   height: auto;

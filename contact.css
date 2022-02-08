@@ -576,6 +576,6 @@ input[type=text], select, textarea {
     letter-spacing: 0.15em;
   }
   
-  .contact:hover {
+  .contact:hover{
     color: rgb(206, 206, 206);
   }
