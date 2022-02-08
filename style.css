@@ -1239,67 +1239,6 @@ to {
   
   }
   
-  .portraits {
-    font-size: 17px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    position: relative;
-    top: 0.1%;
-    left: 9.2%;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
-  }
-  
-  .portraits:hover {
-    color: rgb(206, 206, 206);
-  }
-  
-  .moon_series {
-    font-size: 17px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: black;
-    position: relative;
-    top: -2.5%;
-    left: 33.1%;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
-  }
-  
-  .moon_series:hover {
-    color: rgb(206, 206, 206);
-  }
-  
-  .nature {
-    font-size: 17px;
-    font-family: 'Quiet Sans ExtraLight';
-    color: black;
-    position: relative;
-    top: -5.5%;
-    left: 59.7%;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
-  }
-  
-  .nature:hover {
-    color: rgb(206, 206, 206);
-  }
-  
-  .others {
-    font-size: 17px;
-    font-family: 'Quiet Sans ExtraLight';
-    text-decoration: none !important;
-    position: relative;
-    top: -8%;
-    left: 84.4%;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
-  }
-  
-  .others:hover {
-    color: rgb(206, 206, 206);
-  }
-  
   .border {
     width: 295px;
     height: 417.2px;
@@ -1519,7 +1458,7 @@ to {
   height: 200px;
   width: auto;
   top: 40%;
-  left: 10%;
+  left: 12%;
   }
   
   
