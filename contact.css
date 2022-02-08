@@ -362,6 +362,10 @@ input[type=text], select, textarea {
     text-decoration: none;
   }
 
+  .contact_email_text:hover{
+    cursor: pointer;
+  }
+
   .contact_ig {
     font-size: 17px;
     font-family: owners-wide, sans-serif;
@@ -385,6 +389,10 @@ input[type=text], select, textarea {
     top: 61.7%;
     left: 23%;
     text-decoration: none;
+  }
+
+  .contact_ig_text:hover{
+    cursor: pointer;
   }
 
   .division {
