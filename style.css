@@ -1215,7 +1215,7 @@ to {
   position: absolute;
   top: 63%;
   left: 9.5%;
-  width: 260px;
+  width: 250px;
   height: auto;
   cursor: grab;
   float: right;
@@ -1270,7 +1270,7 @@ to {
   .dog {
   position: absolute;
   top: 68.5%;
-  left: 34%;
+  left: 32%;
   width: 130px;
   height: auto;
   cursor: grab;
