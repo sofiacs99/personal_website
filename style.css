@@ -1019,6 +1019,7 @@ to {
     top: 11%;
     opacity: 25%;
     visibility: hidden;
+    color: transparent;
   }
   
   .line2 {
@@ -1028,6 +1029,7 @@ to {
     top: 155%;
     opacity: 30%;
     visibility: hidden;
+    color: transparent;
   }
   
   .line3 {
@@ -1037,6 +1039,7 @@ to {
     top: 218%;
     opacity: 30%;
     visibility: hidden;
+    color: transparent;
   }
   
   .line_about {
@@ -1046,6 +1049,7 @@ to {
     top: 11%;
     opacity: 25%;
     visibility: hidden;
+    color: transparent;
   }
   
   .line4 {
@@ -1055,6 +1059,7 @@ to {
     top: 218%;
     opacity: 30%;
     visibility: hidden;
+    color: transparent;
   }
   
   
