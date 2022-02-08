@@ -892,6 +892,7 @@ to {
   top: 94.5%;
   left: 4%;
   letter-spacing: 0.07em;
+  text-align: center;
   }
   
   .textbox {
@@ -970,7 +971,7 @@ to {
   
   .cultura {
   position: absolute;
-  top: 2%;
+  top: 62%;
   left: 9.5%;
   width: 250px;
   height: auto;
