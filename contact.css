@@ -359,6 +359,7 @@ input[type=text], select, textarea {
     position: absolute;
     top: 52.1%;
     left: 23%;
+    text-decoration: none;
   }
 
   .contact_ig {
@@ -383,6 +384,7 @@ input[type=text], select, textarea {
     position: absolute;
     top: 61.7%;
     left: 23%;
+    text-decoration: none;
   }
 
   .division {
@@ -569,4 +571,3 @@ input[type=text], select, textarea {
   .contact:hover {
     color: rgb(206, 206, 206);
   }
-  
