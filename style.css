@@ -736,6 +736,7 @@ to {
     display: block;
     border-color: rgb(139, 139, 139);
     visibility: hidden;
+    opacity: 0;
   }
   
   
@@ -750,6 +751,7 @@ to {
     display: block;
     border-color: rgb(139, 139, 139);
     visibility: hidden;
+    opacity: 0;
   }
   
   .be {
@@ -763,6 +765,7 @@ to {
     display: block;
     border-color: rgb(139, 139, 139);
     visibility: hidden;
+    opacity: 0;
   }
 
   
@@ -889,15 +892,6 @@ to {
   top: 94.5%;
   left: 4%;
   letter-spacing: 0.07em;
-  }
-  
-  .collage {
-  position: absolute;
-  height: 450px;
-  width: auto;
-  top: 23%;
-  left: 49%;
-  cursor: grab;
   }
   
   .textbox {
