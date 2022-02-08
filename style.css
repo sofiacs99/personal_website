@@ -140,46 +140,6 @@ body {
   transform: translate(0%, -20%);
 }
 
-.line1 {
-  width: 4.6%;
-  position: absolute;
-  left: 9%;
-  top: 11%;
-  opacity: 25%;
-}
-
-.line2 {
-  width: 42%;
-  position: absolute;
-  left: 28%;
-  top: 155%;
-  opacity: 30%;
-}
-
-.line3 {
-  width: 42%;
-  position: absolute;
-  left: 28%;
-  top: 218%;
-  opacity: 30%;
-}
-
-.line_about {
-  width: 5.2%;
-  position: absolute;
-  left: 23%;
-  top: 11%;
-  opacity: 25%;
-}
-
-.line4 {
-  width: 43%;
-  position: absolute;
-  left: 32%;
-  top: 218%;
-  opacity: 30%;
-}
-
 
 .in {
   width:auto;
@@ -384,67 +344,6 @@ body {
 
 }
 
-.portraits {
-  font-size: 17px;
-  font-family: 'Quiet Sans ExtraLight';
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  position: relative;
-  top: 0.1%;
-  left: 9.2%;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
-}
-
-.portraits:hover {
-  color: rgb(206, 206, 206);
-}
-
-.moon_series {
-  font-size: 17px;
-  font-family: 'Quiet Sans ExtraLight';
-  color: black;
-  position: relative;
-  top: -2.5%;
-  left: 33.1%;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
-}
-
-.moon_series:hover {
-  color: rgb(206, 206, 206);
-}
-
-.nature {
-  font-size: 17px;
-  font-family: 'Quiet Sans ExtraLight';
-  color: black;
-  position: relative;
-  top: -5.5%;
-  left: 59.7%;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
-}
-
-.nature:hover {
-  color: rgb(206, 206, 206);
-}
-
-.others {
-  font-size: 17px;
-  font-family: 'Quiet Sans ExtraLight';
-  text-decoration: none !important;
-  position: relative;
-  top: -8%;
-  left: 84.4%;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
-}
-
-.others:hover {
-  color: rgb(206, 206, 206);
-}
-
 .border {
   width: 295px;
   height: 417.2px;
@@ -615,23 +514,6 @@ position: absolute;
 top: 94.5%;
 left: 4%;
 letter-spacing: 0.07em;
-}
-
-.myVideo {
-position: relative;
-right: 0;
-bottom: 0;
-width: 100%;
-height: auto;
-}
-
-.credit {
-font-size: 10px;
-font-family: 'Quiet Sans ExtraLight';
-color: rgb(170, 170, 170);
-position: absolute;
-top: 88.5%;
-left: 4%;
 }
 
 .collage {
@@ -1012,52 +894,12 @@ to {
     transform: translate(0%, -20%);
   }
   
-  .line1 {
-    width: 4.6%;
-    position: absolute;
-    left: 9%;
-    top: 11%;
-    opacity: 25%;
-    visibility: hidden;
-    color: transparent;
-  }
-  
-  .line2 {
-    width: 42%;
-    position: absolute;
-    left: 28%;
-    top: 155%;
-    opacity: 30%;
-    visibility: hidden;
-    color: transparent;
-  }
-  
-  .line3 {
-    width: 42%;
-    position: absolute;
-    left: 28%;
-    top: 218%;
-    opacity: 30%;
-    visibility: hidden;
-    color: transparent;
-  }
-  
   .line_about {
     width: 5.2%;
     position: absolute;
     left: 23%;
     top: 11%;
     opacity: 25%;
-    visibility: hidden;
-    color: transparent;
-  }
-  
-  .line4 {
-    width: 43%;
-    position: absolute;
-    left: 32%;
-    top: 218%;
-    opacity: 30%;
     visibility: hidden;
     color: transparent;
   }
