@@ -967,7 +967,7 @@ to {
     color: rgb(49, 49, 49);
     text-decoration: none !important;
     position: absolute;
-    top: 31%;
+    top: 32%;
     left: 4%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
@@ -1519,7 +1519,7 @@ to {
   height: 200px;
   width: auto;
   top: 40%;
-  left: 6%;
+  left: 10%;
   }
   
   
