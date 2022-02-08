@@ -862,7 +862,24 @@ to {
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 1200px) {
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background: rgb(255, 255, 255);
+    height: 100%;
+    overflow: hidden;
+  }
 
   .logo {
     width: auto;
