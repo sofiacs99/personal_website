@@ -746,7 +746,7 @@
       position: absolute;
       width: 55%;
       height: auto;
-      top: 43%;
+      top: 40%;
       left: 23.4%;
   }
   
@@ -783,22 +783,22 @@
     }
 
     .text_about {
-      font-size: 14px;
+      font-size: 15px;
       font-family: proxima-nova, sans-serif;
       font-weight: 300;
       font-style: normal;
       letter-spacing: 0.09em;
       color: rgb(185, 185, 185);
       position: absolute;
-      top: 100%;
+      top: 97%;
       left: 0%;
       text-decoration: none !important;
       text-align: justify;
       text-justify: inter-word;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 6%;
+      margin-right: 6%;
       line-height: 1em;
-      padding-bottom: 15px;
+      padding-bottom: 30px;
   }
   
   .text_about {
@@ -859,8 +859,8 @@
   .t {
     position: absolute;
     top: 90%;
-    left: 25%;
-    width: 55%;
+    left: 24%;
+    width: 60%;
     height: auto;
 }
 
