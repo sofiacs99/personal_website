@@ -443,14 +443,14 @@ body {
 .s1 {
   position: relative;
   top: 22%;
-  width: 10%;
+  width: 100%;
   height: auto;
 }
 
 .s2 {
   position: relative;
   top: 82%;
-  width: 10%;
+  width: 100%;
   height: auto;
 }
 
