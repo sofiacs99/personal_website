@@ -843,7 +843,7 @@ animation: fadeInAnimation ease 2s;
     position: absolute;
     top: 8%;
     left: 60%;
-    opacity: 20%;
+    opacity: 0%;
   }
   
   .name {
@@ -880,6 +880,7 @@ animation: fadeInAnimation ease 2s;
     height: 9%;
     top: 91%;
     position: absolute;
+    opacity: 0;
     }
     
     .text {
@@ -892,6 +893,7 @@ animation: fadeInAnimation ease 2s;
     top: 94.5%;
     left: 7%;
     letter-spacing: 0.07em;
+    opacity: 0;
     }
   
   .textbottom {
@@ -911,7 +913,7 @@ animation: fadeInAnimation ease 2s;
   max-height: auto;
   position: relative;
   top: 280px;
-  left: 260px;
+  left: 20%;
   }
   
   .numbertext {
@@ -967,26 +969,15 @@ animation: fadeInAnimation ease 2s;
   animation: fadeInAnimation ease 2s;
     animation-iteration-count: 3;
     animation-fill-mode: forwards;
+    opacity: 0;
   }
   
-  @keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  
-  50%{
-    opacity: 0.5;
-  }
-  100% {
-      opacity: 0;
-   }
-  }
   
   .scarlata {
     position: absolute;
     top: 80%;
-    left: 58%;
-    font-size: 34px;
+    left: 20%;
+    font-size: 25px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -997,7 +988,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata_heading {
     position: absolute;
     top: 85.5%;
-    left: 58%;
+    left: 20%;
     font-size: 17px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
@@ -1009,7 +1000,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata_text {
     position: absolute;
     top: 92%;
-    left: 58%;
+    left: 20%;
     font-size: 16px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
@@ -1022,7 +1013,7 @@ animation: fadeInAnimation ease 2s;
   .button {
     position: absolute;
     top: 102%;
-    left: 58%;
+    left: 20%;
     height: 35px;
   }
   
