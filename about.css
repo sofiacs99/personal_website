@@ -746,7 +746,7 @@
       position: absolute;
       width: 55%;
       height: auto;
-      top: 45%;
+      top: 43%;
       left: 23.4%;
   }
   
@@ -790,8 +790,8 @@
       letter-spacing: 0.09em;
       color: rgb(185, 185, 185);
       position: absolute;
-      top: 75%;
-      left: 10%;
+      top: 90%;
+      left: 0%;
       text-decoration: none !important;
       text-align: justify;
       text-justify: inter-word;
@@ -873,3 +873,4 @@
   letter-spacing: 0.07em;
   opacity: 0;
 }
+
