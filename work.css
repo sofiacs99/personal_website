@@ -847,36 +847,52 @@ animation: fadeInAnimation ease 2s;
   }
   
   .name {
-  position: fixed;
-  writing-mode: vertical-rl;
-  font-family: 'proxima nova';
-  color: rgb(212, 212, 212);
-  top: 43%;
-  left: 95%;
-  letter-spacing: 0.1em;
-  font-size: 12px;
-  }
-  
-  .port {
-  position: fixed;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-family: 'proxima nova';
-  color: rgb(212, 212, 212);
-  top: 49%;
-  left: 4%;
-  letter-spacing: 0.1em;
-  font-size: 12px;
-  }
-  
-  .blackbox {
-  width: 300px;
-  background-color: black;
-  width: 100%;
-  height: 9%;
-  top: 91%;
-  position: fixed;
-  }
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(212, 212, 212);
+    top: 43%;
+    left: 94%;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    }
+    
+    .port {
+    position: absolute;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(212, 212, 212);
+    top: 49%;
+    left: 4%;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+    }
+    
+    .blackbox {
+    width: 300px;
+    background-color: black
+    width: 100%;
+    height: 9%;
+    top: 91%;
+    position: absolute;
+    }
+    
+    .text {
+    font-size: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 94.5%;
+    left: 7%;
+    letter-spacing: 0.07em;
+    }
   
   .textbottom {
   font-size: 12px;
@@ -896,16 +912,6 @@ animation: fadeInAnimation ease 2s;
   position: relative;
   top: 280px;
   left: 260px;
-  }
-  
-  .text {
-  color: transparent;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
   }
   
   .numbertext {
