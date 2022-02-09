@@ -690,3 +690,85 @@ input[type=text], select, textarea {
       opacity: 0;
     }
   
+    .contact_me {
+      font-size: 25px;
+      font-family: owners-wide, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      color: rgb(73, 73, 73);
+      position: relative;
+      top: 35%;
+      left: 23%;
+      letter-spacing: 0.15em;
+    }
+    
+    .contact_text {
+      font-size: 14px;
+      font-family: proxima-nova, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      letter-spacing: 0.1em;
+      color: rgb(150, 150, 150);
+      position: absolute;
+      top: 41%;
+      left: 23%;
+      line-height: 1.15em;
+    }
+  
+    .contact_email {
+      font-size: 17px;
+      font-family: owners-wide, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      color: rgb(73, 73, 73);
+      position: relative;
+      top: 51%;
+      left: 23%;
+      letter-spacing: 0.15em;
+    }
+  
+    .contact_email_text {
+      font-size: 14px;
+      font-family: proxima-nova, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      letter-spacing: 0.1em;
+      color: rgb(150, 150, 150);
+      position: absolute;
+      top: 54%;
+      left: 23%;
+      text-decoration: none!important;
+    }
+  
+    .contact_email_text:hover{
+      cursor: pointer;
+    }
+  
+    .contact_ig {
+      font-size: 17px;
+      font-family: owners-wide, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      color: rgb(73, 73, 73);
+      position: relative;
+      top: 52%;
+      left: 23%;
+      letter-spacing: 0.15em;
+    }
+  
+    .contact_ig_text {
+      font-size: 14px;
+      font-family: proxima-nova, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      letter-spacing: 0.1em;
+      color: rgb(150, 150, 150);
+      position: absolute;
+      top: 61.7%;
+      left: 23%;
+      text-decoration: none!important;
+    }
+  
+    .contact_ig_text:hover{
+      cursor: pointer;
+    }
