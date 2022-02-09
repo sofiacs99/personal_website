@@ -781,3 +781,53 @@
       0% {opacity:0;}
       100% {opacity:1;}
     }
+
+    .text_about {
+      font-size: 14px;
+      font-family: proxima-nova, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: 0.09em;
+      color: rgb(185, 185, 185);
+      position: absolute;
+      top: 55%;
+      left: 25%;
+      text-decoration: none !important;
+      text-align: justify;
+      text-justify: inter-word;
+      margin-left: 5%;
+      margin-right: 5%;
+      line-height: 1em;
+  }
+  
+  .text_about {
+      animation: fadeIn 2s;
+      -webkit-animation: fadeIn 2s;
+      -moz-animation: fadeIn 2s;
+      -o-animation: fadeIn 2s;
+      -ms-animation: fadeIn 2s;
+    }
+    @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
