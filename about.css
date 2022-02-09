@@ -637,8 +637,8 @@
       width:auto;
       height:30px;
       position: absolute;
-      left: 55%;
-      top: 28%;
+      left: 65%;
+      top: 30%;
       box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
       border-radius: 50%;
       display: block;
@@ -664,8 +664,8 @@
       width:auto;
       height:30px;
       position:absolute;
-      left: 70%;
-      top: 28%;
+      left: 75%;
+      top: 30%;
       box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
       border-radius: 50%;
       display: block;
@@ -682,7 +682,7 @@
       height:30px;
       position: absolute;
       left: 85%;
-      top: 28%;
+      top: 30%;
       box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
       border-radius: 50%;
       display: block;
