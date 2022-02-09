@@ -547,7 +547,7 @@ animation: fadeInAnimation ease 2s;
     margin: 0;
     background: rgb(255, 255, 255);
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .logo {
