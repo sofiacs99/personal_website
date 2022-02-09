@@ -787,7 +787,7 @@ input[type=text], select, textarea {
       font-weight: 500;
       color: rgb(73, 73, 73);
       position: relative;
-      top: 62%;
+      top: 60%;
       left: 15%;
       letter-spacing: 0.15em;
     }
@@ -800,7 +800,7 @@ input[type=text], select, textarea {
       letter-spacing: 0.1em;
       color: rgb(150, 150, 150);
       position: absolute;
-      top: 68%;
+      top: 70%;
       left: 15%;
       text-decoration: none!important;
     }
@@ -816,7 +816,7 @@ input[type=text], select, textarea {
       font-weight: 500;
       color: rgb(73, 73, 73);
       position: relative;
-      top: 65%;
+      top: 67%;
       left: 15%;
       letter-spacing: 0.15em;
     }
@@ -829,7 +829,7 @@ input[type=text], select, textarea {
       letter-spacing: 0.1em;
       color: rgb(150, 150, 150);
       position: absolute;
-      top: 75%;
+      top: 78%;
       left: 15%;
       text-decoration: none!important;
     }
