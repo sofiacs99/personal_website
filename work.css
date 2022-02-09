@@ -1029,7 +1029,7 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_2 {
     position: absolute;
-    top: 115%;
+    top: 110%;
     left: 12%;
     width: 280px;
     height: auto;
@@ -1045,7 +1045,7 @@ animation: fadeInAnimation ease 2s;
   
   .button_2 {
     position: absolute;
-    top: 160%;
+    top: 175%;
     left: 45%;
     height: 35px;
   }
