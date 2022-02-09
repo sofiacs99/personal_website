@@ -777,7 +777,7 @@ input[type=text], select, textarea {
       top: 51%;
       left: 15%;
       line-height: 1.15em;
-      margin-right: 10%;
+      margin-right: 12%;
     }
   
     .contact_email {
@@ -787,7 +787,7 @@ input[type=text], select, textarea {
       font-weight: 500;
       color: rgb(73, 73, 73);
       position: relative;
-      top: 68%;
+      top: 60%;
       left: 15%;
       letter-spacing: 0.15em;
     }
@@ -800,7 +800,7 @@ input[type=text], select, textarea {
       letter-spacing: 0.1em;
       color: rgb(150, 150, 150);
       position: absolute;
-      top: 67%;
+      top: 64%;
       left: 15%;
       text-decoration: none!important;
     }
@@ -829,7 +829,7 @@ input[type=text], select, textarea {
       letter-spacing: 0.1em;
       color: rgb(150, 150, 150);
       position: absolute;
-      top: 80%;
+      top: 70%;
       left: 15%;
       text-decoration: none!important;
     }
