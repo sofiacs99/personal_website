@@ -1021,24 +1021,24 @@ animation: fadeInAnimation ease 2s;
   .quechua_1 {
     position: absolute;
     top: 128%;
-    left: 32%;
-    width: 500px;
+    left: 12%;
+    width: 280px;
     height: auto;
   }
   
   .quechua_2 {
     position: absolute;
     top: 100%;
-    left: 13%;
-    width: 500px;
+    left: 12%;
+    width: 280px;
     height: auto;
   }
   
   .quechua_3 {
     position: absolute;
-    top: 100%;
-    left: 52%;
-    width: 500px;
+    top: 156%;
+    left: 12%;
+    width: 280px;
     height: auto;
   }
   
@@ -1051,8 +1051,8 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_text {
     position: absolute;
-    top: 151%;
-    left: 31.5%;
+    top: 160%;
+    left: 20%;
     font-size: 16px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
