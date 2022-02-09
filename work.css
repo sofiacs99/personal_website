@@ -989,7 +989,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata_heading {
     position: absolute;
     top: 77%;
-    left: 26%;
+    left: 27%;
     font-size: 15px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
@@ -1002,22 +1002,22 @@ animation: fadeInAnimation ease 2s;
     position: absolute;
     top: 80%;
     left: 18%;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
     font-weight: 200;
     color: rgb(175, 175, 175);
     letter-spacing: 0.15em;
-    line-height: 1.25em;
+    line-height: 1.15em;
     text-align: justify;
     text-justify: inter-word;
-    margin-right: 6%;
+    margin-left: 8%;
   }
   
   .button {
     position: absolute;
     top: 90%;
-    left: 32%;
+    left: 33%;
     height: 35px;
   }
   
@@ -1025,7 +1025,7 @@ animation: fadeInAnimation ease 2s;
   .quechua_1 {
     position: absolute;
     top: 130%;
-    left: 12%;
+    left: 14%;
     width: 280px;
     height: auto;
   }
@@ -1033,7 +1033,7 @@ animation: fadeInAnimation ease 2s;
   .quechua_2 {
     position: absolute;
     top: 110%;
-    left: 12%;
+    left: 14%;
     width: 280px;
     height: auto;
   }
@@ -1041,7 +1041,7 @@ animation: fadeInAnimation ease 2s;
   .quechua_3 {
     position: absolute;
     top: 145%;
-    left: 12%;
+    left: 14%;
     width: 280px;
     height: auto;
   }
@@ -1049,21 +1049,21 @@ animation: fadeInAnimation ease 2s;
   .button_2 {
     position: absolute;
     top: 175%;
-    left: 45%;
+    left: 25%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
-    top: 160%;
-    left: 20%;
-    font-size: 16px;
+    top: 163%;
+    left: 14%;
+    font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
     font-weight: 200;
     color: rgb(175, 175, 175);
     letter-spacing: 0.15em;
-    line-height: 1.25em;
+    line-height: 1.15em;
     text-align: center;
   }
 
