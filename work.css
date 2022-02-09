@@ -1012,7 +1012,7 @@ animation: fadeInAnimation ease 2s;
     line-height: 1.15em;
     text-align: justify;
     text-justify: inter-word;
-    margin-right: 8%;
+    margin-right: 12%;
   }
   
   .button {
@@ -1049,15 +1049,15 @@ animation: fadeInAnimation ease 2s;
   
   .button_2 {
     position: absolute;
-    top: 175%;
-    left: 25%;
+    top: 177%;
+    left: 33%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
     top: 163%;
-    left: 14%;
+    left: 11%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
