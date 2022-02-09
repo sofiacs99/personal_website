@@ -1009,6 +1009,9 @@ animation: fadeInAnimation ease 2s;
     color: rgb(175, 175, 175);
     letter-spacing: 0.15em;
     line-height: 1.25em;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 6%;
   }
   
   .button {
