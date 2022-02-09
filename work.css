@@ -820,7 +820,6 @@ animation: fadeInAnimation ease 2s;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s linear;
-    margin-top: 100px;
   }
   .column img:hover {
     filter: grayscale(1) brightness(1);
