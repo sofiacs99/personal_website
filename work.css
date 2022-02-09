@@ -665,65 +665,65 @@ animation: fadeInAnimation ease 2s;
   }
 
   .ig {
-    width: auto;
-    height: 30px;
-    position: fixed;
-    left: 86.5%;
-    top: 93.5%;
+    width:auto;
+    height:30px;
+    position: absolute;
+    left: 65%;
+    top: 30%;
     box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
     border-radius: 50%;
     display: block;
     border-color: rgb(139, 139, 139);
-  }
-  
-  .ig:hover {
+}
+
+.ig:hover {
     transition: .3s;
     transform: translate(0%, -20%);
-  }
-  
-  
-  .line4 {
+}
+
+
+.line4 {
     width: 43%;
     position: absolute;
     left: 32%;
     top: 218%;
     opacity: 30%;
-  }
-  
-  
-  .in {
-    width: auto;
-    height: 30px;
-    position: fixed;
-    left: 90%;
-    top: 93.5%;
+}
+
+
+.in {
+    width:auto;
+    height:30px;
+    position:absolute;
+    left: 75%;
+    top: 30%;
     box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
     border-radius: 50%;
     display: block;
     border-color: rgb(139, 139, 139);
-  }
-  
-  .in:hover {
+}
+
+.in:hover {
     transition: .3s;
     transform: translate(0%, -20%);
-  }
-  
-  .be {
+}
+
+.be {
     width: auto;
     height:30px;
-    position: fixed;
-    left: 93.5%;
-    top: 93.5%;
+    position: absolute;
+    left: 85%;
+    top: 30%;
     box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
     border-radius: 50%;
     display: block;
     border-color: rgb(139, 139, 139);
-  }
-  
-  .be:hover {
+}
+
+.be:hover {
     transition: .3s;
     transform: translate(0%, -20%);
-  }
+}
   
   .row {
     display: flex;
