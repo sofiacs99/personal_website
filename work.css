@@ -820,6 +820,7 @@ animation: fadeInAnimation ease 2s;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s linear;
+    margin-top: 100px;
   }
   .column img:hover {
     filter: grayscale(1) brightness(1);
@@ -828,7 +829,6 @@ animation: fadeInAnimation ease 2s;
     .column {
       flex: 50%;
       max-width: 50%;
-      margin-top: 100px;
     }
   }
   
@@ -1003,7 +1003,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata_text {
     position: absolute;
     top: 80%;
-    left: 18%;
+    left: 16%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
@@ -1058,7 +1058,7 @@ animation: fadeInAnimation ease 2s;
   .quechua_text {
     position: absolute;
     top: 163%;
-    left: 11%;
+    left: 8%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
