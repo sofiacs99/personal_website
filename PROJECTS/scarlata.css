@@ -443,49 +443,49 @@ body {
 .s1 {
   position: relative;
   top: 22%;
-  width: 1440px;
+  width: 100%;
   height: auto;
 }
 
 .s2 {
   position: relative;
   top: 82%;
-  width: 1200px;
+  width: 100%;
   height: auto;
 }
 
 .s3 {
   position: relative;
   top: 82%;
-  width: 1200px;
+  width: 100%;
   height: auto;
 }
 
 .s4 {
   position: relative;
   top: 82%;
-  width: 1200px;
+  width: 100%;
   height: auto;
 }
 
 .s5 {
   position: relative;
   top: 77%;
-  width: 1200px;
+  width: 100%;
   height: auto;
 }
 
 .s6 {
   position: relative;
   top: 75%;
-  width: 1200px;
+  width: 100%;
   height: auto;
 }
 
 .s7 {
   position: relative;
   top: 84%;
-  width: 1200px;
+  width: 100%;
   height: auto;
   margin-bottom: 200px;
   padding-bottom: 100px;
