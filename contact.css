@@ -772,3 +772,11 @@ input[type=text], select, textarea {
     .contact_ig_text:hover{
       cursor: pointer;
     }
+
+    .division {
+      width: 35%;
+      position: absolute;
+      top: 8%;
+      left: 60%;
+      opacity: 0%;
+    }
