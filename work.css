@@ -882,7 +882,7 @@ animation: fadeInAnimation ease 2s;
     height: 9%;
     top: 91%;
     position: absolute;
-    opacity: 0;
+    opacity: 0%;
     }
     
     .text {
@@ -891,11 +891,11 @@ animation: fadeInAnimation ease 2s;
     font-weight: 300;
     font-style: normal;
     color: rgb(170, 170, 170);
-    position: absolute;
+    position: relative;
     top: 94.5%;
     left: 7%;
     letter-spacing: 0.07em;
-    opacity: 0;
+    opacity: 0%;
     }
   
   .textbottom {
@@ -906,6 +906,7 @@ animation: fadeInAnimation ease 2s;
   top: 94.5%;
   left: 4%;
   letter-spacing: 0.07em;
+  opacity: 0%;
   }
   
   
@@ -964,8 +965,8 @@ animation: fadeInAnimation ease 2s;
   
   .arrow {
   position: absolute;
-  top: 85%;
-  left: 50%;
+  top: 95%;
+  left: 46%;
   height: 18px;
   width: auto;
   animation: fadeInAnimation ease 2s;
