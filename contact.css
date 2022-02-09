@@ -335,6 +335,9 @@ input[type=text], select, textarea {
     top: 35%;
     left: 23%;
     line-height: 1.15em;
+    margin-right: 10%;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .contact_email {
