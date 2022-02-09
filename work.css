@@ -909,11 +909,11 @@ animation: fadeInAnimation ease 2s;
   
   
   .slideshow-container {
-  max-width: 300px;
+  max-width: 280px;
   max-height: auto;
   position: relative;
   top: 280px;
-  left: 20%;
+  left: 12%;
   }
   
   .numbertext {
