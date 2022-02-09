@@ -862,3 +862,14 @@
     width: 40%;
     height: auto;
 }
+
+.text {
+  font-size: 12px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: rgb(170, 170, 170);
+  position: absolute;
+  top: 94.5%;
+  left: 4%;
+  letter-spacing: 0.07em;
+  opacity: 0;
+}
