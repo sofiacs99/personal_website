@@ -777,7 +777,7 @@ input[type=text], select, textarea {
       top: 51%;
       left: 15%;
       line-height: 1.15em;
-      margin-right: 8%;
+      margin-right: 30%;
     }
   
     .contact_email {
