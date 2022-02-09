@@ -828,6 +828,7 @@ animation: fadeInAnimation ease 2s;
     .column {
       flex: 50%;
       max-width: 50%;
+      margin-top: 100px;
     }
   }
   
@@ -1066,31 +1067,6 @@ animation: fadeInAnimation ease 2s;
     line-height: 1.15em;
     text-align: center;
   }
-
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    margin-top: 70%;
-  }
   
-  .column {
-    flex: 25%;
-    max-width: 33.3%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s linear;
-  }
-  .column img:hover {
-    filter: grayscale(1) brightness(1);
-  }
-
 
 }
