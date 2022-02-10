@@ -1044,5 +1044,8 @@ animation: fadeInAnimation ease 2s;
     text-align: center;
   }
   
+  .container-fluid {
+    margin-top: 200px;
+  }
 
 }
