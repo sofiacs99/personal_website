@@ -474,12 +474,12 @@ animation: fadeInAnimation ease 2s;
   color: rgb(175, 175, 175);
   letter-spacing: 0.15em;
   line-height: 1.25em;
-  margin-right: 20%;
+  margin-right: 18%;
 }
 
 .button {
   position: absolute;
-  top: 62%;
+  top: 64%;
   left: 58%;
   height: 35px;
 }
