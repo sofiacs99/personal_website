@@ -1026,7 +1026,7 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_1 {
     position: absolute;
-    top: 115%;
+    top: 125%;
     left: 14%;
     width: 280px;
     height: auto;
@@ -1042,7 +1042,7 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_3 {
     position: absolute;
-    top: 125%;
+    top: 135%;
     left: 14%;
     width: 280px;
     height: auto;
@@ -1050,14 +1050,14 @@ animation: fadeInAnimation ease 2s;
   
   .button_2 {
     position: absolute;
-    top: 135%;
+    top: 155%;
     left: 33%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
-    top: 130%;
+    top: 145%;
     left: 8%;
     font-size: 15px;
     font-style: normal;
