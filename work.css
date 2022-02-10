@@ -1013,6 +1013,7 @@ animation: fadeInAnimation ease 2s;
     text-align: justify;
     text-justify: inter-word;
     margin-right: 12%;
+    text-align: center;
   }
   
   .button {
@@ -1066,6 +1067,9 @@ animation: fadeInAnimation ease 2s;
     letter-spacing: 0.15em;
     line-height: 1.15em;
     text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 12%;
   }
   
 
