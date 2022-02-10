@@ -804,7 +804,7 @@ animation: fadeInAnimation ease 2s;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin-top: 50%;
+    margin-top: 80%;
   }
   
   .column {
