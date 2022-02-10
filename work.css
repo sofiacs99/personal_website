@@ -291,10 +291,6 @@ body {
     flex: 50%;
     max-width: 50%;
   }
-
-  .column::before{
-    margin: 100px;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -762,8 +758,8 @@ animation: fadeInAnimation ease 2s;
   }
   @media screen and (max-width: 800px) {
     .column {
-      flex: 50%;
-      max-width: 50%;
+      flex: 70%;
+      max-width: 70%;
     }
   }
   
@@ -814,39 +810,7 @@ animation: fadeInAnimation ease 2s;
     padding: 0 4px;
     margin-top: 80%;
   }
-  
-  .column {
-    flex: 25%;
-    max-width: 33.3%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s linear;
-  }
-  .column img:hover {
-    filter: grayscale(1) brightness(1);
-  }
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 60%;
-      max-width: 60%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  
-  }
-  
+
   .division {
     width: 35%;
     position: absolute;
@@ -1034,7 +998,7 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_1 {
     position: absolute;
-    top: 125%;
+    top: 123%;
     left: 14%;
     width: 280px;
     height: auto;
@@ -1050,7 +1014,7 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_3 {
     position: absolute;
-    top: 135%;
+    top: 138%;
     left: 14%;
     width: 280px;
     height: auto;
@@ -1058,14 +1022,14 @@ animation: fadeInAnimation ease 2s;
   
   .button_2 {
     position: absolute;
-    top: 155%;
+    top: 160%;
     left: 33%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
-    top: 145%;
+    top: 148%;
     left: 9%;
     font-size: 15px;
     font-style: normal;
