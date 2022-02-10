@@ -963,8 +963,8 @@ animation: fadeInAnimation ease 2s;
   
   .scarlata_heading {
     position: absolute;
-    top: 72%;
-    left: 26%;
+    top: 71%;
+    left: 25%;
     font-size: 17px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
@@ -992,7 +992,7 @@ animation: fadeInAnimation ease 2s;
   
   .button {
     position: absolute;
-    top: 85%;
+    top: 84%;
     left: 33%;
     height: 35px;
   }
