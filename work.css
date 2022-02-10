@@ -936,7 +936,7 @@ animation: fadeInAnimation ease 2s;
   
   .arrow {
   position: absolute;
-  top: 95%;
+  top: 94%;
   left: 46%;
   height: 18px;
   width: auto;
@@ -957,13 +957,14 @@ animation: fadeInAnimation ease 2s;
     font-weight: 500;
     color: rgb(73, 73, 73);
     letter-spacing: 0.15em;
+    opacity: 0%;
   }
   
   .scarlata_heading {
     position: absolute;
-    top: 76%;
+    top: 74%;
     left: 27%;
-    font-size: 15px;
+    font-size: 16px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -973,7 +974,7 @@ animation: fadeInAnimation ease 2s;
   
   .scarlata_text {
     position: absolute;
-    top: 78%;
+    top: 75%;
     left: 16%;
     font-size: 15px;
     font-style: normal;
@@ -990,7 +991,7 @@ animation: fadeInAnimation ease 2s;
   
   .button {
     position: absolute;
-    top: 88%;
+    top: 86%;
     left: 33%;
     height: 35px;
   }
