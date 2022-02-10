@@ -769,10 +769,10 @@ input[type=text], select, textarea {
     .contact_text {
       font-size: 14px;
       font-family: proxima-nova, sans-serif;
-      font-weight: 100;
+      font-weight: 300;
       font-style: normal;
       letter-spacing: 0.1em;
-      color: rgb(150, 150, 150);
+      color: rgb(116, 116, 116);
       position: absolute;
       top: 48%;
       left: 15%;
@@ -800,7 +800,7 @@ input[type=text], select, textarea {
       letter-spacing: 0.1em;
       color: rgb(150, 150, 150);
       position: absolute;
-      top: 68%;
+      top: 69%;
       left: 15%;
       text-decoration: none!important;
     }
