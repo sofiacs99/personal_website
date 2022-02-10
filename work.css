@@ -741,8 +741,8 @@ animation: fadeInAnimation ease 2s;
   }
   
   .column {
-    flex: 25%;
-    max-width: 33.3%;
+    flex: 30%;
+    max-width: 40%;
     padding: 0 4px;
   }
   
@@ -976,7 +976,7 @@ animation: fadeInAnimation ease 2s;
     font-weight: 200;
     color: rgb(175, 175, 175);
     letter-spacing: 0.15em;
-    line-height: 1.15em;
+    line-height: 1.1em;
     text-align: justify;
     text-justify: inter-word;
     text-align: center;
@@ -1024,7 +1024,7 @@ animation: fadeInAnimation ease 2s;
   .quechua_text {
     position: absolute;
     top: 155%;
-    left: 10%;
+    left: 10.5%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
