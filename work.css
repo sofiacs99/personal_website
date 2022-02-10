@@ -735,7 +735,7 @@ animation: fadeInAnimation ease 2s;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin-top: 600px;
+    margin-top: 550px;
     margin-right: 65px;
     margin-left: 65px;
   }
@@ -969,7 +969,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata_text {
     position: absolute;
     top: 73%;
-    left: 16%;
+    left: 16.5%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
