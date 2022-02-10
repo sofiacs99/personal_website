@@ -964,7 +964,7 @@ animation: fadeInAnimation ease 2s;
   
   .arrow {
   position: absolute;
-  top: 96%;
+  top: 95%;
   left: 46%;
   height: 18px;
   width: auto;
@@ -977,7 +977,7 @@ animation: fadeInAnimation ease 2s;
   
   .scarlata {
     position: absolute;
-    top: 72%;
+    top: 71%;
     left: 30%;
     font-size: 22px;
     font-family: owners-wide, sans-serif;
