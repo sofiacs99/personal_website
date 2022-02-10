@@ -1047,6 +1047,7 @@ animation: fadeInAnimation ease 2s;
   
   .container-fluid {
     margin-top: 320px;
+    top: 50%;
   }
 
 }
