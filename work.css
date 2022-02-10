@@ -465,7 +465,7 @@ animation: fadeInAnimation ease 2s;
 
 .scarlata_text {
   position: absolute;
-  top: 52%;
+  top: 51%;
   left: 58%;
   font-size: 16px;
   font-style: normal;
@@ -474,6 +474,7 @@ animation: fadeInAnimation ease 2s;
   color: rgb(175, 175, 175);
   letter-spacing: 0.15em;
   line-height: 1.25em;
+  margin-left: 20%;
 }
 
 .button {
