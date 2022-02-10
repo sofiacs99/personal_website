@@ -1047,7 +1047,7 @@ animation: fadeInAnimation ease 2s;
   }
   
   .container-fluid::before {
-    margin-top: 30%;
+    margin: 50%;
   }
 
 }
