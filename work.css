@@ -805,13 +805,6 @@ animation: fadeInAnimation ease 2s;
     top: 165.5%;
   }
   
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    margin-top: 80%;
-  }
-
   .division {
     width: 35%;
     position: absolute;
