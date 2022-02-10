@@ -1022,14 +1022,14 @@ animation: fadeInAnimation ease 2s;
   
   .button_2 {
     position: absolute;
-    top: 160%;
+    top: 165%;
     left: 33%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
-    top: 148%;
+    top: 152%;
     left: 9%;
     font-size: 15px;
     font-style: normal;
