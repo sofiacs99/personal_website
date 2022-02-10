@@ -962,9 +962,9 @@ animation: fadeInAnimation ease 2s;
   
   .scarlata_heading {
     position: absolute;
-    top: 74%;
+    top: 72%;
     left: 27%;
-    font-size: 16px;
+    font-size: 17px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -974,7 +974,7 @@ animation: fadeInAnimation ease 2s;
   
   .scarlata_text {
     position: absolute;
-    top: 75%;
+    top: 73%;
     left: 16%;
     font-size: 15px;
     font-style: normal;
@@ -991,7 +991,7 @@ animation: fadeInAnimation ease 2s;
   
   .button {
     position: absolute;
-    top: 86%;
+    top: 85%;
     left: 33%;
     height: 35px;
   }
@@ -1023,14 +1023,14 @@ animation: fadeInAnimation ease 2s;
   
   .button_2 {
     position: absolute;
-    top: 165%;
+    top: 168%;
     left: 33%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
-    top: 152%;
+    top: 154%;
     left: 10%;
     font-size: 15px;
     font-style: normal;
