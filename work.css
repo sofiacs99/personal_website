@@ -287,6 +287,10 @@ body {
     flex: 50%;
     max-width: 50%;
   }
+
+  .column::before{
+    margin: 100px;
+  }
 }
 
 @media screen and (max-width: 600px) {
