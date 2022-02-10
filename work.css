@@ -215,6 +215,10 @@ body {
     flex: 50%;
     max-width: 50%;
   }
+
+  .column::before{
+    margin: 100px;
+  }
 }
 
 
