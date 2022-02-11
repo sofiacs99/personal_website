@@ -513,7 +513,7 @@ body {
   top: 100%;
   width: 100%;
   height: auto;
-  margin-top: 80%;
+  margin-top: 90%;
 }
 
 .s3 {
@@ -581,7 +581,7 @@ body {
   width: 90%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  line-height: 14px;
+  line-height: 15px;
 }
 
 .s_text2 {
@@ -596,7 +596,7 @@ body {
   letter-spacing: 0.1em;
   text-align:justify;
   width: 50%;
-  line-height: 13px;
+  line-height: 14px;
 }
 
 .s_text3 {
@@ -606,8 +606,8 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 96%;
-  left: 65%;
+  top: 97%;
+  left: 66%;
   letter-spacing: 0.1em;
   text-align: right; 
   line-height: 8px;
