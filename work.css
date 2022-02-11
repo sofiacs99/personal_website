@@ -735,7 +735,7 @@ animation: fadeInAnimation ease 2s;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin-top: 550px;
+    margin-top: 570px;
     margin-right: 65px;
     margin-left: 65px;
   }
@@ -969,12 +969,12 @@ animation: fadeInAnimation ease 2s;
   .scarlata_text {
     position: absolute;
     top: 73%;
-    left: 16.5%;
+    left: 16.8%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
-    font-weight: 200;
-    color: rgb(175, 175, 175);
+    font-weight: 300;
+    color: rgb(155, 155, 155);
     letter-spacing: 0.15em;
     line-height: 1.1em;
     text-align: justify;
@@ -1024,7 +1024,7 @@ animation: fadeInAnimation ease 2s;
   .quechua_text {
     position: absolute;
     top: 155%;
-    left: 10.5%;
+    left: 10.8%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
