@@ -556,7 +556,7 @@ body {
 .s_title {
   font-size: 22px;
   font-family: quiet-sans, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
@@ -578,10 +578,10 @@ body {
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
-  width: 80%;
+  width: 90%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  line-height: 5px;
+  line-height: 8px;
 }
 
 .s_text2 {
@@ -595,7 +595,8 @@ body {
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
-  width: 80%;
+  width: 90%;
+  line-height: 8px;
 }
 
 .s_text3 {
@@ -609,6 +610,7 @@ body {
   left: 5%;
   letter-spacing: 0.1em;
   text-align: right; 
+  line-height: 10px;
 }
 
 .blackbox {
