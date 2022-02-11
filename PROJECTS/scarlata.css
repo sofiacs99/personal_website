@@ -554,7 +554,7 @@ body {
 }
 
 .s_title {
-  font-size: 25px;
+  font-size: 18px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -568,7 +568,7 @@ body {
 }
 
 .s_text {
-  font-size: 16px;
+  font-size: 12px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -581,10 +581,11 @@ body {
   width: 80%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  line-height: 0.1em;
 }
 
 .s_text2 {
-  font-size: 15px;
+  font-size: 10px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -602,8 +603,8 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 80%;
-  left: 86%;
+  top: 90%;
+  left: 5%;
   letter-spacing: 0.1em;
   text-align: right; 
 }
