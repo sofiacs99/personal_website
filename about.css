@@ -358,7 +358,6 @@
     left: 43.5%;
     text-decoration: none !important;
     text-align: justify;
-    text-align: center;
     text-justify: inter-word;
     margin-left: 5.7%;
     margin-right: 23%;
@@ -795,6 +794,7 @@
       left: 1%;
       text-decoration: none !important;
       text-align: justify;
+      text-align: center;
       text-justify: inter-word;
       margin-left: 6%;
       margin-right: 6%;
