@@ -395,7 +395,7 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: 0.15em;
+  letter-spacing: -0.15em;
 }
 
 .work:hover {
@@ -445,7 +445,7 @@ body {
   top: 40%;
   width: 100%;
   height: auto;
-  margin-top: 50%;
+  margin-top: 70%;
 }
 
 .s2 {
@@ -453,6 +453,7 @@ body {
   top: 100%;
   width: 100%;
   height: auto;
+  margin-top: 40%;
 }
 
 .s3 {
