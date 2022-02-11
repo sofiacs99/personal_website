@@ -968,13 +968,13 @@ animation: fadeInAnimation ease 2s;
   
   .scarlata_text {
     position: absolute;
-    top: 73%;
+    top: 73.5%;
     left: 16.8%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
     font-weight: 300;
-    color: rgb(180, 180, 180);
+    color: rgb(194, 194, 194);
     letter-spacing: 0.15em;
     line-height: 1.1em;
     text-align: justify;
