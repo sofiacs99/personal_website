@@ -332,6 +332,7 @@ body {
   background: rgb(255, 255, 255);
   height: 100%;
   overflow-y: hidden;
+  max-width: 2000px;
 }
 
 .logo {
