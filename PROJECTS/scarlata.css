@@ -581,7 +581,7 @@ body {
   width: 90%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  line-height: 11px;
+  line-height: 13px;
 }
 
 .s_text2 {
@@ -591,7 +591,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 90%;
+  top: 98%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -606,8 +606,8 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 90%;
-  left: 90%;
+  top: 98%;
+  left: 80%;
   letter-spacing: 0.1em;
   text-align: right; 
   line-height: 9px;
