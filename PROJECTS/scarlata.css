@@ -395,7 +395,7 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: -0.15em;
+  letter-spacing: 0.15em;
 }
 
 .work:hover {
@@ -439,6 +439,7 @@ body {
 .contact:hover {
   color: rgb(206, 206, 206);
 }
+
 
 .s1 {
   position: relative;
@@ -540,4 +541,25 @@ body {
   text-align: right;
 }
 
+.blackbox {
+  width: 285px;
+  background-color: black;
+  width: 100%;
+  height: 9%;
+  top: 91%;
+  position: fixed;
+  display: block;
+  }
+
+.text {
+ font-size: 12px;
+ font-family: 'Quiet Sans ExtraLight';
+ color: rgb(170, 170, 170);
+ position: fixed;
+ top: 95%;
+ left: 4%;
+ letter-spacing: 0.07em;
+ display: block;
+ }
+ 
 }
