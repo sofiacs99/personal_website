@@ -549,6 +549,7 @@ body {
   top: 91%;
   position: fixed;
   display: block;
+  opacity: 0%;
   }
 
 .text {
@@ -560,6 +561,7 @@ body {
  left: 4%;
  letter-spacing: 0.07em;
  display: block;
+ opacity: 0%;
  }
 
 }
