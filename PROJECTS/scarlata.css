@@ -568,7 +568,7 @@ body {
 }
 
 .s_text {
-  font-size: 13px;
+  font-size: 14px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -581,22 +581,22 @@ body {
   width: 90%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  line-height: 8px;
+  line-height: 11px;
 }
 
 .s_text2 {
-  font-size: 12px;
+  font-size: 13px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 83%;
+  top: 90%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
-  width: 90%;
-  line-height: 8px;
+  width: 60%;
+  line-height: 11px;
 }
 
 .s_text3 {
@@ -607,10 +607,10 @@ body {
   color: rgb(0, 0, 0);
   position: absolute;
   top: 90%;
-  left: 5%;
+  left: 90%;
   letter-spacing: 0.1em;
   text-align: right; 
-  line-height: 10px;
+  line-height: 9px;
 }
 
 .blackbox {
