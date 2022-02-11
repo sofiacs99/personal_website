@@ -513,7 +513,7 @@ body {
   top: 100%;
   width: 100%;
   height: auto;
-  margin-top: 75%;
+  margin-top: 80%;
 }
 
 .s3 {
@@ -581,7 +581,7 @@ body {
   width: 90%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  line-height: 13px;
+  line-height: 14px;
 }
 
 .s_text2 {
@@ -595,8 +595,8 @@ body {
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
-  width: 60%;
-  line-height: 11px;
+  width: 50%;
+  line-height: 13px;
 }
 
 .s_text3 {
@@ -606,11 +606,11 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 98%;
-  left: 80%;
+  top: 96%;
+  left: 65%;
   letter-spacing: 0.1em;
   text-align: right; 
-  line-height: 9px;
+  line-height: 8px;
 }
 
 .blackbox {
