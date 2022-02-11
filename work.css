@@ -1017,14 +1017,14 @@ animation: fadeInAnimation ease 2s;
   .button_2 {
     position: absolute;
     top: 170%;
-    left: 33%;
+    left: 32.5%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
     top: 155%;
-    left: 10.8%;
+    left: 11%;
     font-size: 15px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
