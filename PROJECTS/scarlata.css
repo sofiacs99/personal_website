@@ -556,11 +556,11 @@ body {
 .s_title {
   font-size: 22px;
   font-family: quiet-sans, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 68%;
+  top: 67%;
   left: 5%;
   letter-spacing: 0.1em;
   -webkit-transition: color 0.5s;
@@ -574,13 +574,14 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 71%;
+  top: 72%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
   width: 80%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  line-height: 5px;
 }
 
 .s_text2 {
@@ -590,7 +591,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 76%;
+  top: 83%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
