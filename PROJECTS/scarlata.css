@@ -395,7 +395,7 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: 0.1em;
+  letter-spacing: -0.1em;
 }
 
 .work:hover {
@@ -414,7 +414,7 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: 0.05em;
+  letter-spacing: -0.05em;
 }
 
 .about:hover {
