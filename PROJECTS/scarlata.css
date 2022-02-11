@@ -602,11 +602,11 @@ body {
 .s_text3 {
   font-size: 11px;
   font-family: quiet-sans, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 101%;
+  top: 100%;
   left: 66%;
   letter-spacing: 0.1em;
   text-align: right; 
