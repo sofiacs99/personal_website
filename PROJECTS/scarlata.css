@@ -395,7 +395,7 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: -0.1em;
+  letter-spacing: -0.05em;
 }
 
 .work:hover {
@@ -433,11 +433,62 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: 0.15em;
+  letter-spacing: -0.05em;
 }
 
 .contact:hover {
   color: rgb(206, 206, 206);
+}
+
+.ig {
+  width:auto;
+  height:30px;
+  position: absolute;
+  left: 65%;
+  top: 30%;
+  box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  display: block;
+  border-color: rgb(139, 139, 139);
+}
+
+.ig:hover {
+  transition: .3s;
+  transform: translate(0%, -20%);
+}
+
+.in {
+  width:auto;
+  height:30px;
+  position:absolute;
+  left: 75%;
+  top: 30%;
+  box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  display: block;
+  border-color: rgb(139, 139, 139);
+}
+
+.in:hover {
+  transition: .3s;
+  transform: translate(0%, -20%);
+}
+
+.be {
+  width: auto;
+  height:30px;
+  position: absolute;
+  left: 85%;
+  top: 30%;
+  box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  display: block;
+  border-color: rgb(139, 139, 139);
+}
+
+.be:hover {
+  transition: .3s;
+  transform: translate(0%, -20%);
 }
 
 
