@@ -554,7 +554,7 @@ body {
 }
 
 .s_title {
-  font-size: 35px;
+  font-size: 25px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -568,7 +568,7 @@ body {
 }
 
 .s_text {
-  font-size: 18px;
+  font-size: 16px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -578,7 +578,7 @@ body {
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
-  width: 45%;
+  width: 80%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }
@@ -596,7 +596,7 @@ body {
 }
 
 .s_text3 {
-  font-size: 13px;
+  font-size: 11px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
