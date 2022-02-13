@@ -288,7 +288,6 @@ body {
   top: 91%;
   position: fixed;
   display: block;
-  opacity: 0%;
   }
 
 .text {
@@ -300,15 +299,13 @@ body {
  left: 4%;
  letter-spacing: 0.07em;
  display: block;
- opacity: 0%;
  }
 
  .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 8px;
   margin-top: 570px;
-  margin-right: 65px;
   margin-left: 65px;
 }
 
