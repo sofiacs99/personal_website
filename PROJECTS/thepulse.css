@@ -199,6 +199,7 @@ body {
 .tp3 {
     position: relative;
     top: 110%;
+    left: 40%;
     width: 800px;
     height: auto;
     align-items: center;
