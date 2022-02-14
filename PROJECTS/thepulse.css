@@ -549,11 +549,12 @@ body {
     width: 100%;
     height: auto;
     margin-top: 80%;
+    margin-bottom: 20px;
   }
 
   .tp3 {
     position: relative;
-    top: 135%;
+    top: 145%;
     left: 12%;
     width: 300px;
     height: auto;
