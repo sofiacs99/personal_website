@@ -553,11 +553,11 @@ body {
 
   .tp3 {
     position: relative;
-    top: 115%;
-    left: 25%;
+    top: 125%;
+    left: 10%;
     width: 300px;
     height: auto;
-    align-items: center;
+    vertical-align: middle;
 }
   
   
