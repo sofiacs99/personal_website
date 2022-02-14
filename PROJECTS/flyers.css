@@ -610,12 +610,6 @@ body {
         margin-bottom: 150px;
       }
       
-      .column {
-        flex: 30%;
-        max-width: 40%;
-        padding: 0 6px;
-      }
-      
       .column img {
         margin-top: 8px;
         vertical-align: middle;
