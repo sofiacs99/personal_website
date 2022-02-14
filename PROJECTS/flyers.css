@@ -196,44 +196,6 @@ body {
     height: auto;
 }
 
-.f3 {
-    position: relative;
-    top: 100%;
-    left: 25%;
-    width: 800px;
-    height: auto;
-    align-items: center;
-}
-
-.f4 {
-    position: relative;
-    top: 90%;
-    width: 600px;
-    height: auto;
-}
-
-.f5 {
-    position: relative;
-    top: 85%;
-    width: 600px;
-    height: auto;
-}
-
-.f6 {
-    position: relative;
-    top: 83%;
-    width: 600px;
-    height: auto;
-}
-
-.f7 {
-    position: relative;
-    top: 94%;
-    width: 600px;
-    height: auto;
-    align-content: center;
-}
-
 .f_title {
     font-size: 35px;
     font-family: 'Quiet Sans ExtraLight';
@@ -340,3 +302,285 @@ body {
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 1200px) {
+
+    *{
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      background: rgb(255, 255, 255);
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    .logo {
+      width: auto;
+      height: 80px;
+      position: absolute;
+      left: 4%;
+      top: 5%;
+    }
+    
+    .logo {
+      animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -moz-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+      -ms-animation: fadeIn 3s;
+    }
+    @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+    
+    
+    .home {
+      font-size: 20px;
+      font-family: 'Quiet Sans ExtraLight';
+      text-decoration: none !important;
+      color: rgb(0, 0, 0);
+      position: fixed;
+      top: 5.1%;
+      left: 65%;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+    }
+    
+    .home:hover {
+      color: rgb(206, 206, 206);
+    }
+    
+    .work {
+      font-size: 17px;
+      font-family: owners-xwide, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-decoration: none !important;
+      color: rgb(48, 48, 48);
+      position: absolute;
+      top: 24%;
+      left: 4%;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+      letter-spacing: -0.05em;
+    }
+    
+    .work:hover {
+      color: rgb(206, 206, 206);
+    }
+    
+    .about {
+      font-size: 17px;
+      font-family: owners-xwide, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-decoration: none !important;
+      color: rgb(49, 49, 49);
+      position: absolute;
+      top: 28%;
+      left: 4%;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+      letter-spacing: -0.05em;
+    }
+    
+    .about:hover {
+      color: rgb(206, 206, 206);
+    }
+    
+    .contact {
+      font-size: 17px;
+      font-family: owners-xwide, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      color: rgb(49, 49, 49);
+      text-decoration: none !important;
+      position: absolute;
+      top: 32%;
+      left: 4%;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+      letter-spacing: -0.05em;
+    }
+    
+    .contact:hover {
+      color: rgb(206, 206, 206);
+    }
+    
+    .ig {
+      width:auto;
+      height:30px;
+      position: absolute;
+      left: 65%;
+      top: 30%;
+      box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+      border-radius: 50%;
+      display: block;
+      border-color: rgb(139, 139, 139);
+    }
+    
+    .ig:hover {
+      transition: .3s;
+      transform: translate(0%, -20%);
+    }
+    
+    .in {
+      width:auto;
+      height:30px;
+      position:absolute;
+      left: 75%;
+      top: 30%;
+      box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+      border-radius: 50%;
+      display: block;
+      border-color: rgb(139, 139, 139);
+    }
+    
+    .in:hover {
+      transition: .3s;
+      transform: translate(0%, -20%);
+    }
+    
+    .be {
+      width: auto;
+      height:30px;
+      position: absolute;
+      left: 85%;
+      top: 30%;
+      box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+      border-radius: 50%;
+      display: block;
+      border-color: rgb(139, 139, 139);
+    }
+    
+    .be:hover {
+      transition: .3s;
+      transform: translate(0%, -20%);
+    }
+    
+    
+    .f1 {
+      position: relative;
+      top: 40%;
+      width: 100%;
+      height: auto;
+      margin-top: 70%;
+    }
+    
+    .f2 {
+      position: relative;
+      top: 100%;
+      width: 100%;
+      height: auto;
+      margin-top: 80%;
+    }
+    
+    
+    .f_title {
+      font-size: 22px;
+      font-family: quiet-sans, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 67%;
+      left: 5%;
+      letter-spacing: 0.1em;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+      opacity: 0%;
+    }
+    
+    .f_text {
+      font-size: 14px;
+      font-family: quiet-sans, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 67%;
+      left: 5%;
+      letter-spacing: 0.1em;
+      text-align:justify;
+      width: 90%;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+      line-height: 15px;
+    }
+    
+    .f_text2 {
+      font-size: 13px;
+      font-family: quiet-sans, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 96%;
+      left: 5%;
+      letter-spacing: 0.1em;
+      text-align:justify;
+      width: 50%;
+      line-height: 14px;
+    }
+    
+    .f_text3 {
+      font-size: 11px;
+      font-family: quiet-sans, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 95%;
+      left: 66.5%;
+      letter-spacing: 0.1em;
+      text-align: right; 
+      line-height: 8px;
+    }
+    
+    .blackbox {
+      width: 285px;
+      background-color: black;
+      width: 100%;
+      height: 9%;
+      top: 91%;
+      position: fixed;
+      display: block;
+      opacity: 0%;
+      }
+    
+    .text {
+     font-size: 12px;
+     font-family: 'Quiet Sans ExtraLight';
+     color: rgb(170, 170, 170);
+     position: fixed;
+     top: 95%;
+     left: 4%;
+     letter-spacing: 0.07em;
+     display: block;
+     opacity: 0%;
+     }
+    
+    }
