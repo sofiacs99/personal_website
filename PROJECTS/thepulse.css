@@ -324,19 +324,15 @@ body {
   vertical-align: middle;
   width: 100%;
   border-radius: 5px;
-  cursor: pointer;
   transition: 0.3s linear;
 }
-.column img:hover {
-  filter: grayscale(1) brightness(1);
-}
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 80%;
     max-width: 80%;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   .column {
