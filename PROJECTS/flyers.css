@@ -269,7 +269,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0 8px;
-  margin-top: 850px;
+  margin-top: 1050px;
   margin-left: 55px;
   margin-right: 55px;
   margin-bottom: 150px;
@@ -597,8 +597,6 @@ body {
      display: block;
      opacity: 0%;
      }
-    
-    }
 
     .row {
         display: flex;
@@ -617,3 +615,7 @@ body {
         border-radius: 5px;
         transition: 0.3s linear;
       }
+
+    }
+
+    
