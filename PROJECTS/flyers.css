@@ -508,7 +508,7 @@ body {
     
     .f2 {
       position: relative;
-      top: 100%;
+      top: 105%;
       width: 100%;
       height: auto;
       margin-top: 80%;
@@ -527,7 +527,6 @@ body {
       letter-spacing: 0.1em;
       -webkit-transition: color 0.5s;
       transition: color 0.5s;
-      opacity: 0%;
     }
     
     .f_text {
@@ -537,7 +536,7 @@ body {
       font-style: normal;
       color: rgb(0, 0, 0);
       position: absolute;
-      top: 67%;
+      top: 71%;
       left: 5%;
       letter-spacing: 0.1em;
       text-align:justify;
@@ -554,7 +553,7 @@ body {
       font-style: normal;
       color: rgb(0, 0, 0);
       position: absolute;
-      top: 96%;
+      top: 101%;
       left: 5%;
       letter-spacing: 0.1em;
       text-align:justify;
@@ -569,7 +568,7 @@ body {
       font-style: normal;
       color: rgb(0, 0, 0);
       position: absolute;
-      top: 95%;
+      top: 100%;
       left: 66.5%;
       letter-spacing: 0.1em;
       text-align: right; 
@@ -600,3 +599,27 @@ body {
      }
     
     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 8px;
+        margin-top: 200px;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-bottom: 150px;
+      }
+      
+      .column {
+        flex: 30%;
+        max-width: 40%;
+        padding: 0 6px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        border-radius: 5px;
+        transition: 0.3s linear;
+      }
