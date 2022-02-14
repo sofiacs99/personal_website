@@ -239,7 +239,7 @@ body {
     font-family: 'Quiet Sans ExtraLight';
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 111%;
+    top: 106%;
     left: 5%;
     letter-spacing: 0.1em;
     -webkit-transition: color 0.5s;
@@ -251,7 +251,7 @@ body {
     font-family: 'Quiet Sans ExtraLight';
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 117%;
+    top: 112%;
     left: 5%;
     letter-spacing: 0.1em;
     text-align:justify;
@@ -265,7 +265,7 @@ body {
     font-family: 'Quiet Sans ExtraLight';
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 142%;
+    top: 137%;
     left: 5%;
     letter-spacing: 0.1em;
 }
@@ -275,7 +275,7 @@ body {
     font-family: 'Quiet Sans ExtraLight';
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 123%;
+    top: 118%;
     left: 86%;
     letter-spacing: 0.1em;
     text-align: right;
