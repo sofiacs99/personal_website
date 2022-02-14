@@ -308,15 +308,15 @@ body {
   flex-wrap: wrap;
   padding: 0 8px;
   margin-top: 850px;
-  margin-left: 65px;
-  margin-right: 65px;
+  margin-left: 55px;
+  margin-right: 55px;
   margin-bottom: 150px;
 }
 
 .column {
   flex: 30%;
   max-width: 40%;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .column img {
