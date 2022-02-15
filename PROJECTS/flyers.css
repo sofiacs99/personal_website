@@ -192,7 +192,7 @@ body {
 .f2 {
     position: relative;
     top: 86%;
-    width: 1440px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
@@ -201,7 +201,7 @@ body {
     font-size: 35px;
     font-family: 'Quiet Sans ExtraLight';
     color: rgb(0, 0, 0);
-    position: absolute;
+    position: relative;
     top: 106%;
     left: 5%;
     letter-spacing: 0.1em;
