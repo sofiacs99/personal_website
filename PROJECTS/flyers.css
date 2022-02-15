@@ -185,7 +185,7 @@ body {
 .f1 {
     position: relative;
     top: 23%;
-    width: 1442px;
+    width: max-content;
     height: auto;
 }
 
