@@ -248,18 +248,18 @@ body {
 
 .ip7 {
   position: relative;
-  top: 84%;
+  top: 80%;
   width: 1440px;
   height: auto;
 }
 
 .ip8 {
   position: relative;
-  top: 88%;
+  top: 85%;
   width: 1440px;
   height: auto;
   margin-bottom: 200px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .ip_title {
