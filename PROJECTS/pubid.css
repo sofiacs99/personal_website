@@ -556,8 +556,15 @@ position: relative;
 top: 100%;
 width: 100%;
 height: auto;
-margin-bottom: 10px;
 }
+
+.ip8 {
+  position: relative;
+  top: 100%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  }
 
 .ip_title {
 font-size: 22px;
