@@ -185,14 +185,14 @@ body {
 .mm1 {
   position: relative;
   top: 23%;
-  width: 1442px;
+  width: 100%;
   height: auto;
 }
 
 .mm2 {
   position: relative;
   top: 90%;
-  width: 1440px;
+  width: 100%;
   height: auto;
 }
 
@@ -200,7 +200,7 @@ body {
   position: relative;
   top: 100%;
   left: 25%;
-  width: 800px;
+  width: 500px;
   height: auto;
   align-items: center;
 }
