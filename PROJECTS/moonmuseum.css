@@ -545,7 +545,7 @@ body {
 
 .mm2 {
   position: relative;
-  top: 105%;
+  top: 108%;
   width: 100%;
   height: auto;
   margin-top: 80%;
@@ -554,7 +554,7 @@ body {
 
 .mm3 {
   position: relative;
-  top: 145%;
+  top: 152%;
   left: 12%;
   width: 300px;
   height: auto;
@@ -652,6 +652,7 @@ body {
     margin-left: 55px;
     margin-right: 55px;
     margin-bottom: 250px;
+    padding-bottom: 50px;
   }
   
   .column img {
