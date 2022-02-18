@@ -199,10 +199,10 @@ body {
 .mm3 {
   position: relative;
   top: 100%;
-  left: 25%;
+  left: 35%;
   width: 500px;
   height: auto;
-  align-items: center;
+  margin-bottom: 50px;
 }
 
 .mm4 {
