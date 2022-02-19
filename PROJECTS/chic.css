@@ -213,53 +213,52 @@ body {
 
 .c2 {
   position: relative;
-  top: 85%;
+  top: 88%;
   width: 100%;
   height: auto;
 }
 
 .c3 {
   position: relative;
-  top: 85%;
+  top: 88%;
   width: 100%;
   height: auto;
 }
 
 .c4 {
   position: relative;
-  top: 85%;
+  top: 88%;
   width: 100%;
   height: auto;
 }
 
 .c5 {
   position: relative;
-  top: 80%;
+  top: 83%;
   width: 100%;
   height: auto;
 }
 
 .c6 {
   position: relative;
-  top: 80%;
+  top: 83%;
   width: 100%;
   height: auto;
 }
 
 .c7 {
   position: relative;
-  top: 75%;
+  top: 78%;
   width: 100%;
   height: auto;
 }
 
 .c8 {
   position: relative;
-  top: 74%;
+  top: 77%;
   width: 100%;
   height: auto;
-  margin-bottom: 200px;
-  padding-bottom: 120px;
+  padding-bottom: 20%;
 }
 
 .c_title {
@@ -299,7 +298,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 140%;
+  top: 143%;
   left: 5%;
   letter-spacing: 0.1em;
 }
