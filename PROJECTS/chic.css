@@ -213,53 +213,53 @@ body {
 
 .c2 {
   position: relative;
-  top: 82%;
+  top: 85%;
   width: 100%;
   height: auto;
 }
 
 .c3 {
   position: relative;
-  top: 82%;
+  top: 85%;
   width: 100%;
   height: auto;
 }
 
 .c4 {
   position: relative;
-  top: 82%;
+  top: 85%;
   width: 100%;
   height: auto;
 }
 
 .c5 {
   position: relative;
-  top: 77%;
+  top: 80%;
   width: 100%;
   height: auto;
 }
 
 .c6 {
   position: relative;
-  top: 77%;
+  top: 80%;
   width: 100%;
   height: auto;
 }
 
 .c7 {
   position: relative;
-  top: 72%;
+  top: 75%;
   width: 100%;
   height: auto;
 }
 
 .c8 {
   position: relative;
-  top: 71%;
+  top: 74%;
   width: 100%;
   height: auto;
   margin-bottom: 200px;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 .c_title {
@@ -269,7 +269,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 103%;
+  top: 100%;
   left: 5%;
   letter-spacing: 0.1em;
   -webkit-transition: color 0.5s;
@@ -283,7 +283,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 109%;
+  top: 106%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -299,7 +299,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 138%;
+  top: 140%;
   left: 5%;
   letter-spacing: 0.1em;
 }
@@ -311,7 +311,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 115%;
+  top: 112%;
   left: 86%;
   letter-spacing: 0.1em;
   text-align: right;
