@@ -193,6 +193,14 @@ body {
   display: block;
   }
 
+  .division {
+    width: 35%;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    opacity: 20%;
+  }
+
 .text {
  font-size: 12px;
  font-family: 'Quiet Sans ExtraLight';
