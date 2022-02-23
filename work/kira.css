@@ -147,6 +147,14 @@ body {
     top: 218%;
     opacity: 30%;
   }
+
+  .division {
+    width: 35%;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    opacity: 20%;
+  }
   
   
   .in {
@@ -677,5 +685,13 @@ body {
  display: block;
  opacity: 0%;
  }
+
+ .division {
+    width: 35%;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    opacity: 0%;
+  }
 
 }
