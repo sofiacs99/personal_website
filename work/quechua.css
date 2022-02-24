@@ -300,7 +300,14 @@ body {
     left: 86%;
     letter-spacing: 0.1em;
     text-align: right;
-    
+}
+
+.division {
+  width: 35%;
+  position: absolute;
+  top: 8%;
+  left: 60%;
+  opacity: 20%;
 }
 
 
@@ -626,5 +633,13 @@ body {
    display: block;
    opacity: 0%;
    }
-  
+
+   .division {
+    width: 35%;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    opacity: 0%;
+  }
+
   }
