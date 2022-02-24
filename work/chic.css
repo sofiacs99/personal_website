@@ -204,6 +204,14 @@ body {
  display: block;
  }
 
+ .division {
+  width: 35%;
+  position: absolute;
+  top: 8%;
+  left: 60%;
+  opacity: 20%;
+}
+
 .c1 {
   position: relative;
   top: 22%;
@@ -635,6 +643,14 @@ left: 4%;
 letter-spacing: 0.07em;
 display: block;
 opacity: 0%;
+}
+
+.division {
+  width: 35%;
+  position: absolute;
+  top: 8%;
+  left: 60%;
+  opacity: 0%;
 }
 
 }
