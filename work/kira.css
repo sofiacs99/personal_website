@@ -96,7 +96,7 @@ body {
     left: 76%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.2em;
   }
   
   .about:hover {
@@ -115,7 +115,7 @@ body {
     left: 86%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
   }
   
   .contact:hover {
