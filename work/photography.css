@@ -190,29 +190,6 @@ body {
   opacity: 20%;
 }
 
-.name {
-position: fixed;
-writing-mode: vertical-rl;
-font-family: 'proxima nova';
-color: rgb(212, 212, 212);
-top: 43%;
-left: 95%;
-letter-spacing: 0.1em;
-font-size: 12px;
-}
-
-.port {
-position: fixed;
-writing-mode: vertical-rl;
-transform: rotate(180deg);
-font-family: 'proxima nova';
-color: rgb(212, 212, 212);
-top: 49%;
-left: 4%;
-letter-spacing: 0.1em;
-font-size: 12px;
-}
-
 .blackbox {
 width: 300px;
 background-color: black;
