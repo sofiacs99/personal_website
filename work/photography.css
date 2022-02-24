@@ -234,6 +234,7 @@ letter-spacing: 0.07em;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  padding-bottom: 20px;
 }
 
 .column img {
