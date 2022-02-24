@@ -284,3 +284,9 @@ letter-spacing: 0.07em;
   }
 }
 
+.s1 {
+  position: relative;
+  top: 22%;
+  width: 1440px;
+  height: auto;
+}
