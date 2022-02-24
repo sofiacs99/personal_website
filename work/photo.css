@@ -248,6 +248,7 @@ letter-spacing: 0.07em;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  padding-bottom: 20px;
 }
 
 /* Create four equal columns that sits next to each other */
