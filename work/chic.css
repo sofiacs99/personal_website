@@ -251,14 +251,8 @@ body {
   top: 78%;
   width: 100%;
   height: auto;
-}
-
-.c8 {
-  position: relative;
-  top: 77%;
-  width: 100%;
-  height: auto;
   padding-bottom: 20%;
+  margin-bottom: 20%;
 }
 
 .c_title {
@@ -555,16 +549,9 @@ position: relative;
 top: 110%;
 width: 100%;
 height: auto;
+margin-bottom: 30px;
+padding-bottom: 20px;
 }
-
-.c8 {
-  position: relative;
-  top: 110%;
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  }
 
 .c_title {
 font-size: 22px;
