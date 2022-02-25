@@ -364,7 +364,7 @@ transition: 0.3s linear;
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 500px) {
 
 *{
   box-sizing: border-box;

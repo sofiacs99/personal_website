@@ -456,7 +456,7 @@ input[type=text], select, textarea {
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 500px) {
 
   *{
     box-sizing: border-box;
