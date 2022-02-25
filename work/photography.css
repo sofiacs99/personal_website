@@ -220,17 +220,16 @@ letter-spacing: 0.07em;
   }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   padding: 0 4px;
   padding-bottom: 20px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
@@ -238,14 +237,13 @@ letter-spacing: 0.07em;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 2px;
   vertical-align: middle;
   width: 100%;
-  top: 5.5%;
+  top: 2%;
   position: relative;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -254,7 +252,6 @@ letter-spacing: 0.07em;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -491,7 +488,7 @@ letter-spacing: 0.07em;
    display: block;
    opacity: 0%;
    }
-   
+
    .division {
     width: 35%;
     position: absolute;
@@ -499,5 +496,16 @@ letter-spacing: 0.07em;
     left: 60%;
     opacity: 0%;
   }
+
+  .text {
+    color: transparent;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    opacity: 0%;
+    }
   
   }
