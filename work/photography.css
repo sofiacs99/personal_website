@@ -361,7 +361,7 @@ letter-spacing: 0.07em;
     left: 4%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.15em;
   }
   
   .work:hover {
@@ -380,7 +380,7 @@ letter-spacing: 0.07em;
     left: 4%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.15em;
   }
   
   .about:hover {
@@ -399,12 +399,13 @@ letter-spacing: 0.07em;
     left: 4%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.15em;
   }
   
   .contact:hover {
     color: rgb(206, 206, 206);
   }
+
   
   .ig {
     width: auto;
@@ -480,7 +481,7 @@ letter-spacing: 0.07em;
   .text {
    font-size: 12px;
    font-family: 'Quiet Sans ExtraLight';
-   color: rgb(170, 170, 170);
+   color: transparent;
    position: fixed;
    top: 95%;
    left: 4%;

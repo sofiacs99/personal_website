@@ -432,7 +432,7 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.15em;
 }
 
 .work:hover {
@@ -451,7 +451,7 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.15em;
 }
 
 .about:hover {
@@ -470,12 +470,13 @@ body {
   left: 4%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.15em;
 }
 
 .contact:hover {
   color: rgb(206, 206, 206);
 }
+
 
 .ig {
   width:auto;
@@ -609,7 +610,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 67%;
+  top: 65%;
   left: 5%;
   letter-spacing: 0.1em;
   -webkit-transition: color 0.5s;
@@ -624,7 +625,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 67%;
+  top: 65%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -641,7 +642,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 96%;
+  top: 94%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -656,7 +657,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 95%;
+  top: 93%;
   left: 56%;
   letter-spacing: 0.1em;
   text-align: right; 
