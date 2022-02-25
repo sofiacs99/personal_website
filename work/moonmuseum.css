@@ -553,7 +553,7 @@ body {
 
 .mm2 {
   position: relative;
-  top: 112%;
+  top: 114%;
   width: 100%;
   height: auto;
   margin-top: 80%;
@@ -576,7 +576,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 67%;
+  top: 66%;
   left: 5%;
   letter-spacing: 0.1em;
   -webkit-transition: color 0.5s;
@@ -590,7 +590,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 71%;
+  top: 70%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -607,7 +607,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 99%;
+  top: 98%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -622,7 +622,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 98%;
+  top: 97%;
   left: 67%;
   letter-spacing: 0.1em;
   text-align: right; 
@@ -656,7 +656,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 10px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 55px;
     margin-right: 55px;
     margin-bottom: 250px;

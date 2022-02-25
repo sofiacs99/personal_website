@@ -252,21 +252,7 @@
     top: 71%;
     width: 100%;
     height: auto;
-  }
-  
-  .p7 {
-    position: relative;
-    top: 68%;
-    width: 100%;
-    height: auto;
-  }
-  
-  .p8 {
-    position: relative;
-    top: 67%;
-    width: 100%;
-    height: auto;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
   }
   
   .p_title {
@@ -532,7 +518,7 @@
   
   .p3 {
   position: relative;
-  top: 100%;
+  top: 103%;
   width: 100%;
   height: auto;
   }
@@ -553,25 +539,11 @@
   
   .p6 {
   position: relative;
-  top: 100%;
+  top: 102%;
   width: 100%;
   height: auto;
+  margin-bottom: 10%;
   }
-  
-  .p7 {
-  position: relative;
-  top: 100%;
-  width: 100%;
-  height: auto;
-  }
-  
-  .p8 {
-    position: relative;
-    top: 100%;
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    }
   
   .p_title {
   font-size: 22px;
@@ -612,7 +584,7 @@
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 96%;
+  top: 97%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -627,7 +599,7 @@
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 95%;
+  top: 96%;
   left: 67%;
   letter-spacing: 0.1em;
   text-align: right; 

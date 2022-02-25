@@ -610,7 +610,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 65%;
+  top: 66%;
   left: 5%;
   letter-spacing: 0.1em;
   -webkit-transition: color 0.5s;
@@ -625,7 +625,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 65%;
+  top: 66%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -642,7 +642,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 94%;
+  top: 92%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -657,7 +657,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 93%;
+  top: 91%;
   left: 56%;
   letter-spacing: 0.1em;
   text-align: right; 
