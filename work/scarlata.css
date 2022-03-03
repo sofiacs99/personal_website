@@ -297,7 +297,7 @@ body {
     font-style: normal;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 103%;
+    top: 100%;
     left: 5%;
     letter-spacing: 0.1em;
     -webkit-transition: color 0.5s;
@@ -311,7 +311,7 @@ body {
     font-style: normal;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 109%;
+    top: 106%;
     left: 5%;
     letter-spacing: 0.1em;
     text-align:justify;
@@ -327,7 +327,7 @@ body {
     font-style: normal;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 138%;
+    top: 135%;
     left: 5%;
     letter-spacing: 0.1em;
 }
@@ -339,7 +339,7 @@ body {
     font-style: normal;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 115%;
+    top: 112%;
     left: 86%;
     letter-spacing: 0.1em;
     text-align: right;}
