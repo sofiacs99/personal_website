@@ -344,6 +344,22 @@ body {
     letter-spacing: 0.1em;
     text-align: right;}
 
+    .s_text4 {
+      font-size: 18px;
+      font-family: quiet-sans, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 130%;
+      left: 5%;
+      letter-spacing: 0.1em;
+      text-align:justify;
+      width: 45%;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+  }
+
     .division {
       width: 35%;
       position: absolute;
