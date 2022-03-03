@@ -220,70 +220,70 @@ body {
 
 .s3 {
     position: relative;
-    top: 120%;
+    top: 140%;
     width: 100%;
     height: auto;
 }
 
 .s4 {
     position: relative;
-    top: 120%;
+    top: 140%;
     width: 100%;
     height: auto;
 }
 
 .s5 {
     position: relative;
-    top: 120%;
+    top: 140%;
     width: 100%;
     height: auto;
 }
 
 .s6 {
     position: relative;
-    top: 120%;
+    top: 140%;
     width: 100%;
     height: auto;
 }
 
 .s7 {
     position: relative;
-    top: 120%;
+    top: 140%;
     width: 100%;
     height: auto;
 }
 
 .s8 {
   position: relative;
-  top: 120%;
+  top: 140%;
   width: 100%;
   height: auto;
 }
 
 .s9 {
   position: relative;
-  top: 120%;
+  top: 140%;
   width: 100%;
   height: auto;
 }
 
 .s10 {
   position: relative;
-  top: 120%;
+  top: 140%;
   width: 100%;
   height: auto;
 }
 
 .s11 {
   position: relative;
-  top: 120%;
+  top: 140%;
   width: 100%;
   height: auto;
 }
 
 .s12 {
   position: relative;
-  top: 120%;
+  top: 140%;
   width: 100%;
   height: auto;
   margin-bottom: 200px;
@@ -351,11 +351,11 @@ body {
       font-style: normal;
       color: rgb(0, 0, 0);
       position: absolute;
-      top: 250%;
+      top: 230%;
       left: 5%;
       letter-spacing: 0.1em;
       text-align:justify;
-      width: 45%;
+      width: 65%;
       -webkit-transition: color 0.5s;
       transition: color 0.5s;
   }
