@@ -220,70 +220,70 @@ body {
 
 .s3 {
     position: relative;
-    top: 84%;
+    top: 95%;
     width: 100%;
     height: auto;
 }
 
 .s4 {
     position: relative;
-    top: 82%;
+    top: 95%;
     width: 100%;
     height: auto;
 }
 
 .s5 {
     position: relative;
-    top: 80%;
+    top: 95%;
     width: 100%;
     height: auto;
 }
 
 .s6 {
     position: relative;
-    top: 78%;
+    top: 95%;
     width: 100%;
     height: auto;
 }
 
 .s7 {
     position: relative;
-    top: 84%;
+    top: 95%;
     width: 100%;
     height: auto;
 }
 
 .s8 {
   position: relative;
-  top: 88%;
+  top: 95%;
   width: 100%;
   height: auto;
 }
 
 .s9 {
   position: relative;
-  top: 92%;
+  top: 95%;
   width: 100%;
   height: auto;
 }
 
 .s10 {
   position: relative;
-  top: 96%;
+  top: 95%;
   width: 100%;
   height: auto;
 }
 
 .s11 {
   position: relative;
-  top: 100%;
+  top: 95%;
   width: 100%;
   height: auto;
 }
 
 .s12 {
   position: relative;
-  top: 104%;
+  top: 95%;
   width: 100%;
   height: auto;
   margin-bottom: 200px;
@@ -344,14 +344,14 @@ body {
     letter-spacing: 0.1em;
     text-align: right;}
 
-    .s_text4 {
+  .s_text4 {
       font-size: 18px;
       font-family: quiet-sans, sans-serif;
       font-weight: 200;
       font-style: normal;
       color: rgb(0, 0, 0);
       position: absolute;
-      top: 180%;
+      top: 250%;
       left: 5%;
       letter-spacing: 0.1em;
       text-align:justify;
@@ -360,7 +360,7 @@ body {
       transition: color 0.5s;
   }
 
-    .division {
+  .division {
       width: 35%;
       position: absolute;
       top: 8%;
