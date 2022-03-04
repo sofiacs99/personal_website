@@ -581,7 +581,7 @@ body {
   top: 100%;
   width: 100%;
   height: auto;
-  margin-top: 30%;
+  margin-top: 70%;
 }
 
 .s4 {
@@ -648,6 +648,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 
@@ -720,7 +721,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 140%;
+  top: 135%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
