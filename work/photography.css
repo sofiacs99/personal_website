@@ -458,7 +458,6 @@ letter-spacing: 0.07em;
     transform: translate(0%, -20%);
   }
   
-  
   .s1 {
     position: relative;
     top: 40%;
@@ -486,7 +485,6 @@ letter-spacing: 0.07em;
    top: 95%;
    left: 4%;
    letter-spacing: 0.07em;
-   display: block;
    opacity: 0%;
    }
 
@@ -498,15 +496,13 @@ letter-spacing: 0.07em;
     opacity: 0%;
   }
 
-  .text {
-    color: transparent;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-    opacity: 0%;
-    }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-bottom: 30px;
+  }
   
   }
