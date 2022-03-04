@@ -518,7 +518,7 @@
   
   .p3 {
   position: relative;
-  top: 106%;
+  top: 109%;
   width: 100%;
   height: auto;
   }
@@ -539,9 +539,10 @@
   
   .p6 {
   position: relative;
-  top: 106%;
+  top: 108%;
   width: 100%;
   height: auto;
+  margin-bottom: 0px;
   }
   
   .p_title {
