@@ -581,7 +581,7 @@ body {
   top: 100%;
   width: 100%;
   height: auto;
-  margin-top: 100%;
+  margin-top: 90%;
 }
 
 .s4 {
@@ -722,7 +722,7 @@ body {
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 140%;
+  top: 138%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
@@ -754,7 +754,7 @@ body {
  display: block;
  opacity: 0%;
  }
-
+ 
  .division {
   width: 35%;
   position: absolute;
