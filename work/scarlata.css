@@ -581,7 +581,7 @@ body {
   top: 100%;
   width: 100%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 30%;
 }
 
 .s4 {
@@ -714,18 +714,20 @@ body {
 }
 
 .s_text4 {
-  font-size: 13px;
+  font-size: 14px;
   font-family: quiet-sans, sans-serif;
   font-weight: 200;
   font-style: normal;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 120%;
+  top: 140%;
   left: 5%;
   letter-spacing: 0.1em;
   text-align:justify;
-  width: 50%;
-  line-height: 14px;
+  width: 90%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  line-height: 15px;
 }
 
 .blackbox {
