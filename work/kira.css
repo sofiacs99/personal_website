@@ -600,6 +600,8 @@ body {
     top: 110%;
     width: 100%;
     height: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
 .k_title {
