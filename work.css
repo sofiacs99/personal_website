@@ -264,6 +264,7 @@ body {
 
 .row {
   display: flex;
+  display: block;
   flex-wrap: wrap;
   padding: 0 4px;
   margin-top: 50%;
@@ -955,7 +956,7 @@ animation: fadeInAnimation ease 2s;
   }
   
   .scarlata_heading {
-    position: absolute;
+    position: relative;
     top: 71.5%;
     left: 24.5%;
     font-size: 17px;
