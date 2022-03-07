@@ -811,7 +811,7 @@
   }
 
   .t {
-    position: absolute;
+    position: fixed;
     top: 87%;
     left: 22%;
     width: 60%;
