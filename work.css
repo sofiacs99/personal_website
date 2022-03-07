@@ -264,7 +264,7 @@ body {
 
 .row {
   display: flex;
-  position: relative;
+  position: block;
   flex-wrap: wrap;
   padding: 0 4px;
   margin-top: 50%;
