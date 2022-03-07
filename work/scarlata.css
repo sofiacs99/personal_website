@@ -707,7 +707,7 @@ body {
   font-weight: 300;
   font-style: normal;
   color: rgb(0, 0, 0);
-  position: fixed;
+  position: absolute;
   top: 95%;
   left: 66.5%;
   letter-spacing: 0.1em;
