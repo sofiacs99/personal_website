@@ -299,6 +299,13 @@ body {
     max-width: 100%;
   }
 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 50%;
+  }
+
 }
 
 .division {
