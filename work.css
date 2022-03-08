@@ -297,7 +297,6 @@ body {
   .column {
     flex: 100%;
     max-width: 100%;
-    margin-top: 30%;
   }
 
 }
