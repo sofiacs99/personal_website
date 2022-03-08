@@ -353,11 +353,10 @@ letter-spacing: 0.07em;
 }
 
 
-
-.slideshow-container {
+.gif {
 max-width: 500px;
 max-height: auto;
-position: relative;
+position: absolute;
 top: 265px;
 left: 260px;
 }
