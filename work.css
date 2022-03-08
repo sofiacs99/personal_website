@@ -266,7 +266,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  margin-top: 50%;
+  margin-top: 70%;
 }
 
 .column {
@@ -283,6 +283,7 @@ body {
   cursor: pointer;
   transition: 0.3s linear;
 }
+
 .column img:hover {
   filter: grayscale(1) brightness(1);
 }
