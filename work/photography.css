@@ -505,4 +505,15 @@ letter-spacing: 0.07em;
     padding-bottom: 30px;
   }
   
+  .textbottom {
+    font-size: 12px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: transparent;
+    position: fixed;
+    top: 94.5%;
+    left: 4%;
+    letter-spacing: 0.07em;
+    opacity: 0%;
+    }
+
   }
