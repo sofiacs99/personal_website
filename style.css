@@ -1114,7 +1114,7 @@ to {
 
 
 
-@media only screen and (max-width: 2400px) {
+@media only screen and (max-width: 2400px) and (min-width: 2200px) {
 
   *{
     box-sizing: border-box;
