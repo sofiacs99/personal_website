@@ -1134,7 +1134,7 @@ body {
 
 .t {
   position: absolute;
-  top: 28%;
+  top: 25%;
   left: 48.3%;
   width: 30%;
   height: auto;
@@ -1159,14 +1159,14 @@ body {
 }
 
 .text_about {
-  font-size: 16px;
+  font-size: 15px;
   font-family: proxima-nova, sans-serif;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 0.09em;
   color: rgb(160, 160, 160);
   position: absolute;
-  top: 38%;
+  top: 35%;
   left: 43.5%;
   text-decoration: none !important;
   text-align: justify;
