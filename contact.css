@@ -456,7 +456,7 @@ input[type=text], select, textarea {
 
 
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
   *{
     box-sizing: border-box;
@@ -845,5 +845,477 @@ input[type=text], select, textarea {
       left: 60%;
       opacity: 0%;
     }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 768px) {
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow: hidden;
+    margin: 0;
+    background: rgb(254,254,254);
+    background: linear-gradient(149deg, rgba(254,254,254,1) 0%, rgba(255,255,255,1) 32%, rgba(250,250,250,1) 65%, rgba(255,255,255,1) 100%);
+  }
+
+  .logo {
+    width: auto;
+    height: 90px;
+    position: absolute;
+    left: 4%;
+    top: 5%;
+}
+
+.logo {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+  .home {
+    font-size: 20px;
+    font-family: 'Quiet Sans ExtraLight';
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 5.1%;
+    left: 65%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.home:hover {
+    color: rgb(206, 206, 206);
+  }
+
+  .work {
+    font-size: 17px;
+    font-family: owners-xwide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none !important;
+    color: rgb(48, 48, 48);
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    letter-spacing: 0.15em;
+}
+
+.work:hover {
+    color: rgb(206, 206, 206);
+  }
+
+.about {
+    font-size: 17px;
+    font-family: owners-xwide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none !important;
+    color: rgb(49, 49, 49);
+    position: absolute;
+    top: 5%;
+    left: 76%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    letter-spacing: 0.15em;
+}
+
+.about:hover {
+    color: rgb(206, 206, 206);
+  }
+
+.contact {
+    font-size: 17px;
+    font-family: owners-xwide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(206, 206, 206);
+    text-decoration: none !important;
+    position: absolute;
+    top: 5%;
+    left: 86%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    letter-spacing: 0.15em;
+}
+
+.contact:hover {
+    color: rgb(49, 49, 49);
+  }
+
+.ig {
+    width:auto;
+    height:30px;
+    position: absolute;
+    left: 86.5%;
+    top: 93.5%;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    display: block;
+    border-color: rgb(139, 139, 139);
+}
+
+.ig:hover {
+    transition: .3s;
+    transform: translate(0%, -20%);
+}
+
+.line1 {
+    width: 4.6%;
+    position: absolute;
+    left: 9%;
+    top: 11%;
+    opacity: 25%;
+}
+
+.line2 {
+    width: 42%;
+    position: absolute;
+    left: 28%;
+    top: 155%;
+    opacity: 30%;
+}
+
+.line3 {
+    width: 42%;
+    position: absolute;
+    left: 28%;
+    top: 218%;
+    opacity: 30%;
+}
+
+.line_about {
+    width: 5.2%;
+    position: absolute;
+    left: 23%;
+    top: 11%;
+    opacity: 25%;
+}
+
+.line4 {
+    width: 43%;
+    position: absolute;
+    left: 32%;
+    top: 218%;
+    opacity: 30%;
+}
+
+
+.in {
+    width:auto;
+    height:30px;
+    position:absolute;
+    left: 90%;
+    top: 93.5%;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    display: block;
+    border-color: rgb(139, 139, 139);
+}
+
+.in:hover {
+    transition: .3s;
+    transform: translate(0%, -20%);
+}
+
+.be {
+    width: auto;
+    height:30px;
+    position: absolute;
+    left: 93.5%;
+    top: 93.5%;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    display: block;
+    border-color: rgb(139, 139, 139);
+}
+
+.be:hover {
+    transition: .3s;
+    transform: translate(0%, -20%);
+}
+
+  @keyframes fadey { 
+    0% { opacity: 0; }
+    15% { opacity: 1; }
+    85% { opacity: 1; }
+    100% { opacity: 0; }
+    }
+
+    figure#slideshow { 
+      width: 100%; 
+      margin: 0 auto; 
+      position: relative; 
+    }
+    figure#slideshow img { 
+      position: absolute; 
+      left: 0; top: 0; 
+      width: 100%; height: auto; 
+      opacity: 0; 
+    }
+    figure#slideshow img:first-child { position: relative; }
+
+
+.text {
+    font-size: 11.5px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 97.3%;
+    left: 9.2%;
+}
+
+.text2 {
+    font-size: 11.5px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: rgb(170, 170, 170);
+    position: absolute;
+    top: 97%;
+    left: 88.2%;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 14px;
+    resize: vertical;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(153, 153, 153);
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  input[type=submit]:hover {
+    background-color: #bd2323;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px;
+    position: absolute;
+    top: 20%;
+    left: 49%;
+    width: 30%;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+  }
+
+  .vl {
+    border-left: 1px solid rgb(230, 230, 230);
+    height: 510px;
+    position: absolute;
+    left: 47.7%;
+    top: 21%;
+  }
+
+  .contact_me {
+    font-size: 25px;
+    font-family: owners-wide, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+    position: relative;
+    top: 29%;
+    left: 23%;
+    letter-spacing: 0.15em;
+  }
+  
+  .contact_text {
+    font-size: 14px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: rgb(150, 150, 150);
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    line-height: 1.15em;
+    margin-right: 55%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .contact_email {
+    font-size: 17px;
+    font-family: owners-wide, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+    position: relative;
+    top: 45%;
+    left: 23%;
+    letter-spacing: 0.15em;
+  }
+
+  .contact_email_text {
+    font-size: 14px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: rgb(150, 150, 150);
+    position: absolute;
+    top: 52.1%;
+    left: 23%;
+    text-decoration: none!important;
+  }
+
+  .contact_email_text:hover{
+    cursor: pointer;
+  }
+
+  .contact_ig {
+    font-size: 17px;
+    font-family: owners-wide, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+    position: relative;
+    top: 52%;
+    left: 23%;
+    letter-spacing: 0.15em;
+  }
+
+  .contact_ig_text {
+    font-size: 14px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    color: rgb(150, 150, 150);
+    position: absolute;
+    top: 61.7%;
+    left: 23%;
+    text-decoration: none!important;
+  }
+
+  .contact_ig_text:hover{
+    cursor: pointer;
+  }
+
+  .division {
+    width: 35%;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    opacity: 20%;
+  }
+
+.name {
+  position: absolute;
+  writing-mode: vertical-rl;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(212, 212, 212);
+  top: 43%;
+  left: 94%;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+}
+
+.port {
+  position: absolute;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(212, 212, 212);
+  top: 49%;
+  left: 4%;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+}
+
+.blackbox {
+  width: 300px;
+  background-color: black;
+  width: 100%;
+  height: 9%;
+  top: 91%;
+  position: absolute;
+}
+
+.text {
+  font-size: 12px;
+  font-family: 'Quiet Sans ExtraLight';
+  color: rgb(170, 170, 170);
+  position: absolute;
+  top: 94.5%;
+  left: 4%;
+  letter-spacing: 0.07em;
+}
 
   }
