@@ -1392,7 +1392,9 @@ animation: fadeInAnimation ease 2s;
   .name {
   position: fixed;
   writing-mode: vertical-rl;
-  font-family: 'proxima nova';
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: rgb(212, 212, 212);
   top: 43%;
   left: 95%;
@@ -1404,7 +1406,9 @@ animation: fadeInAnimation ease 2s;
   position: fixed;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-family: 'proxima nova';
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: rgb(212, 212, 212);
   top: 49%;
   left: 4%;
@@ -1438,7 +1442,7 @@ animation: fadeInAnimation ease 2s;
   max-width: 400px;
   max-height: auto;
   position: absolute;
-  top: 265px;
+  top: 270px;
   left: 235px;
   }
   
@@ -1551,7 +1555,7 @@ animation: fadeInAnimation ease 2s;
     font-size: 14px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: rgb(175, 175, 175);
     letter-spacing: 0.15em;
     line-height: 1.25em;
@@ -1569,7 +1573,7 @@ animation: fadeInAnimation ease 2s;
   .quechua_1 {
     position: absolute;
     top: 128%;
-    left: 32%;
+    left: 35%;
     width: 400px;
     height: auto;
   }
@@ -1584,7 +1588,7 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_3 {
     position: absolute;
-    top: 100%;
+    top: 98%;
     left: 52%;
     width: 400px;
     height: auto;
@@ -1593,14 +1597,14 @@ animation: fadeInAnimation ease 2s;
   .button_2 {
     position: absolute;
     top: 163%;
-    left: 42%;
+    left: 44%;
     height: 35px;
   }
   
   .quechua_text {
     position: absolute;
-    top: 149%;
-    left: 29.5%;
+    top: 145%;
+    left: 28.5%;
     font-size: 16px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
