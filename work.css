@@ -1498,7 +1498,7 @@ animation: fadeInAnimation ease 2s;
   
   .arrow {
   position: absolute;
-  top: 85%;
+  top: 83%;
   left: 50%;
   height: 18px;
   width: auto;
@@ -1570,7 +1570,7 @@ animation: fadeInAnimation ease 2s;
     position: absolute;
     top: 128%;
     left: 32%;
-    width: 500px;
+    width: 400px;
     height: auto;
   }
   
@@ -1578,7 +1578,7 @@ animation: fadeInAnimation ease 2s;
     position: absolute;
     top: 100%;
     left: 13%;
-    width: 500px;
+    width: 400px;
     height: auto;
   }
   
@@ -1586,14 +1586,14 @@ animation: fadeInAnimation ease 2s;
     position: absolute;
     top: 100%;
     left: 52%;
-    width: 500px;
+    width: 400px;
     height: auto;
   }
   
   .button_2 {
     position: absolute;
-    top: 160%;
-    left: 45%;
+    top: 163%;
+    left: 42%;
     height: 35px;
   }
   
