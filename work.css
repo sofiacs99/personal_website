@@ -1432,11 +1432,11 @@ animation: fadeInAnimation ease 2s;
   
   
   .gif {
-  max-width: 500px;
+  max-width: 400px;
   max-height: auto;
   position: absolute;
   top: 265px;
-  left: 260px;
+  left: 230px;
   }
   
   .text {
@@ -1520,7 +1520,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata {
     position: absolute;
     top: 40%;
-    left: 58%;
+    left: 65%;
     font-size: 34px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
@@ -1532,7 +1532,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata_heading {
     position: absolute;
     top: 45.5%;
-    left: 58%;
+    left: 65%;
     font-size: 17px;
     font-family: owners-wide, sans-serif;
     font-style: normal;
@@ -1544,7 +1544,7 @@ animation: fadeInAnimation ease 2s;
   .scarlata_text {
     position: absolute;
     top: 50%;
-    left: 58%;
+    left: 65%;
     font-size: 16px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
