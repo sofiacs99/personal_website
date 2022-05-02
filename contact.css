@@ -945,7 +945,7 @@ input[type=text], select, textarea {
     color: rgb(48, 48, 48);
     position: absolute;
     top: 5%;
-    left: 67%;
+    left: 65%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
     letter-spacing: 0.15em;
@@ -964,7 +964,7 @@ input[type=text], select, textarea {
     color: rgb(49, 49, 49);
     position: absolute;
     top: 5%;
-    left: 76%;
+    left: 74%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
     letter-spacing: 0.15em;
@@ -983,7 +983,7 @@ input[type=text], select, textarea {
     text-decoration: none !important;
     position: absolute;
     top: 5%;
-    left: 86%;
+    left: 84%;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
     letter-spacing: 0.15em;
