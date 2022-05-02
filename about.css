@@ -373,7 +373,9 @@
 .name {
   position: absolute;
   writing-mode: vertical-rl;
-  font-family: 'proxima nova';
+  font-family: proxima-nova, sans-serif;
+  font-weight: 100;
+  font-style: normal;
   color: rgb(212, 212, 212);
   top: 43%;
   left: 94%;
@@ -385,7 +387,9 @@
   position: absolute;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-family: 'proxima nova';
+  font-family: proxima-nova, sans-serif;
+  font-weight: 100;
+  font-style: normal;
   color: rgb(212, 212, 212);
   top: 49%;
   left: 4%;
