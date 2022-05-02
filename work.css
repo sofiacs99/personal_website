@@ -1572,8 +1572,8 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_1 {
     position: absolute;
-    top: 128%;
-    left: 35%;
+    top: 126%;
+    left: 32%;
     width: 400px;
     height: auto;
   }
@@ -1588,7 +1588,7 @@ animation: fadeInAnimation ease 2s;
   
   .quechua_3 {
     position: absolute;
-    top: 98%;
+    top: 100%;
     left: 52%;
     width: 400px;
     height: auto;
