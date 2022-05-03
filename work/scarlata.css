@@ -381,7 +381,7 @@ body {
 
 
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
 *{
   box-sizing: border-box;
@@ -762,5 +762,398 @@ body {
   left: 60%;
   opacity: 0%;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+  *{
+    box-sizing: border-box;
+  }
+  
+body {
+    overflow-x: hidden;
+    margin: 0;
+    background: rgb(255, 255, 255);
+  }
+
+  .logo {
+    width: auto;
+    height: 90px;
+    position: absolute;
+    left: 4%;
+    top: 5%;
+  }
+  
+  .logo {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  .home {
+    font-size: 20px;
+    font-family: 'Quiet Sans ExtraLight';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    top: 5.1%;
+    left: 65%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    letter-spacing: -.5px;
+  }
+  
+  .home:hover {
+    color: rgb(206, 206, 206);
+  }
+  
+  .work {
+    font-size: 17px;
+    font-family: owners-xwide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none !important;
+    color: rgb(206, 206, 206);
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    letter-spacing: -.5px;
+  }
+  
+  .work:hover {
+    color: rgb(49, 49, 49);
+  }
+  
+  .about {
+    font-size: 17px;
+    font-family: owners-xwide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none !important;
+    color: rgb(49, 49, 49);
+    position: absolute;
+    top: 5%;
+    left: 76%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    letter-spacing: -.5px;
+  }
+  
+  .about:hover {
+    color: rgb(206, 206, 206);
+  }
+  
+  .contact {
+    font-size: 17px;
+    font-family: owners-xwide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(49, 49, 49);
+    text-decoration: none !important;
+    position: absolute;
+    top: 5%;
+    left: 86%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    letter-spacing: -.5px;
+  }
+  
+  .contact:hover {
+    color: rgb(206, 206, 206);
+  }
+  
+  .ig {
+    width: auto;
+    height: 30px;
+    position: fixed;
+    left: 86.5%;
+    top: 93.5%;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    display: block;
+    border-color: rgb(139, 139, 139);
+  }
+  
+  .ig:hover {
+    transition: .3s;
+    transform: translate(0%, -20%);
+  }
+  
+  
+  .line4 {
+    width: 43%;
+    position: absolute;
+    left: 32%;
+    top: 218%;
+    opacity: 30%;
+  }
+  
+  
+  .in {
+    width: auto;
+    height: 30px;
+    position: fixed;
+    left: 90%;
+    top: 93.5%;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    display: block;
+    border-color: rgb(139, 139, 139);
+  }
+  
+  .in:hover {
+    transition: .3s;
+    transform: translate(0%, -20%);
+  }
+  
+  .be {
+    width: auto;
+    height:30px;
+    position: fixed;
+    left: 93.5%;
+    top: 93.5%;
+    box-shadow: 0 4px 3px rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    display: block;
+    border-color: rgb(139, 139, 139);
+  }
+  
+  .be:hover {
+    transition: .3s;
+    transform: translate(0%, -20%);
+  }
+
+  .blackbox {
+    width: 285px;
+    background-color: black;
+    width: 100%;
+    height: 9%;
+    top: 91%;
+    position: fixed;
+    display: block;
+    }
+
+  .text {
+   font-size: 12px;
+   font-family: 'Quiet Sans ExtraLight';
+   color: rgb(170, 170, 170);
+   position: fixed;
+   top: 95%;
+   left: 4%;
+   letter-spacing: 0.07em;
+   display: block;
+   }
+
+.s1 {
+    position: relative;
+    top: 22%;
+    width: 100%;
+    height: auto;
+}
+
+.s2 {
+    position: relative;
+    top: 82%;
+    width: 100%;
+    height: auto;
+}
+
+.s3 {
+    position: relative;
+    top: 140%;
+    width: 100%;
+    height: auto;
+}
+
+.s4 {
+    position: relative;
+    top: 140%;
+    width: 100%;
+    height: auto;
+}
+
+.s5 {
+    position: relative;
+    top: 140%;
+    width: 100%;
+    height: auto;
+}
+
+.s6 {
+    position: relative;
+    top: 140%;
+    width: 100%;
+    height: auto;
+}
+
+.s7 {
+    position: relative;
+    top: 140%;
+    width: 100%;
+    height: auto;
+}
+
+.s8 {
+  position: relative;
+  top: 140%;
+  width: 100%;
+  height: auto;
+}
+
+.s9 {
+  position: relative;
+  top: 140%;
+  width: 100%;
+  height: auto;
+}
+
+.s10 {
+  position: relative;
+  top: 140%;
+  width: 100%;
+  height: auto;
+}
+
+.s11 {
+  position: relative;
+  top: 140%;
+  width: 100%;
+  height: auto;
+}
+
+.s12 {
+  position: relative;
+  top: 140%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+}
+
+.s_title {
+    font-size: 35px;
+    font-family: quiet-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    letter-spacing: 0.1em;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.s_text {
+    font-size: 18px;
+    font-family: quiet-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 106%;
+    left: 5%;
+    letter-spacing: 0.1em;
+    text-align:justify;
+    width: 45%;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.s_text2 {
+    font-size: 15px;
+    font-family: quiet-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 135%;
+    left: 5%;
+    letter-spacing: 0.1em;
+}
+
+.s_text3 {
+    font-size: 13px;
+    font-family: quiet-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 112%;
+    left: 86%;
+    letter-spacing: 0.1em;
+    text-align: right;}
+
+  .s_text4 {
+      font-size: 18px;
+      font-family: quiet-sans, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+      position: absolute;
+      top: 240%;
+      left: 5%;
+      letter-spacing: 0.1em;
+      text-align:justify;
+      width: 65%;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+  }
+
+  .division {
+      width: 35%;
+      position: absolute;
+      top: 8%;
+      left: 60%;
+      opacity: 20%;
+    }
+
 
 }
