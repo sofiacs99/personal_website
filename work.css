@@ -499,7 +499,7 @@ animation: fadeInAnimation ease 2s;
 .quechua_1 {
   position: absolute;
   top: 128%;
-  left: 32%;
+  left: 37%;
   width: 500px;
   height: auto;
 }
@@ -507,7 +507,7 @@ animation: fadeInAnimation ease 2s;
 .quechua_2 {
   position: absolute;
   top: 100%;
-  left: 13%;
+  left: 18%;
   width: 500px;
   height: auto;
 }
@@ -515,7 +515,7 @@ animation: fadeInAnimation ease 2s;
 .quechua_3 {
   position: absolute;
   top: 100%;
-  left: 52%;
+  left: 57%;
   width: 500px;
   height: auto;
 }
@@ -523,7 +523,7 @@ animation: fadeInAnimation ease 2s;
 .button_2 {
   position: absolute;
   top: 160%;
-  left: 45%;
+  left: 50%;
   height: 35px;
 }
 
