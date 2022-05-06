@@ -846,6 +846,7 @@ to {
     top: 8%;
     left: 60%;
     opacity: 0%;
+    display: none;
   }
   
   .name {
